@@ -24,7 +24,7 @@ UC Berkeley, Spring 2024
 [Extensions](https://docs.google.com/forms/d/e/1FAIpQLScIjB9LSxV7UPKdNrAWbPJWJMJqV05P3jyznuAtAqQPmB79EA/viewform?usp=sf_link){: .btn .btn-extensions}
 [Jump to Current Week](#week-{{ site.current_week }}){: .btn .btn-currweek}
 
-
+<p style="font-size: 40px; color:maroon">This page is currently under construction. Please do not reference any of this material for the Summer 2024 semester if this message is on the page</p>
 
 ## Announcements
 
