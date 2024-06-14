@@ -16,7 +16,6 @@ August 1
 : _Reading:_ [17.4](https://inferentialthinking.com/chapters/17/4/Implementing_the_Classifier.html)
 : **Homework**{: .label .label-homework} [Homework 11](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su23&urlpath=retro%2Ftree%2Fmaterials-su23%2Fmaterials%2Fhw%2Fhw11%2Fhw11.ipynb&branch=main) (Due 8/4)
 
-
 August 2
 : **30**{: .label} Updating Probabilities
 : [Slides](https://docs.google.com/presentation/d/1DDOJfX7Du5YDCfgNLmBD0BB4xdEqJoahIvV6SAJzTXs/edit#slide=id.g25de2ee9ba5_0_32) &#8226; [Demo](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su23&urlpath=tree%2Fmaterials-su23%2Flec%2Flec30-empty.ipynb&branch=main)&#8226; [Video](https://bcourses.berkeley.edu/courses/1525580/external_tools/78985)

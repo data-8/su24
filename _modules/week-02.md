@@ -11,7 +11,7 @@ June 26
 : **Lab**{: .label .label-lab} [Lab 02: Table Operations](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su23&urlpath=retro%2Ftree%2Fmaterials-su23%2Fmaterials%2Flab%2Flab02%2Flab02.ipynb&branch=main) (Due 6/26)
 
 June 27
-: **6**{: .label} Histograms 
+: **6**{: .label} Histograms
 : [Slides](https://docs.google.com/presentation/d/1ckN-GjEL4LSu_iwTnBz7J6asangBrj_HxV3mg9l4yJE/edit?usp=sharing) &#8226; [Video](https://bcourses.berkeley.edu/courses/1525580/external_tools/78985) &#8226; [Demo](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su23&urlpath=tree%2Fmaterials-su23%2Flec%2Flec06_completed.ipynb&branch=main)
 : _Reading:_ [7.2](https://inferentialthinking.com/chapters/07/2/Visualizing_Numerical_Distributions.html), [7.3](https://inferentialthinking.com/chapters/07/3/Overlaid_Graphs.html)
 : **Homework**{: .label .label-homework} [Homework 03](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su23&urlpath=tree%2Fmaterials-su23%2Fmaterials%2Fhw%2Fhw03%2Fhw03.ipynb&branch=main) (Due 6/30)
@@ -21,7 +21,6 @@ June 28
 : [Slides](https://docs.google.com/presentation/d/18fNKEpGHjkvSUld88U74iZ876o7el_JyUUYhsDX3HdU/edit?usp=sharing) &#8226; [Video](https://bcourses.berkeley.edu/courses/1525580/external_tools/78985) &#8226; [Demo](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su23&urlpath=tree%2Fmaterials-su23%2Flec%2Flec07-completed.ipynb&branch=main)
 : _Reading:_ [8](https://inferentialthinking.com/chapters/08/Functions_and_Tables.html), [8.1](https://inferentialthinking.com/chapters/08/1/Applying_a_Function_to_a_Column.html)
 : **Lab**{: .label .label-lab} [Lab 03: Data Types, Creating & Extending Tables](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su23&urlpath=tree%2Fmaterials-su23%2Fmaterials%2Flab%2Flab03%2Flab03.ipynb&branch=main) (Due 6/28)
-: [Lab 03: Worksheet]()
 
 June 29
 : **8**{: .label} Conditionals and Iteration

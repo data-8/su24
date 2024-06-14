@@ -13,7 +13,6 @@ August 8
 : **34**{: .label} Review
 : [Slides](https://docs.google.com/presentation/d/1YLkUYcqcNhrE1I7RjzKjzatbRddR3ovgyFX-MW56DiU/edit#slide=id.g25edf13710b_0_34)
 
-
 August 9
 : **35**{: .label} Review
 : **Lab**{: .label .label-lab}  Final Review Lab
