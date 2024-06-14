@@ -22,6 +22,78 @@ url: 'https://www.data8.org' # the base hostname & protocol for your site, e.g. 
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 logo: "/data8logo.png"
 current_week: 14
+links:
+  hw:
+    hw01: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=retro%2Ftree%2Fmaterials-su24%2Fmaterials%2Fhw%2Fhw01%2Fhw01.ipynb&branch=main"
+    hw02: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=retro%2Ftree%2Fmaterials-su24%2Fmaterials%2Fhw%2Fhw02%2Fhw02.ipynb&branch=main"
+    hw03: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=retro%2Ftree%2Fmaterials-su24%2Fmaterials%2Fhw%2Fhw03%2Fhw03.ipynb&branch=main"
+    hw04: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=retro%2Ftree%2Fmaterials-su24%2Fmaterials%2Fhw%2Fhw04%2Fhw04.ipynb&branch=main"
+    hw05: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=retro%2Ftree%2Fmaterials-su24%2Fmaterials%2Fhw%2Fhw05%2Fhw05.ipynb&branch=main"
+    hw06: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=retro%2Ftree%2Fmaterials-su24%2Fmaterials%2Fhw%2Fhw06%2Fhw06.ipynb&branch=main"
+    hw07: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=retro%2Ftree%2Fmaterials-su24%2Fmaterials%2Fhw%2Fhw07%2Fhw07.ipynb&branch=main"
+    hw08: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=retro%2Ftree%2Fmaterials-su24%2Fmaterials%2Fhw%2Fhw08%2Fhw08.ipynb&branch=main"
+    hw09: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=retro%2Ftree%2Fmaterials-su24%2Fmaterials%2Fhw%2Fhw09%2Fhw09.ipynb&branch=main"
+    hw10: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=retro%2Ftree%2Fmaterials-su24%2Fmaterials%2Fhw%2Fhw10%2Fhw10.ipynb&branch=main"
+    hw11: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=retro%2Ftree%2Fmaterials-su24%2Fmaterials%2Fhw%2Fhw11%2Fhw11.ipynb&branch=main"
+    hw12: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=retro%2Ftree%2Fmaterials-su24%2Fmaterials%2Fhw%2Fhw12%2Fhw12.ipynb&branch=main"
+  lab:
+    lab01: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=retro%2Ftree%2Fmaterials-su24%2Fmaterials%2Flab%2Flab01%2Flab01.ipynb&branch=main"
+    lab02: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=retro%2Ftree%2Fmaterials-su24%2Fmaterials%2Flab%2Flab02%2Flab02.ipynb&branch=main"
+    lab03: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=retro%2Ftree%2Fmaterials-su24%2Fmaterials%2Flab%2Flab03%2Flab03.ipynb&branch=main"
+    lab04: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=retro%2Ftree%2Fmaterials-su24%2Fmaterials%2Flab%2Flab04%2Flab04.ipynb&branch=main"
+    lab05: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=retro%2Ftree%2Fmaterials-su24%2Fmaterials%2Flab%2Flab05%2Flab05.ipynb&branch=main"
+    lab06: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=retro%2Ftree%2Fmaterials-su24%2Fmaterials%2Flab%2Flab06%2Flab06.ipynb&branch=main"
+    lab07: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=retro%2Ftree%2Fmaterials-su24%2Fmaterials%2Flab%2Flab07%2Flab07.ipynb&branch=main"
+    lab08: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=retro%2Ftree%2Fmaterials-su24%2Fmaterials%2Flab%2Flab08%2Flab08.ipynb&branch=main"
+    lab09: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=retro%2Ftree%2Fmaterials-su24%2Fmaterials%2Flab%2Flab09%2Flab09.ipynb&branch=main"
+    lab10: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=retro%2Ftree%2Fmaterials-su24%2Fmaterials%2Flab%2Flab10%2Flab10.ipynb&branch=main"
+    lab11: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=retro%2Ftree%2Fmaterials-su24%2Fmaterials%2Flab%2Flab11%2Flab11.ipynb&branch=main"
+    lab12: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=retro%2Ftree%2Fmaterials-su24%2Fmaterials%2Flab%2Flab12%2Flab12.ipynb&branch=main"
+  proj:
+    proj1: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su23&urlpath=tree%2Fmaterials-su23%2Fmaterials%2Fproject%2Fproject1%2Fproject1.ipynb&branch=main"
+    proj2: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su23&urlpath=tree%2Fmaterials-su23%2Fmaterials%2Fproject%2Fproject2%2Fproject2.ipynb&branch=main"
+  lec:
+    demo:
+      lec01: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec01%2Flec01.ipynb&branch=main"
+      lec02: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec02%2Flec02.ipynb&branch=main"
+      lec03: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec03%2Flec03.ipynb&branch=main"
+      lec04: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec04%2Flec04.ipynb&branch=main"
+      lec05: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec05%2Flec05.ipynb&branch=main"
+      lec06: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec06%2Flec06.ipynb&branch=main"
+      lec07: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec07%2Flec07.ipynb&branch=main"
+      lec08: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec08%2Flec08.ipynb&branch=main"
+      lec09: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec09%2Flec09.ipynb&branch=main"
+      lec10: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec10%2Flec10.ipynb&branch=main"
+      lec11: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec11%2Flec11.ipynb&branch=main"
+      lec12: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec12%2Flec12.ipynb&branch=main"
+      lec13: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec13%2Flec13.ipynb&branch=main"
+      lec14: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec14%2Flec14.ipynb&branch=main"
+      lec15: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec15%2Flec15.ipynb&branch=main"
+      lec16: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec16%2Flec16.ipynb&branch=main"
+      lec17: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec17%2Flec17.ipynb&branch=main"
+      lec18: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec18%2Flec18.ipynb&branch=main"
+      lec19: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec19%2Flec19.ipynb&branch=main"
+      lec20: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec20%2Flec20.ipynb&branch=main"
+      lec21: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec21%2Flec21.ipynb&branch=main"
+      lec22: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec22%2Flec22.ipynb&branch=main"
+      lec23: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec23%2Flec23.ipynb&branch=main"
+      lec24: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec24%2Flec24.ipynb&branch=main"
+      lec25: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec25%2Flec25.ipynb&branch=main"
+      lec26: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec26%2Flec26.ipynb&branch=main"
+      lec27: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec27%2Flec27.ipynb&branch=main"
+      lec28: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec28%2Flec28.ipynb&branch=main"
+      lec29: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec29%2Flec29.ipynb&branch=main"
+      lec30: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec30%2Flec30.ipynb&branch=main"
+      lec31: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec31%2Flec31.ipynb&branch=main"
+      lec32: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec32%2Flec32.ipynb&branch=main"
+      lec33: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec33%2Flec33.ipynb&branch=main"
+      lec34: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec34%2Flec34.ipynb&branch=main"
+      lec35: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec35%2Flec35.ipynb&branch=main"
+      lec36: "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec36%2Flec36.ipynb&branch=main"
+    slides:
+
+  wksht:
+
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.3.3
@@ -33,11 +105,9 @@ aux_links:
   Textbook:
     - 'https://inferentialthinking.com/chapters/intro.html'
   Feedback Form:
-    - 'https://forms.gle/cyc5JfrhN1s8iTst7'
+    - 'https://forms.gle/Lkg8N2Uk9GVe5sP46'
   # Ed:
   #   - 'https://edstem.org/us/courses/44018/'
-  # Feedback Form:
-  #   - 'https://forms.gle/gHhrqEGCGE1S4N1r5'
 
 # External navigation links
 # nav_external_links:
