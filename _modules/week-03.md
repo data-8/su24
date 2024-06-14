@@ -1,6 +1,7 @@
 ---
 title: Week 3
 class: Berkeley
+status: Active
 ---
 
 July 3

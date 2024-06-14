@@ -1,6 +1,7 @@
 ---
 title: Week 1
 class: Berkeley
+status: Active
 ---
 
 June 19

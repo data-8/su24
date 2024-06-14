@@ -1,6 +1,7 @@
 ---
 title: Week 4
 class: Berkeley
+status: Active
 ---
 
 July 10

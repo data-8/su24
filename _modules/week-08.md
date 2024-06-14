@@ -1,6 +1,7 @@
 ---
 title: Week 8
 class: Berkeley
+status: Active
 ---
 
 August 7
