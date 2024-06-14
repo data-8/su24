@@ -1,14 +1,10 @@
 ---
-title: Week 15 Announcements
-week: 15
-date: 2024-04-26
+title: Week 0 Announcements
+week: 0
+date: 2024-06-13
 ---
 
-* HW 13 due **5/5 Sunday 5pm**
-    * If at least 50% of students complete HW 13, **everyone will earn 3 extra credit points on the final**
-    * In scope for the final
-* Project 3 released
-    * Final submission due **4/26 Friday 5pm**
-* Lab 10 due 4/26 **Friday 5pm**
-* Fill out course evaluations!
-* Final Exam: May 7 3-6 pm
+* Welcome to Data 8!
+* We are in the process of finalizing this schedule
+   * We'll let you know when the schedule below will reflect the Summer 2024 schedule!
+* We look forward to seeing you on Monday!
