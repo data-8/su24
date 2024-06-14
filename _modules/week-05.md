@@ -1,22 +1,39 @@
 ---
 title: Week 5
 class: Berkeley
-status: Active
 ---
 
-Feb 12
-: **12 (Denero)**{: .label} Table Examples
-   : [Slides](https://docs.google.com/presentation/d/1Fax7tlr6ruveRTp3sA-AIZvLR7xcJv7Ds3dGqnoh0cI/edit?usp=sharing) &#8226; [Demos](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-sp24&urlpath=tree%2Fmaterials-sp24%2Flec%2Flec12%2Flec12-modified.ipynb&branch=main) &#8226; [Empty Demos](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-sp24&urlpath=tree%2Fmaterials-sp24%2Flec%2Flec12%2Flec12-empty.ipynb&branch=main)
-: *Reading:* [8.5](https://inferentialthinking.com/chapters/08/5/Bike_Sharing_in_the_Bay_Area.html)
-   : [Project 1 Lab Worksheet](https://drive.google.com/file/d/1iQsqCZ9MJWIR3FjunbNLubHJfe9LkFEc/view?usp=sharing)
+July 17
+: **18**{: .label} Confidence Intervals
+: [Slides](https://docs.google.com/presentation/d/1rUc27GNizNPzvODtRjA1zcZ9mLrdiHH09_fAvx9PFXg/edit#slide=id.g25952088192_0_76) &#8226; [Demo](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su23&urlpath=tree%2Fmaterials-su23%2Flec%2Flec18-completed.ipynb&branch=main) &#8226; [Video](https://bcourses.berkeley.edu/courses/1525580/external_tools/78985)
+: _Reading:_ [13](https://inferentialthinking.com/chapters/13/Estimation.html), [13.1](https://inferentialthinking.com/chapters/13/1/Percentiles.html), [13.2](https://inferentialthinking.com/chapters/13/2/Bootstrap.html)
+: **Lab**{: .label .label-lab} Post-Midterm Review
 
-Feb 14
-: **13 (Khan)**{: .label} Conditionals and Iteration
-   : [Slides](https://docs.google.com/presentation/d/1yr3eN7JIDpzeakZDsu5gvBa4g6R8R0yC9M91vvfu9Dw/edit#slide=id.g610d9f86d0_0_5) &#8226; [Demos](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-sp24&urlpath=tree%2Fmaterials-sp24%2Flec%2Flec13%2Flec13_modified.ipynb&branch=main)
-: *Reading:* [9](https://inferentialthinking.com/chapters/09/Randomness.html), [9.1](https://inferentialthinking.com/chapters/09/1/Conditional_Statements.html), [9.2](https://inferentialthinking.com/chapters/09/2/Iteration.html)
+July 18
+: **19**{: .label} Interpreting Confidence
+: [Slides](https://docs.google.com/presentation/d/1WBiNiTX83_1Ucj8IvKJ7GstVGclzQziNJg2Wg91YZFM/edit) &#8226; [Demo](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su23&urlpath=tree%2Fmaterials-su23%2Flec%2Flec19-completed.ipynb&branch=main) &#8226; [Video](https://bcourses.berkeley.edu/courses/1525580/external_tools/78985)
+: _Reading:_ [13.3](https://inferentialthinking.com/chapters/13/3/Confidence_Intervals.html), [13.4](https://inferentialthinking.com/chapters/13/4/Using_Confidence_Intervals.html)
+: **Homework**{: .label .label-homework} [Homework 07](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su23&urlpath=retro%2Ftree%2Fmaterials-su23%2Fmaterials%2Fhw%2Fhw07%2Fhw07.ipynb&branch=main) (Due 7/21)
 
-Feb 16
-: **14 (Sahai)**{: .label} Chance
-   : [Slides](https://docs.google.com/presentation/d/12tPKkkU03d_K35lKTHHhjoe9S6Qx9zOQCmWRbHalQ5s/edit?usp=sharing) &#8226; [Demos](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-sp24&urlpath=tree%2Fmaterials-sp24%2Flec%2Flec14%2Flec14.ipynb)
-: *Reading:* [9.2](https://inferentialthinking.com/chapters/09/2/Iteration.html), [9.3](https://inferentialthinking.com/chapters/09/3/Simulation.html), [9.4](https://inferentialthinking.com/chapters/09/4/Monty_Hall_Problem.html)
-: **Homework**{: .label .label-homework} [Homework 05](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-sp24&urlpath=tree%2Fmaterials-sp24%2Fhw%2Fhw05%2Fhw05.ipynb) (Due 2/21)
+July 19
+: **20**{: .label} Center and Spread
+: [Slides](https://docs.google.com/presentation/d/1k6FZZ2xmxWZeg047Iv04jzWqE13QzHdpdJhzwGtNk2k/edit?usp=sharing) &#8226; [Demo](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su23&urlpath=tree%2Fmaterials-su23%2Flec%2Flec20.ipynb&branch=main) &#8226; [Video](https://bcourses.berkeley.edu/courses/1525580/external_tools/78985)
+: _Reading:_ [14](https://inferentialthinking.com/chapters/14/Why_the_Mean_Matters.html), [14.1](https://inferentialthinking.com/chapters/14/1/Properties_of_the_Mean.html), [14.2](https://inferentialthinking.com/chapters/14/2/Variability.html)
+: **Lab**{: .label .label-lab} [Lab 08: Confidence Intervals](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su23&urlpath=retro%2Ftree%2Fmaterials-su23%2Fmaterials%2Flab%2Flab08%2Flab08.ipynb&branch=main) (Due 7/19)
+
+
+July 20
+: **21**{: .label} The Normal Distribution
+: [Slides](https://docs.google.com/presentation/d/1lQqTj5g57s7iFCwOJcmhfqsJOa050y0RCS0cNFi9m68/edit?usp=sharing) &#8226; [Demo](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su23&urlpath=tree%2Fmaterials-su23%2Flec%2Flec21.ipynb&branch=main) &#8226; [Video](https://bcourses.berkeley.edu/courses/1525580/external_tools/78985)
+: _Reading:_ [14.3](https://inferentialthinking.com/chapters/14/3/SD_and_the_Normal_Curve.html), [14.4](https://inferentialthinking.com/chapters/14/4/Central_Limit_Theorem.html)
+
+July 21
+: **22**{: .label} Sample Means, Designing Experiments
+: [Slides](https://docs.google.com/presentation/d/1VKdywuxmSO6v6eUDMqXNMI9g_gBn3oHH7BycCu858Es/edit?usp=sharing?) &#8226; [Demo](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su23&urlpath=tree%2Fmaterials-su23%2Flec%2Flec22.ipynb&branch=main) &#8226; [Video](https://bcourses.berkeley.edu/courses/1525580/external_tools/78985)
+: _Reading:_ [14.5](https://inferentialthinking.com/chapters/14/5/Variability_of_the_Sample_Mean.html), [14.6](https://inferentialthinking.com/chapters/14/6/Choosing_a_Sample_Size.html)
+
+: **Homework**{: .label .label-homework} [Homework 08](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su23&urlpath=retro%2Ftree%2Fmaterials-su23%2Fmaterials%2Fhw%2Fhw08%2Fhw08.ipynb&branch=main) (Due 7/25)
+
+
+<!-- : [Slides](https://docs.google.com/presentation/d/1rNihFapJo0-TX1sDt433wvLPE3G0YpjK_No1yu6uvEc/edit?usp=sharing) &#8226; [Demos](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-sp23&urlpath=retro%2Ftree%2Fmaterials-sp23%2Flec%2Flec05_with_soln.ipynb&branch=main) &#8226; [Blank Demos](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-sp23&urlpath=retro%2Ftree%2Fmaterials-sp23%2Flec%2Flec05.ipynb&branch=main) &#8226; [Demos (HTML Only)](assets/demo_html/lec05.html)  &#8226; [Video](https://youtu.be/YMhrI1-vEw0) -->
+<!-- : **Homework**{: .label .label-homework} [Homework 02](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-sp23&urlpath=retro%2Ftree%2Fmaterials-sp23%2Fmaterials%2Fsp23%2Fhw%2Fhw02%2Fhw02.ipynb&branch=main) (Due 2/1) -->
