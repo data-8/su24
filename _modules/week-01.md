@@ -10,13 +10,13 @@ June 17
 : _Reading:_ [1.1](https://inferentialthinking.com/chapters/01/1/intro.html), [1.2](https://inferentialthinking.com/chapters/01/2/why-data-science.html), [1.3](https://inferentialthinking.com/chapters/01/3/Plotting_the_Classics.html)
 : **Lab**{: .label .label-lab} {{site.links.lab.lab01}} (Due 6/18)
     : {{site.links.wksht.lab01}}
-: **Homework**{: .label .label-homework} {{site.links.hw.hw01}} (Due 6/21)
+
 
 June 18
 : **2**{: .label} Cause and Effect
     : Slides &#8226; Demo
 : _Reading:_ [2](https://inferentialthinking.com/chapters/02/causality-and-experiments.html)
-
+: **Homework**{: .label .label-homework} {{site.links.hw.hw01}} (Due 6/21)
 
 June 19
 : **Juneteenth**{: .label} Holiday: No class
