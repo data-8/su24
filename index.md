@@ -17,14 +17,12 @@ UC Berkeley, Spring 2024
 
 <button class="js-toggle-dark-mode dm-btn btn">Toggle Dark Mode</button>
 
-<!-- [Ed](https://www.edstem.org/us/courses/52859/discussion/){: .btn .btn-ed}
-[Lecture Recordings](https://bcourses.berkeley.edu/courses/1532352/external_tools/90481){: .btn .btn-bcourses}
-[Gradescope](https://www.gradescope.com/courses/703847){: .btn .btn-gradescope}
+[Ed](https://edstem.org/us/courses/59844/discussion/){: .btn .btn-ed}
+<!-- [Lecture Recordings](https://bcourses.berkeley.edu/courses/1532352/external_tools/90481){: .btn .btn-bcourses} -->
+[Gradescope](https://www.gradescope.com/courses/798344){: .btn .btn-gradescope}
 [Textbook](https://inferentialthinking.com/chapters/intro.html){: .btn .btn-textbook}
-[Extensions](https://docs.google.com/forms/d/e/1FAIpQLScIjB9LSxV7UPKdNrAWbPJWJMJqV05P3jyznuAtAqQPmB79EA/viewform?usp=sf_link){: .btn .btn-extensions} -->
+[Extensions](https://docs.google.com/forms/d/e/1FAIpQLScuJXqPqocHgYd1SLx2GryGVUhcA6_OzDtYZvbhek3La65KxA/viewform){: .btn .btn-extensions}
 [Jump to Current Week](#week-{{ site.current_week }}){: .btn .btn-currweek}
-
-<p style="font-size: 40px; color:maroon">This page is currently under construction. Please do not reference any of this material for the Summer 2024 semester if this message is on the page</p>
 
 ## Announcements
 
