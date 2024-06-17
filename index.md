@@ -6,7 +6,7 @@ nav_exclude: false
 permalink: index.html
 seo:
   type: Course
-  name: Data 8 Spring 2024
+  name: Data 8 Summer 2024
 ---
 
 # Data 8: Foundations of Data Science
