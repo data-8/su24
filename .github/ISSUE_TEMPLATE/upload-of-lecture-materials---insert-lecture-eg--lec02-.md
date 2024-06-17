@@ -1,5 +1,5 @@
 ---
-name: Upload of Lecture Materials
+name: 'Upload of Lecture Materials: <insert lecture eg. Lec02>'
 about: Fill out this issue with new materials to be uploaded
 title: ''
 labels: materials
