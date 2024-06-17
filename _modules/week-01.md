@@ -6,7 +6,7 @@ status: Active
 
 June 17
 : **1**{: .label} Introduction
-    : Slides &#8226; Demo
+    : {{site.links.lec.slides.slide01}} &#8226; {{site.links.lec.demo.demo01}}
 : _Reading:_ [1.1](https://inferentialthinking.com/chapters/01/1/intro.html), [1.2](https://inferentialthinking.com/chapters/01/2/why-data-science.html), [1.3](https://inferentialthinking.com/chapters/01/3/Plotting_the_Classics.html)
 : **Homework**{: .label .label-homework} {{site.links.hw.hw01}} (Due 6/21)
 
