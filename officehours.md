@@ -36,9 +36,10 @@ If you need help during your lab section, please utilize the [lab queue](https:/
     }
   </style>
 
-<div class="calendar-container">
+## Office Hour Calendar Coming Soon!
+<!-- <div class="calendar-container">
   <iframe src="https://calendar.google.com/calendar/embed?height=800&wkst=2&ctz=America%2FLos_Angeles&title=&nbsp;&showNav=1&showDate=1&mode=WEEK&src=c_4c239a0bf39fb9ef256ac06c4837cd03b1e3a13de8e3a13c2467869cdd0fe3e5%40group.calendar.google.com&ctz=America%2FLos_Angeles&color=%23003262"></iframe>
-</div>
+</div> -->
 
 <script src="../assets/darkmode.js"></script>
 <script>
