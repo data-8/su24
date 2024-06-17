@@ -59,7 +59,7 @@ Weekly labs include a discussion worksheet covering recent material and a progra
 
 This summer, lab meetings are two hours long on Monday and Wednesday. The first hour focuses on the discussion worksheet and group problem solving. The second hour is dedicated to completing the programming-based lab assignment. To receive credit for lab, you **must attend** both parts. If you complete the lab assignment before the lab period is over and get checked off by the course staff, you may leave early and still receive credit. If you stay for the complete lab period, make significant progress on the lab assignment, and get checked off by the course staff, you will receive full credit for the lab even if you haven’t completed the whole lab assignment.
 
-You **do not** need to submit your lab notebook to Gradescope. You will receive **full credit** for the lab assignment if you are checked off. Your GSI will only check you off if you have either finished the lab notebook or worked until the end of the lab and made substantial progress.
+You **must** need to submit your lab notebook to Gradescope. You will receive **full credit** for the lab assignment if you are checked off and you submit. Your GSI will only check you off if you have either finished the lab notebook or worked until the end of the lab and made substantial progress.
 
 Lab sessions will **not** be recorded and are only offered in-person.
 
