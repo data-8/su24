@@ -17,8 +17,7 @@ output = subprocess.check_output(["git", "diff-tree", "--no-commit-id", "--name-
 changed_files = output.decode("utf-8").splitlines()
 
 # Define the base URL
-base_url = "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=retro%2Ftree%2Fmaterials-su24%2Fmaterials%2F{parent_directory}%2F{sub_directory}%2F{sub_directory}.ipynb&branch=main"
-
+base_url = "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&branch=main&urlpath=tree%2Fmaterials-su24%2F{parent_directory}%2F{sub_directory}%2F{sub_directory}.ipynb"
 # Find new directories
 new_dirs = []
 for file in changed_files:
