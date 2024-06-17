@@ -12,7 +12,7 @@ seo:
 # Data 8: Foundations of Data Science
 
 {: .mb-2 }
-UC Berkeley, Spring 2024
+UC Berkeley, Summer 2024
 {: .mb-2 .fs-6 .text-grey-dk-000 }
 
 <button class="js-toggle-dark-mode dm-btn btn">Toggle Dark Mode</button>
