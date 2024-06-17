@@ -91,26 +91,19 @@ Grades will be assigned using the following weighted components. Every assignmen
 | Projects | 20% |
 | Midterm | 20% |
 | Final | 30% |
-<!-- | EPA | 2% [Extra Credit] | -->
+| EPA | 2% [Extra Credit] |
 
 Instructors not TA's will responed to any questions regarding grade bins or letter grades.
 
-<!-- ### Extra Credit: Engagement, Participation and Attendance (EPA)
+### Extra Credit: Engagement, Participation and Attendance (EPA)
 
 Extra credit participation points were created to encourage people to be good academic citizens, in a way that traditional grades could not capture. This can help boost you over a grade boundary if you’re close to one. Scoring is confidential, and your score will not be shared - please do not ask staff members any questions about this.
 
 You may demonstrate your engagement in Data 8 through attendance and participation during live lecture, lab section, office hours, and EdStem. For example, actively asking / answering questions during lecture will help you accumulate extra points in this category. Additionally, there are several ways to engage with the course staff: lab sections, tutoring sections, and office hours. At the end of the semester, your participation in these section activities will be scored according to attendance and engagement. The best way to score full points in this section is to attend your lab section/lecture, sign up for tutoring, and make sure your TA knows your name!
 
-The maximum number of extra credit percentage points you can accumulate throughout the semester is 2%. -->
+The maximum number of extra credit percentage points you can accumulate throughout the semester is 2%.
 
-### Grade Bins
 
-This semester, we will use **grade bins** to determine the **lowest possible letter grade** based on final composite scores (where each grade component is weighted according to above table). While we will not raise these bins, **we may lower them**. The table below contains the grade bins for this semester. For example, final composite scores between 80% (inclusive) and 90% (exclusive) will receive grades of **_at least_** B+/B/B-.
-
-| **Composite Score (%) Range** | **Grade Range** |
-| [90, 100] | A+/A/A- |
-| [80, 90) | B+/B/B- |
-| [65, 80) | C+/C/C- |
 
 ### Regrades
 
