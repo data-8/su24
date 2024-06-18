@@ -21,10 +21,14 @@ jobs:
     - name: Parse issue content
       id: parse_issue
       run: |
-        echo "Issue body: ${{ github.event.issue.body }}"
-        echo "Lecture Number: $(echo "${{ github.event.issue.body }}" | grep -oP 'Lecture Number: \K.*')" >> $GITHUB_ENV
-        echo "Demo: $(echo "${{ github.event.issue.body }}" | grep -oP 'Demo: \K.*')" >> $GITHUB_ENV
-        echo "Slides: $(echo "${{ github.event.issue.body }}" | grep -oP 'Slides: \K.*')" >> $GITHUB_ENV
+        ISSUE_BODY="${{ github.event.issue.body }}"
+        echo "Issue body: $ISSUE_BODY"
+        LECTURE_NUMBER=$(echo "$ISSUE_BODY" | grep -oP 'Lecture Number: \K.*' | tr -d '\r' | xargs)
+        DEMO=$(echo "$ISSUE_BODY" | grep -oP 'Demo: \K.*' | tr -d '\r' | xargs)
+        SLIDES=$(echo "$ISSUE_BODY" | grep -oP 'Slides: \K.*' | tr -d '\r' | xargs)
+        echo "Lecture_Number=$LECTURE_NUMBER" >> $GITHUB_ENV
+        echo "Demo=$DEMO" >> $GITHUB_ENV
+        echo "Slides=$SLIDES" >> $GITHUB_ENV
 
     - name: Update _config.yml
       run: |
