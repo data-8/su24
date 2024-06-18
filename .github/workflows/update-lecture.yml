@@ -13,22 +13,16 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Set up Node.js environment
-      uses: actions/setup-node@v4
+    - name: Set up Python environment
+      uses: actions/setup-python@v4
       with:
-        node-version: '20'
+        python-version: '3.8'
 
     - name: Parse issue content
       id: parse_issue
-      run: |
-        ISSUE_BODY="${{ github.event.issue.body }}"
-        echo "Issue body: $ISSUE_BODY"
-        LECTURE_NUMBER=$(echo "$ISSUE_BODY" | grep -oP 'Lecture Number: \K.*' | tr -d '\r' | xargs)
-        DEMO=$(echo "$ISSUE_BODY" | grep -oP 'Demo: \K.*' | tr -d '\r' | xargs)
-        SLIDES=$(echo "$ISSUE_BODY" | grep -oP 'Slides: \K.*' | tr -d '\r' | xargs)
-        echo "Lecture_Number=$LECTURE_NUMBER" >> $GITHUB_ENV
-        echo "Demo=$DEMO" >> $GITHUB_ENV
-        echo "Slides=$SLIDES" >> $GITHUB_ENV
+      env:
+        ISSUE_BODY: ${{ github.event.issue.body }}
+      run: python parse_issue.py
 
     - name: Update _config.yml
       run: |
@@ -54,8 +48,8 @@ jobs:
 
     - name: Commit changes
       run: |
-        git config --global user.name 'jonathanferrari'
-        git config --global user.email 'jonathanferrari@berkeley.edu'
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
         git add _config.yml
         git commit -m "Update _config.yml for lecture ${LEC_NUM}"
         git push
