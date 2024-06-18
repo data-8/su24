@@ -48,8 +48,8 @@ jobs:
 
     - name: Commit changes
       run: |
-        git config --global user.name 'jonathanferrari'
-        git config --global user.email 'jonathanferrari@berkeley.edu'
+        git config user.name 'jonathanferrari'
+        git config user.email 'jonathanferrari@berkeley.edu'
         git add _config.yml
         git commit -m "Update _config.yml for lecture ${LEC_NUM}"
         git push
