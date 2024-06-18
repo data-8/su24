@@ -1,0 +1,66 @@
+name: Update Config on New Issue
+
+on:
+  issues:
+    types: [opened]
+    
+jobs:
+  update-config:
+    if: contains(github.event.issue.labels.*.name, 'materials')
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js environment
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+    - name: Parse issue content
+      id: parse_issue
+      run: |
+        echo "Issue body: ${{ github.event.issue.body }}"
+        echo "Lecture Number: $(echo "${{ github.event.issue.body }}" | grep -oP 'Lecture Number: \K.*')" >> $GITHUB_ENV
+        echo "Demo: $(echo "${{ github.event.issue.body }}" | grep -oP 'Demo: \K.*')" >> $GITHUB_ENV
+        echo "Slides: $(echo "${{ github.event.issue.body }}" | grep -oP 'Slides: \K.*')" >> $GITHUB_ENV
+
+    - name: Update _config.yml
+      run: |
+        LEC_NUM=$(echo "${{ env.Lecture_Number }}" | xargs)
+        DEMO=$(echo "${{ env.Demo }}" | xargs)
+        SLIDES=$(echo "${{ env.Slides }}" | xargs)
+        
+        CONFIG_FILE="_config.yml"
+        SLIDE_LINE="    slide${LEC_NUM}: \"Slides\""
+        DEMO_LINE="    demo${LEC_NUM}: \"Demo\""
+        
+        if [ "$DEMO" == "None" ]; then
+          DEMO_REPLACEMENT="    demo${LEC_NUM}: \"\""
+        else
+          DEMO_LINK="https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2F${DEMO}%2F${DEMO}.ipynb&branch=main"
+          DEMO_REPLACEMENT="    demo${LEC_NUM}: \"[Demo](${DEMO_LINK})\""
+        fi
+        
+        SLIDES_REPLACEMENT="    slide${LEC_NUM}: \"[Slides](${SLIDES})\""
+        
+        sed -i "s|${SLIDE_LINE}|${SLIDES_REPLACEMENT}|g" $CONFIG_FILE
+        sed -i "s|${DEMO_LINE}|${DEMO_REPLACEMENT}|g" $CONFIG_FILE
+
+    - name: Commit changes
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git add _config.yml
+        git commit -m "Update _config.yml for lecture ${LEC_NUM}"
+        git push
+
+    - name: Close issue with comment
+      uses: peter-evans/create-or-update-comment@v1
+      with:
+        issue-number: ${{ github.event.issue.number }}
+        body: |
+          Updated `_config.yml` for lecture ${LEC_NUM}:
+          - Slides: [Slides](${SLIDES})
+          - Demo: $([ "$DEMO" == "None" ] && echo "None" || echo "[Demo](${DEMO_LINK})")
