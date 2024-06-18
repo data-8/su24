@@ -11,7 +11,6 @@ June 17
 : **Lab**{: .label .label-lab} {{site.links.lab.lab01}} (Due 6/21)
     : {{site.links.wksht.wksht01}}
 
-
 June 18
 : **2**{: .label} Cause and Effect
     : {{site.links.lec.slides.slide02}} {{site.links.lec.demo.demo02}}
@@ -23,11 +22,11 @@ June 19
 
 June 20
 : **3**{: .label} Tables
-    : Slides &#8226; Demo
+    : {{site.links.lec.slides.slide03}} {{site.links.lec.demo.demo03}}
 : _Reading:_ [3](https://inferentialthinking.com/chapters/03/programming-in-python.html)
 
 June 21
 : **4**{: .label} Data Types, Building Tables, Census
-    : Slides &#8226; Demo
+    : {{site.links.lec.slides.slide04}} {{site.links.lec.demo.demo04}}
 : _Reading:_ [4](https://inferentialthinking.com/chapters/04/Data_Types.html), [5](https://inferentialthinking.com/chapters/05/Sequences.html), [6.1](https://inferentialthinking.com/chapters/06/1/Sorting_Rows.html), [6.2](https://inferentialthinking.com/chapters/06/2/Selecting_Rows.html)
 : **Homework**{: .label .label-homework} {{site.links.hw.hw02}} (Due 6/25)
