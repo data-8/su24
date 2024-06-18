@@ -66,7 +66,7 @@ links:
   lec:
     demo:
       demo01: "[Demo](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec01%2Flec01.ipynb&branch=main)"
-      demo02: "Demo"
+      demo02: ""
       demo03: "Demo"
       demo04: "Demo"
       demo05: "Demo"
@@ -106,7 +106,7 @@ links:
       demo39: "Demo"
     slides:
       slide01: "[Slides](https://docs.google.com/presentation/d/1i0_Cw3QbkfnODzJFVhsajtejyqZcgJTNgChWKQvOZyE/edit?usp=sharing)"
-      slide02: "Slides"
+      slide02: "[Slides](https://docs.google.com/presentation/d/1_lbv0tdhuyV3RmB-Avef7VNjsgcxkakMUqh6MhB3ics/edit?usp=sharing)"
       slide03: "Slides"
       slide04: "Slides"
       slide05: "Slides"
