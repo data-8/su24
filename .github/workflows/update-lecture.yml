@@ -43,8 +43,8 @@ jobs:
 
         SLIDES_REPLACEMENT="    slide${LEC_NUM}: \"[Slides](${SLIDES})\""
 
-        sed -i "s|${SLIDE_LINE}|${SLIDES_REPLACEMENT}|g" $CONFIG_FILE
-        sed -i "s|${DEMO_LINE}|${DEMO_REPLACEMENT}|g" $CONFIG_FILE
+        sed -i "s|    slide${LEC_NUM}: \"Slides\"|${SLIDES_REPLACEMENT}|g" $CONFIG_FILE
+        sed -i "s|    demo${LEC_NUM}: \"&#8226; Demo\"|${DEMO_REPLACEMENT}|g" $CONFIG_FILE
 
     - name: Commit changes
       run: |
