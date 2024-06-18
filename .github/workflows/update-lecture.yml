@@ -58,16 +58,13 @@ jobs:
       run: sudo apt-get install -y gh
 
     - name: Authenticate with GitHub CLI
-      env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: echo "$GH_TOKEN" | gh auth login --with-token
+      run: echo "${{ secrets.GH_PAT }}" | gh auth login --with-token
 
     - name: Close issue with comment
       env:
         LEC_NUM: ${{ env.Lecture_Number }}
         DEMO: ${{ env.Demo }}
         SLIDES: ${{ env.Slides }}
-        GH_TOKEN: ${{ secrets.GH_PAT }}
       run: |
         if [ "$DEMO" == "None" ]; then
           DEMO_TEXT="None"
