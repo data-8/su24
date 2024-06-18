@@ -37,7 +37,7 @@ jobs:
         if [ "$DEMO" == "None" ]; then
           DEMO_REPLACEMENT="    demo${LEC_NUM}: \"\""
         else
-          DEMO_LINK="https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2F${DEMO}%2F${DEMO}.ipynb&branch=main"
+          DEMO_LINK=$(echo "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/data-8/materials-su24&urlpath=tree/materials-su24/lec/${DEMO}/${DEMO}.ipynb&branch=main" | sed 's/&/\\&/g')
           DEMO_REPLACEMENT="    demo${LEC_NUM}: \"&#8226; [Demo](${DEMO_LINK})\""
         fi
 
@@ -69,7 +69,7 @@ jobs:
         if [ "$DEMO" == "None" ]; then
           DEMO_TEXT="None"
         else
-          DEMO_LINK="https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2F${DEMO}%2F${DEMO}.ipynb&branch=main"
+          DEMO_LINK=$(echo "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/data-8/materials-su24&urlpath=tree/materials-su24/lec/${DEMO}/${DEMO}.ipynb&branch=main" | sed 's/&/\\&/g')
           DEMO_TEXT="[Demo](${DEMO_LINK})"
         fi
 
