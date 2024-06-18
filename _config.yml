@@ -68,7 +68,7 @@ links:
     proj3: "Project 3: Classifying Movies"
   lec:
     demo:
-      demo01: "    demo01: "&#8226; Demo"#8226; [Demo](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24    demo01: "&#8226; Demo"urlpath=tree%2Fmaterials-su24%2Flec%2Flec01%2Flec01.ipynb    demo01: "&#8226; Demo"branch=main)"
+      demo01: "&#8226; Demo"
       demo02: ""
       demo03: "&#8226; Demo"
       demo04: "&#8226; Demo"
@@ -108,7 +108,7 @@ links:
       demo38: "&#8226; Demo"
       demo39: "&#8226; Demo"
     slides:
-      slide01: "[Slides](https://docs.google.com/presentation/d/1i0_Cw3QbkfnODzJFVhsajtejyqZcgJTNgChWKQvOZyE/edit?usp=sharing)"
+      slide01: "Slides"
       slide02: "[Slides](https://docs.google.com/presentation/d/1_lbv0tdhuyV3RmB-Avef7VNjsgcxkakMUqh6MhB3ics/edit?usp=sharing)"
       slide03: "Slides"
       slide04: "Slides"
