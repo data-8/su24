@@ -14,7 +14,7 @@ June 17
 
 June 18
 : **2**{: .label} Cause and Effect
-    : {{site.links.lec.slides.slide02}} &#8226; {{site.links.lec.demo.demo02}}
+    : {{site.links.lec.slides.slide02}} {{site.links.lec.demo.demo02}}
 : _Reading:_ [2](https://inferentialthinking.com/chapters/02/causality-and-experiments.html)
 : **Homework**{: .label .label-homework} {{site.links.hw.hw01}} (Due 6/21)
 
