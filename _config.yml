@@ -65,8 +65,8 @@ links:
     proj3: "Project 3: Classifying Movies"
   lec:
     demo:
-      demo01: "[Demo](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec01%2Flec01.ipynb&branch=main)"
-      demo02: "&#8226;"
+      demo01: "&#8226; [Demo](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2Flec01%2Flec01.ipynb&branch=main)"
+      demo02: ""
       demo03: "Demo"
       demo04: "Demo"
       demo05: "Demo"
