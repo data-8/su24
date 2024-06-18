@@ -67,7 +67,7 @@ jobs:
         LEC_NUM: ${{ env.Lecture_Number }}
         DEMO: ${{ env.Demo }}
         SLIDES: ${{ env.Slides }}
-        GH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        GH_TOKEN: ${{ secrets.GH_PAT }}
       run: |
         if [ "$DEMO" == "None" ]; then
           DEMO_TEXT="None"
