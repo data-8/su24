@@ -32,13 +32,13 @@ jobs:
 
         CONFIG_FILE="_config.yml"
         SLIDE_LINE="    slide${LEC_NUM}: \"Slides\""
-        DEMO_LINE="    demo${LEC_NUM}: \"Demo\""
+        DEMO_LINE="    demo${LEC_NUM}: \"&#8226; Demo\""
 
         if [ "$DEMO" == "None" ]; then
           DEMO_REPLACEMENT="    demo${LEC_NUM}: \"\""
         else
           DEMO_LINK="https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&urlpath=tree%2Fmaterials-su24%2Flec%2F${DEMO}%2F${DEMO}.ipynb&branch=main"
-          DEMO_REPLACEMENT="    demo${LEC_NUM}: \"[Demo](${DEMO_LINK})\""
+          DEMO_REPLACEMENT="    demo${LEC_NUM}: \"&#8226; [Demo](${DEMO_LINK})\""
         fi
 
         SLIDES_REPLACEMENT="    slide${LEC_NUM}: \"[Slides](${SLIDES})\""
