@@ -18,62 +18,14 @@ jobs:
       with:
         python-version: '3.8'
 
-    - name: Parse issue content
-      id: parse_issue
-      env:
-        ISSUE_BODY: ${{ github.event.issue.body }}
-      run: python parse_issue.py
-
-    - name: Update _config.yml
-      run: |
-        LEC_NUM=$(echo "${{ env.Lecture_Number }}" | xargs)
-        DEMO=$(echo "${{ env.Demo }}" | xargs)
-        SLIDES=$(echo "${{ env.Slides }}" | xargs)
-
-        CONFIG_FILE="_config.yml"
-        SLIDE_LINE="    slide${LEC_NUM}: \"Slides\""
-        DEMO_LINE="    demo${LEC_NUM}: \"&#8226; Demo\""
-
-        if [ "$DEMO" == "None" ]; then
-          DEMO_REPLACEMENT="    demo${LEC_NUM}: \"\""
-        else
-          DEMO_LINK=$(echo "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/data-8/materials-su24&urlpath=tree/materials-su24/lec/${DEMO}/${DEMO}.ipynb&branch=main" | sed 's/&/\\&/g')
-          DEMO_REPLACEMENT="    demo${LEC_NUM}: \"&#8226; [Demo](${DEMO_LINK})\""
-        fi
-
-        SLIDES_REPLACEMENT="    slide${LEC_NUM}: \"[Slides](${SLIDES})\""
-
-        sed -i "s|    slide${LEC_NUM}: \"Slides\"|${SLIDES_REPLACEMENT}|g" $CONFIG_FILE
-        sed -i "s|    demo${LEC_NUM}: \"• Demo\"|${DEMO_REPLACEMENT}|g" $CONFIG_FILE
-    - name: Commit changes
-      run: |
-        git config user.name 'jonathanferrari'
-        git config user.email 'jonathanferrari@berkeley.edu'
-        git add _config.yml
-        git commit -m "Update _config.yml for lecture ${LEC_NUM}"
-        git push
-
     - name: Install GitHub CLI
       run: sudo apt-get install -y gh
 
     - name: Authenticate with GitHub CLI
       run: echo "${{ secrets.GH_PAT }}" | gh auth login --with-token
 
-    - name: Close issue with comment
+    - name: Parse issue content and update config
       env:
-        LEC_NUM: ${{ env.Lecture_Number }}
-        DEMO: ${{ env.Demo }}
-        SLIDES: ${{ env.Slides }}
-      run: |
-        if [ "$DEMO" == "None" ]; then
-          DEMO_TEXT="None"
-        else
-          DEMO_LINK=$(echo "https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/data-8/materials-su24&urlpath=tree/materials-su24/lec/${DEMO}/${DEMO}.ipynb&branch=main" | sed 's/&/\\&/g')
-          DEMO_TEXT="[Demo](${DEMO_LINK})"
-        fi
-
-        gh issue comment ${{ github.event.issue.number }} --body "Updated \`_config.yml\` for lecture ${LEC_NUM}:
-        - Slides: [Slides](${SLIDES})
-        - Demo: $DEMO_TEXT"
-
-        gh issue close ${{ github.event.issue.number }}
+        ISSUE_BODY: ${{ github.event.issue.body }}
+        GITHUB_ISSUE_NUMBER: ${{ github.event.issue.number }}
+      run: python update-lecture.py

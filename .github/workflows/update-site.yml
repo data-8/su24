@@ -30,4 +30,4 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_PAT }}
         run: |
-          python update_config.py
+          python update-site.py
