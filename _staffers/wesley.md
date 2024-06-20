@@ -1,4 +1,5 @@
 ---
+email: wzheng0302@berkeley.edu
 name: Wesley Zheng
 pronouns: HE/HIM
 photo: staff/wesley.jpg
