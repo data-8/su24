@@ -18,7 +18,7 @@ UC Berkeley, Summer 2024
 <button class="js-toggle-dark-mode dm-btn btn">Toggle Dark Mode</button>
 
 [Ed](https://edstem.org/us/courses/59844/discussion/){: .btn .btn-ed}
-<!-- TODO ADD KALTURA LINK [Lecture Recordings](https://bcourses.berkeley.edu/courses/1532352/external_tools/90481){: .btn .btn-bcourses} -->
+[Lecture Recordings](https://bcourses.berkeley.edu/courses/1535365/external_tools/90481){: .btn .btn-bcourses}
 [Gradescope](https://www.gradescope.com/courses/798344){: .btn .btn-gradescope}
 [Textbook](https://inferentialthinking.com/chapters/intro.html){: .btn .btn-textbook}
 [Extensions](https://docs.google.com/forms/d/e/1FAIpQLScuJXqPqocHgYd1SLx2GryGVUhcA6_OzDtYZvbhek3La65KxA/viewform){: .btn .btn-extensions}
