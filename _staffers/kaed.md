@@ -3,7 +3,7 @@ email: kaedesposo@berkeley.edu
 name: Kaed Esposo
 pronouns: HE/HIM
 photo: staff/kaed.jpeg
-bio: Hey everyone, I’m a junior from Hawaii majoring in Data Science and Political Science. During my free time you can find me either at a concert, thrifting, or hanging with friends.
-role: uGSI (UCS2)
-office-hours: Wed 11-12PM, Thu 1-2PM
+bio: Hi! I'm a senior from Hawaii majoring in political science and data science with an addiction to concerts, NYT games, and coffee.
+role: 20-hour Lead uGSI (UCS2)
+office-hours:
 ---
