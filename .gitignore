@@ -9,5 +9,5 @@ vendor/
 .env
 
 ed/**
-
+staff-page/**
 **/.DS_Store
