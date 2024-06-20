@@ -6,9 +6,11 @@ description: Data 8 Spring 2024 Staff
 
 # Staff
 
+<!--
 <p style="font-size:30px">Please check back soon for an updated staff roster!</p>
+--->
 
-<!-- ## Instructors
+## Instructors
 
 {% assign instructors = site.staffers | where: 'role', 'Instructor' %}
 
@@ -50,7 +52,7 @@ _All office hours are held in-person in Warren 101 unless otherwise specified_
 {% for staffer in tutors %}
 {{ staffer }}
 {% endfor %}
-</div> -->
+</div>
 
 <script src="../assets/darkmode.js"></script>
 <script>
