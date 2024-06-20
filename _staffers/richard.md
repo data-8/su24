@@ -4,7 +4,7 @@ name: Richard Villagomez
 pronouns: he/him
 photo: staff/richard.png
 website:
-bio: big fan of iced mochas, mario kart and data 8
+bio: I'm a rising junior studying Data Science and Public Policy. I'm a big fan of iced mochas, Mario Kart, and Data 8.
 role: uGSI (UCS2)
 office-hours:
 ---
