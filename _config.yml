@@ -70,7 +70,7 @@ links:
     demo:
       demo01: "&#8226; [Demo](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/data-8/materials-su24&urlpath=tree/materials-su24/lec/lec01/lec01.ipynb&branch=main)"
       demo02: ""
-      demo03: "&#8226; Demo"
+      demo03: "&#8226; [Demo](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/data-8/materials-su24&urlpath=tree/materials-su24/lec/lec03/lec03.ipynb&branch=main)"
       demo04: "&#8226; Demo"
       demo05: "&#8226; Demo"
       demo06: "&#8226; Demo"
@@ -110,7 +110,7 @@ links:
     slides:
       slide01: "[Slides](https://docs.google.com/presentation/d/1i0_Cw3QbkfnODzJFVhsajtejyqZcgJTNgChWKQvOZyE/edit?usp=sharing)"
       slide02: "[Slides](https://docs.google.com/presentation/d/1_lbv0tdhuyV3RmB-Avef7VNjsgcxkakMUqh6MhB3ics/edit?usp=sharing)"
-      slide03: "Slides"
+      slide03: "[Slides](https://docs.google.com/presentation/d/1tt29OSKvxEnUwQl2Qrix4bITJSanTwD2-_i4Btg8lzg/edit?usp=sharing)"
       slide04: "Slides"
       slide05: "Slides"
       slide06: "Slides"
