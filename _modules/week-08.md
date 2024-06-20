@@ -1,25 +1,26 @@
 ---
 title: Week 8
 class: Berkeley
-status: Inactive
+status: Active
 ---
 
 August 5
 : **33**{: .label} Final Review
-: {{site.links.lec.slides.slide33}} {{site.links.lec.demo.demo33}}
-: **Lab**{: .label .label-lab} [Lab 13: Conditional Probability](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su23&urlpath=retro%2Ftree%2Fmaterials-su23%2Fmaterials%2Flab%2Flab13%2Flab13.ipynb&branch=main) (due 8/7)
+    : {{site.links.lec.slides.slide33}} {{site.links.lec.demo.demo33}}
+: **Lab**{: .label .label-lab} {{site.links.lab.lab13}} (due 8/5)
+    : {{site.links.wksht.wksht13}}
 
 August 6
 : **34**{: .label} Final Review
-: {{site.links.lec.slides.slide34}} {{site.links.lec.demo.demo34}}
+    : {{site.links.lec.slides.slide34}} {{site.links.lec.demo.demo34}}
 
 August 7
 : **Exam**{: .label .label-exam} Final Exam (11 AM - 1 PM)
 
 August 8
 : **35**{: .label} Conclusion
-: {{site.links.lec.slides.slide35}} {{site.links.lec.demo.demo35}}
+    : {{site.links.lec.slides.slide35}} {{site.links.lec.demo.demo35}}
 
 August 9
 : **36**{: .label} Panel
-: {{site.links.lec.slides.slide36}} {{site.links.lec.demo.demo36}}
+    : {{site.links.lec.slides.slide36}} {{site.links.lec.demo.demo36}}
