@@ -164,3 +164,10 @@ Finally, know that it's normal to struggle. Berkeley has high standards, which i
 ## A Parting Thought
 
 The main goal of the course is that you should learn, and have a fantastic experience doing so. Please keep that goal in mind throughout the semester. Welcome to Data 8!
+
+<script src="../assets/darkmode.js"></script>
+<script>
+  window.addEventListener("DOMContentLoaded", (event) => {
+    onLoad();
+});
+</script>

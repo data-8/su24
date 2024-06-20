@@ -87,3 +87,10 @@ If that doesn’t work, try restarting your computer and using a different brows
 
 ### What if I don’t have access to DataHub and I still want to access Data 8 materials?
 We welcome the general public to use our materials. If you’re not enrolled in the class, you can access all lectures and assignments in our public GitHub repository. In order to run Jupyter notebooks locally on your own computer, we recommend using Anaconda.
+
+<script src="../assets/darkmode.js"></script>
+<script>
+  window.addEventListener("DOMContentLoaded", (event) => {
+    onLoad();
+});
+</script>
