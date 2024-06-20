@@ -1,7 +1,7 @@
 ---
 name: Swupnil Sahai
 pronouns: he/him
-role: Instructor
+role:
 email: swupnil@berkeley.edu
 photo: staff/swupnil.jpeg
 office-hours: Monday 4-6pm @ <a href="https://www.lib.berkeley.edu/about/fsm-cafe">FSM Café</a>
