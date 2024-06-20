@@ -7,15 +7,14 @@ description: >-
 ---
 
 # Office Hours
+
 You are welcome to show up to any office hours. Please see the calendar for OH times and locations.
 
 We use an [online sign-up system](https://oh.data8.org/) to help keep track of everyone.
 
-If you need help during your lab section, please utilize the [lab queue](https://oh.data8.org/) instead so that the lab TAs can see your help request!
-
 ## Office Hours Calendar
 
-### Data 8 Spring 2024 Office Hour Calendar
+### Data 8 Summer 2024 Office Hour Calendar
 
   <style>
     /* Style the container to enable rounded corners and drop shadow */
