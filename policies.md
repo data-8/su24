@@ -103,8 +103,6 @@ You may demonstrate your engagement in Data 8 through attendance and participati
 
 The maximum number of extra credit percentage points you can accumulate throughout the semester is 2%.
 
-
-
 ### Regrades
 
 Grades for Homeworks, Projects, and Labs will be posted on Gradescope after the assignment’s due date. Solutions to the assignment and common mistakes will also be posted on Ed. It is up to you to check the solutions and request a regrade request before the regrade deadline (typically 5 days after grade release). Regrade requests can be made on Gradescope. Any regrade request past the deadline will not be looked at; this is to enforce the same deadline across all students, so please do not delay in reviewing your work.
@@ -119,7 +117,7 @@ All assignments (homework, labs, and projects) will be submitted on Gradescope. 
 
 ### Late Submission
 
-**The deadline for all assignments in this course is 11 PM PT**. Assignments submitted **until 11:59 PM** on the day of the deadline will not be marked as late. **Homework and lab submissions after this time <span style="text-decoration: underline">will not be accepted</span>**. Instructions on if you qualify, and how to request assignment extensions are on the [accommodations page](../accommodations/).
+**The deadline for all assignments in this course is 11 PM PT**. Assignments submitted **until 11:59 PM** on the day of the deadline will not be marked as late. **Homework and lab submissions after this time <span style="text-decoration: underline">will not be accepted</span>**.
 
 We understand that life happens. For this reason, **your two lowest homework scores and two lowest lab scores will be dropped in the calculation of your overall grade.** If you have an ongoing situation that prevents you from completing course content, please contact your lab TA.
 
