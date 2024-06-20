@@ -8,7 +8,7 @@ July 15
 : **18**{: .label} Confidence Intervals
     : {{site.links.lec.slides.slide18}} {{site.links.lec.demo.demo18}}
 : _Reading:_ [13](https://inferentialthinking.com/chapters/13/Estimation.html), [13.1](https://inferentialthinking.com/chapters/13/1/Percentiles.html), [13.2](https://inferentialthinking.com/chapters/13/2/Bootstrap.html)
-: **Lab**{: .label .label-lab} Post-Midterm Review
+: **Lab**{: .label .label-lab} {{site.links.lab.lab07}}
 
 July 16
 : **19**{: .label} Interpreting Confidence
