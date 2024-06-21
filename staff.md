@@ -12,7 +12,7 @@ description: Data 8 Spring 2024 Staff
 <p style="font-size:30px">Please check back soon for an updated staff roster!</p>
 --->
 
-## Instructors
+## Instructor
 
 {% assign instructors = site.staffers | where: 'role', 'Instructor' %}
 
