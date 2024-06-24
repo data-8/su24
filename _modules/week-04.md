@@ -21,7 +21,6 @@ July 10
     : {{site.links.lec.slides.slide16}} {{site.links.lec.demo.demo16}}
 : _Reading:_ [12.3](https://inferentialthinking.com/chapters/12/3/Deflategate.html)
 : **Lab**{: .label .label-lab} Midterm Review (Due 7/10)
-    : {{site.links.wksht.wksht07}}
 
 July 11
 : **17**{: .label} Midterm Review Part 2
