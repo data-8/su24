@@ -49,6 +49,8 @@ _All office hours are held in-person in Warren 101-B (Section C) unless otherwis
 
 ## Tutors
 
+_All office hours are held in-person in Warren 101-B (Section C) unless otherwise specified._
+
 {% assign tutors = site.staffers | where: 'role', 'Tutor (UCS1)' %}
 
 <div class="role flex">
