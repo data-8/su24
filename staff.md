@@ -25,7 +25,7 @@ description: Data 8 Spring 2024 Staff
 
 ## Lead GSIs
 
-_All office hours are held in-person in Warren 101 unless otherwise specified_
+_All office hours are held in-person in Warren 101-B (Section C) unless otherwise specified._
 
 {% assign leads = site.staffers | where: 'role', '20-hour Lead uGSI (UCS2)' %}
 
@@ -37,7 +37,7 @@ _All office hours are held in-person in Warren 101 unless otherwise specified_
 
 ## Teaching Assistants (GSIs)
 
-_All office hours are held in-person in Warren 101 unless otherwise specified_
+_All office hours are held in-person in Warren 101-B (Section C) unless otherwise specified._
 
 {% assign teaching_assistants = site.staffers | where: 'role', 'uGSI (UCS2)' %}
 
