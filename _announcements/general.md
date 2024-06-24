@@ -1,10 +1,9 @@
 ---
-title: Week 0 Announcements
-week: 0
-date: 2024-06-13
+title: Week 1 Announcements
+week: 1
+date: 2024-06-24
 ---
 
-* Welcome to Data 8!
-* We are in the process of finalizing this schedule
-   * We'll let you know when the schedule below will reflect the Summer 2024 schedule!
-* We look forward to seeing you on Monday!
+* Tutoring Sections being this week in Warren 101B
+* Office hours beginning this week in Warren 101B
+* Make sure to read all of the pinned Ed posts to stay updated with the course!
