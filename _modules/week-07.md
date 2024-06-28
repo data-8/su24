@@ -23,7 +23,7 @@ July 31
 : _Reading:_ [13](https://inferentialthinking.com/chapters/13/Estimation.html), [18](https://inferentialthinking.com/chapters/18/Updating_Predictions.html)
 : **Lab**{: .label .label-lab} {{site.links.lab.lab12}}
     : {{site.links.wksht.wksht12}}
-: **Project**{: .label .label-project} {{site.links.proj.proj3}} (Due Tues 8/7; Checkpoint Mon 8/5)
+: **Project**{: .label .label-project} {{site.links.proj.proj2}} (Due Tues 8/6; Checkpoint Fri 8/2)
 
 August 1
 : **31**{: .label} Case Study 1: TBA
