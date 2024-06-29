@@ -63,7 +63,7 @@ links:
     wksht09: "Lab 09 Worksheet"
     wksht10: "Lab 10 Worksheet"
   proj:
-    proj1: "Project 1: World Population and Poverty"
+    proj1: "[Project 1: World Population and Poverty](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&branch=main&urlpath=tree%2Fmaterials-su24%2Fproject%2Fproject1%2Fproject1.ipynb&branch=main)"
     proj2: "Project 2: Classifying Movies"
   lec:
     demo:
