@@ -2,7 +2,7 @@
 name: Upload of Lecture Materials
 about: Fill out this issue with new materials to be uploaded
 title: ''
-labels: materials
+labels: lecture
 assignees: ''
 
 ---
