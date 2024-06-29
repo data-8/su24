@@ -6,7 +6,7 @@ on:
 
 jobs:
   update-config:
-    if: contains(github.event.issue.labels.*.name, 'materials')
+    if: contains(github.event.issue.labels.*.name, 'lecture')
     runs-on: ubuntu-latest
 
     steps:
