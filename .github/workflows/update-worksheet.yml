@@ -1,0 +1,31 @@
+name: Update Worksheet Links
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  update-worksheet:
+    if: contains(github.event.issue.labels.*.name, 'worksheet')
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python environment
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.8'
+
+    - name: Install GitHub CLI
+      run: sudo apt-get install -y gh
+
+    - name: Authenticate with GitHub CLI
+      run: echo "${{ secrets.GH_PAT }}" | gh auth login --with-token
+
+    - name: Parse issue content and update worksheet links
+      env:
+        ISSUE_BODY: ${{ github.event.issue.body }}
+        GITHUB_ISSUE_NUMBER: ${{ github.event.issue.number }}
+      run: python update-worksheet.py
