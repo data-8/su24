@@ -1,6 +1,6 @@
 ---
 name: Upload of Lecture Materials
-about: Fill out this issue with new materials to be uploaded
+about: Fill out this issue with new lecture materials to be uploaded to the website.
 title: ''
 labels: lecture
 assignees: ''
