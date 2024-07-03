@@ -22,7 +22,7 @@ July 3
     : {{site.links.lec.slides.slide12}} {{site.links.lec.demo.demo12}}
 : _Reading:_ [10.2](https://inferentialthinking.com/chapters/10/2/Sampling_from_a_Population.html), [10.3](https://inferentialthinking.com/chapters/10/3/Empirical_Distribution_of_a_Statistic.html), [10.4](https://inferentialthinking.com/chapters/10/4/Random_Sampling_in_Python.html)
 : **Lab**{: .label .label-lab} {{site.links.lab.lab05}} (Due 7/3)
-        : {{site.links.wksht.wksht05}}
+    : {{site.links.wksht.wksht05}}
 
 July 4
 : **Independence Day**{: .label} Holiday: No class
