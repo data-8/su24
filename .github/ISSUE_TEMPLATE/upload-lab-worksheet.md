@@ -3,7 +3,7 @@ name: Upload Lab Worksheet
 about: Fill out this issue with new worksheets links to be added to the website.
 title: ''
 labels: worksheet
-assignees: ''
+assignees: jonathanferrari
 
 ---
 
