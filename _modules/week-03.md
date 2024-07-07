@@ -31,4 +31,4 @@ July 5
 : **13**{: .label} Comparing Distributions, Decisions/Uncertainty
     : {{site.links.lec.slides.slide13}} {{site.links.lec.demo.demo13}}
 : _Reading:_ [11.1](https://inferentialthinking.com/chapters/11/1/Assessing_a_Model.html), [11.2](https://inferentialthinking.com/chapters/11/2/Multiple_Categories.html), [11.3](https://inferentialthinking.com/chapters/11/3/Decisions_and_Uncertainty.html), [11.4](https://inferentialthinking.com/chapters/11/4/Error_Probabilities.html)
-: **Homework**{: .label .label-homework} {{site.links.hw.hw06}} (Due 7/9)
+: **Homework**{: .label .label-homework} {{site.links.hw.hw06}} (Due 7/10)
