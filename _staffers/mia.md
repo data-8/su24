@@ -6,4 +6,5 @@ photo: staff/mia.jpeg
 website:
 bio: "Hi! I’m Mia and I’m an incoming junior studying Cogsci and CS. This is my first semester as a GSI so I’m super excited to work with you this summer! Some stuff about me: I’m a Virgo, huge MIND Coffee addict, and once I did a NYT Monday crossword in 3:57 :)"
 role: uGSI (UCS2)
+office-hours: Tue 6-7PM, Thu 3-5PM
 ---
