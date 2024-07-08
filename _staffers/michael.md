@@ -6,4 +6,5 @@ photo: staff/michael.jpg
 website: https://www.linkedin.com/in/michael-murphy-4aa59823a/
 bio: I am a second-year Statistics and Data Science double major who is passionate about learning, teaching, and applying machine learning methods to make the world a better place.
 role: Tutor (UCS1)
+office-hours: Mon 9-10AM, Wed 9-11AM, Fri 2-3PM
 ---
