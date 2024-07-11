@@ -20,7 +20,7 @@ July 10
 : **16**{: .label} Midterm Review Part 1
     : {{site.links.lec.slides.slide16}} {{site.links.lec.demo.demo16}}
 : _Reading:_ [12.3](https://inferentialthinking.com/chapters/12/3/Deflategate.html)
-: **Lab**{: .label .label-lab} Midterm Review (Due 7/10)
+: **Lab**{: .label .label-lab} [Midterm Review](https://drive.google.com/file/d/1aIlqVwBc0p1dJ8V-zbQwDl5jWDgUBacc/view?usp=sharing) (Due 7/10)
 
 July 11
 : **17**{: .label} Midterm Review Part 2
