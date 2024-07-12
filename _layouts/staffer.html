@@ -38,6 +38,9 @@
     {% if page.office-hours %}
     <p class="staffer-meta">Office Hours: {{ page.office-hours }}</p>
     {% endif %}
+    {% if page.tutoring-section %}
+    <p class="staffer-meta">Tutoring Section: {{ page.tutoring-section}}</p>
+    {% endif %}
     {% if page.bio %}
     <p class="staffer-bio">{{ page.bio | markdownify }}</p>
     {% endif %}
