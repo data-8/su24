@@ -51,7 +51,7 @@ _All office hours are held in-person in Warren 101-B (Section C) unless otherwis
 
 _All office hours are held in-person in Warren 101-B (Section C) unless otherwise specified._
 
-_All tutoring sections are held in-person in Warren 101-BA unless otherwise specified._
+_All tutoring sections are held in-person in Warren 101-BA on Tuesdays and Thursdays unless otherwise specified._
 
 {% assign tutors = site.staffers | where: 'role', 'Tutor (UCS1)' %}
 
