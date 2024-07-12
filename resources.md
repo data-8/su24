@@ -44,6 +44,11 @@ We will post student materials in [this folder](https://drive.google.com/drive/f
 ### Past Exams
 Exams, practice exams, and walkthrough videos from previous semesters can be found below. These exams may differ slightly in terms of material covered and syntax used, as the `datascience` module has changed over time.
 
+### Exam Questions by Topic
+* A [review document](https://docs.google.com/document/d/1zed6Q9LAgUvCoazdGMOd5K0FpLcfZF-IMZMyGzTOFfk/edit?usp=sharing) identifying past exam problems by topic
+
+
+
 | Semester | Midterm | Final |
 | -- | -- | -- |
 | Spring 2024 | [Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8_sp24_midterm.pdf) [(Solutions)](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp24-midterm-solutions.pdf) [[Walkthrough]](https://drive.google.com/drive/folders/1rkUU1top70Ut18ejsf3MfOI35z-TW0ex) | | 
