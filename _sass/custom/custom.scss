@@ -407,3 +407,7 @@ code {
 .btn-currweek {
   @include btn-color($white, #FA8072);
 }
+
+.btn-pastsems {
+  @include btn-color($white, #light-red);
+}
