@@ -70,7 +70,11 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
   <button onclick="toggleVisibility('hypothesisTestingContent')" style="background-color: #4ca6f3; color: white; border: none; padding: 8px 15px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 5px;">Hypothesis Testing</button>
   <div id="hypothesisTestingContent" style="display: none; margin-top: 10px;">
     <ul>
-      <li><a href="https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp23-midterm.pdf">Spring 2023 Exam</a></li>
+      <li><a href="https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp21-midterm.pdf#page=4">Spring 2021 Midterm Q2</a></li>
+        <li><a href="https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp23-midterm.pdf">Fall 2020 Midterm Q4 (a-e)</a></li>
+        <li><a href="https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp23-midterm.pdf">Fall 2019 Midterm Q1</a></li>
+        <li><a href="https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp23-midterm.pdf">Spring 2019 Midterm Q1</a></li>
+        <li><a href="https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp23-midterm.pdf">Spring 2019 Midterm Q4 (f-g)</a></li>
     </ul>
   </div>
 </div>
