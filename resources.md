@@ -66,23 +66,23 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
 
 ## Exam Problems by Topic
 
-<div id="pythonpracticedropdown" style="margin: 20px 0;">
-  <button onclick="toggleVisibility('hypothesisTestingContent')" style="background-color: #4ca6f3; color: white; border: none; padding: 8px 15px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 5px;">Python Practice</button>
+<div id="pythonpracticedropdown" style="margin: 10px 0;">  <!-- Reduced vertical margin -->
+  <button onclick="toggleVisibility('hypothesisTestingContent')" style="background-color: #4ca6f3; color: white; border: none; padding: 8px 15px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 2px 2px; cursor: pointer; border-radius: 5px;">Python Practice</button>
   <div id="pythonPracticeContent" style="display: none; margin-top: 10px;">
     <ul>
       <li><a href="https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp21-midterm.pdf#page=4">Spring 2021 Midterm Q2</a></li>
-        <li>Fall 2020 Midterm Q4 (a-e)</li>
-        <li>Fall 2019 Midterm Q1 </li>
-        <li></li> Spring 2019 Final Q1</li>
-        <li>Spring 2019 Midterm Q1</li>
-        <li></li> Spring 2019 Midterm Q4 (f-g)</li>
-        <li></li> Fall 2018 Midterm Q4 (e-g) </li>
+      <li>Fall 2020 Midterm Q4 (a-e)</li>
+      <li>Fall 2019 Midterm Q1</li>
+      <li>Spring 2019 Final Q1</li>
+      <li>Spring 2019 Midterm Q1</li>
+      <li>Spring 2019 Midterm Q4 (f-g)</li>
+      <li>Fall 2018 Midterm Q4 (e-g)</li>
     </ul>
   </div>
 </div>
 
-<div id="Tablesdropdown" style="margin: 20px 0;">
-  <button onclick="toggleVisibility('mathPracticeContent')" style="background-color: #4ca6f3; color: white; border: none; padding: 8px 15px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 5px;">Tables</button>
+<div id="Tablesdropdown" style="margin: 10px 0;"> <!-- Reduced vertical margin -->
+  <button onclick="toggleVisibility('mathPracticeContent')" style="background-color: #4ca6f3; color: white; border: none; padding: 8px 15px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 2px 2px; cursor: pointer; border-radius: 5px;">Tables</button>
   <div id="tableContent" style="display: none; margin-top: 10px;">
     <ul>
       <li>Spring 2022 Final Q2</li>
