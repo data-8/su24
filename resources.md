@@ -68,10 +68,9 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
 
 <details>
   <summary>Hypothesis Testing</summary>
+
+* [Spring 2023 Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp23-midterm.pdf)
     
-  - [Spring 2023 Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp23-midterm.pdf)
-  - [Spring 2023 Solutions](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp23-midterm-solutions.pdf)
-  - [Spring 2023 Walkthrough](https://drive.google.com/drive/u/1/folders/1Thm3volFpFWC1QkNsJyWOgIG5bwvE7sO)
 </details>
 
 
