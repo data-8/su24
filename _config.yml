@@ -217,3 +217,11 @@ compress_html:
 
 plugins:
   - jekyll-seo-tag
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  enable_coderay: false
+safe: false
+
