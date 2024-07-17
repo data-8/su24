@@ -18,9 +18,9 @@ July 16
 : **Homework**{: .label .label-homework} {{site.links.hw.hw07}} (Due 7/19)
 
 July 17
-: **20**{: .label} Center and Spread
+: **20**{: .label} Center and Spread, The Normal Distribution
 : {{site.links.lec.slides.slide20}} {{site.links.lec.demo.demo20}}
-: _Reading:_ [14](https://inferentialthinking.com/chapters/14/Why_the_Mean_Matters.html), [14.1](https://inferentialthinking.com/chapters/14/1/Properties_of_the_Mean.html), [14.2](https://inferentialthinking.com/chapters/14/2/Variability.html)
+: _Reading:_ [14](https://inferentialthinking.com/chapters/14/Why_the_Mean_Matters.html), [14.1](https://inferentialthinking.com/chapters/14/1/Properties_of_the_Mean.html), [14.2](https://inferentialthinking.com/chapters/14/2/Variability.html), [14.3](https://inferentialthinking.com/chapters/14/3/SD_and_the_Normal_Curve.html), [14.4](https://inferentialthinking.com/chapters/14/4/Central_Limit_Theorem.html)
 : **Lab**{: .label .label-lab} {{site.links.lab.lab08}} (Due 7/17)
 : {{site.links.wksht.wksht08}}
 
