@@ -67,7 +67,7 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
 ## Exam Problems by Topic
 
 <div id="hypothesisTestingDropdown" style="margin: 20px 0;">
-  <button onclick="toggleVisibility('hypothesisTestingContent')">Hypothesis Testing</button>
+  <button onclick="toggleVisibility('hypothesisTestingContent')" style="background-color: #007bff; color: white; border: none; padding: 8px 15px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 5px;">Hypothesis Testing</button>
   <div id="hypothesisTestingContent" style="display: none; margin-top: 10px;">
     <ul>
       <li><a href="https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp23-midterm.pdf">Spring 2023 Exam</a></li>
@@ -85,6 +85,7 @@ function toggleVisibility(id) {
   }
 }
 </script>
+
 
 
 ## Supplemental Videos
