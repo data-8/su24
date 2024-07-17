@@ -66,6 +66,8 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
 
 ## Exam Problems by Topic
 
+### THIS PAGE IS STILL IN BETA
+
 <div id="pythonpracticedropdown" style="margin: 10px 0;">  <!-- Reduced vertical margin -->
   <button onclick="toggleVisibility('hypothesisTestingContent')" style="background-color: #4ca6f3; color: white; border: none; padding: 8px 15px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 2px 2px; cursor: pointer; border-radius: 5px;">Python Practice</button>
   <div id="pythonPracticeContent" style="display: none; margin-top: 10px;">
