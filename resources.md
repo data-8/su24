@@ -66,12 +66,25 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
 
 ## Exam Problems by Topic
 
-<details>
-  <summary>Hypothesis Testing</summary>
+<div id="hypothesisTestingDropdown" style="margin: 20px 0;">
+  <button onclick="toggleVisibility('hypothesisTestingContent')">Hypothesis Testing</button>
+  <div id="hypothesisTestingContent" style="display: none; margin-top: 10px;">
+    <ul>
+      <li><a href="https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp23-midterm.pdf">Spring 2023 Exam</a></li>
+    </ul>
+  </div>
+</div>
 
-    [Spring 2023 Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp23-midterm.pdf)
-    
-</details>
+<script>
+function toggleVisibility(id) {
+  var element = document.getElementById(id);
+  if (element.style.display === 'block') {
+    element.style.display = 'none';
+  } else {
+    element.style.display = 'block';
+  }
+}
+</script>
 
 
 ## Supplemental Videos
