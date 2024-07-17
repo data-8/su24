@@ -64,6 +64,14 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
 | Spring 2017 | [Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-midterm.pdf) [(Solutions)](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-midterm-solution.pdf), [Practice Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-practice.pdf) [(Solutions)](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-practice-solution.pdf) | [Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-final.pdf) [(Solutions)](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-final-solution.pdf), [Practice Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-practice-final.pdf) [(Solutions)](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-practice-final-solution.pdf) |
 | Fall 2016 |  [Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-fa16-midterm.pdf) | [Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-fa16-final.pdf) [(Solutions)](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-fa16-final-sols.pdf) |
 
+<details>
+  <summary>Hypothesis Testing</summary>
+    
+  - [Spring 2023 Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp23-midterm.pdf)
+  - [Spring 2023 Solutions](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp23-midterm-solutions.pdf)
+  - [Spring 2023 Walkthrough](https://drive.google.com/drive/u/1/folders/1Thm3volFpFWC1QkNsJyWOgIG5bwvE7sO)
+</details>
+
 
 ## Supplemental Videos
 * [Group Animation](https://drive.google.com/file/d/1kOVPDuMt68I62qlhPKrVYTY5VQl7MYJm/view?usp=sharing)
