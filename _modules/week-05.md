@@ -25,12 +25,12 @@ July 17
 : {{site.links.wksht.wksht08}}
 
 July 18
-: **21**{: .label} Sample Means, Designing Experiments
+: **21**{: .label} Sample Means
 : {{site.links.lec.slides.slide22}} {{site.links.lec.demo.demo22}}
-: _Reading:_ [14.5](https://inferentialthinking.com/chapters/14/5/Variability_of_the_Sample_Mean.html), [14.6](https://inferentialthinking.com/chapters/14/6/Choosing_a_Sample_Size.html)
+: _Reading:_ [14.5](https://inferentialthinking.com/chapters/14/5/Variability_of_the_Sample_Mean.html)
 
 July 19
-: **22**{: .label} Correlation
+: **22**{: .label} Designing Experiments, Correlation
 : {{site.links.lec.slides.slide23}} {{site.links.lec.demo.demo23}}
-: _Reading:_ [15](https://inferentialthinking.com/chapters/15/Prediction.html), [15.1](https://inferentialthinking.com/chapters/15/1/Correlation.html)
+: _Reading:_ [14.6](https://inferentialthinking.com/chapters/14/6/Choosing_a_Sample_Size.html), [15](https://inferentialthinking.com/chapters/15/Prediction.html), [15.1](https://inferentialthinking.com/chapters/15/1/Correlation.html)
 : **Homework**{: .label .label-homework} {{site.links.hw.hw08}} (Due 7/23)
