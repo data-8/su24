@@ -66,15 +66,51 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
 
 ## Exam Problems by Topic
 
-<div id="hypothesisTestingDropdown" style="margin: 20px 0;">
-  <button onclick="toggleVisibility('hypothesisTestingContent')" style="background-color: #4ca6f3; color: white; border: none; padding: 8px 15px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 5px;">Hypothesis Testing</button>
-  <div id="hypothesisTestingContent" style="display: none; margin-top: 10px;">
+<div id="pythonpracticedropdown" style="margin: 20px 0;">
+  <button onclick="toggleVisibility('hypothesisTestingContent')" style="background-color: #4ca6f3; color: white; border: none; padding: 8px 15px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 5px;">Python Practice</button>
+  <div id="pythonPracticeContent" style="display: none; margin-top: 10px;">
     <ul>
       <li><a href="https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp21-midterm.pdf#page=4">Spring 2021 Midterm Q2</a></li>
-        <li><a href="https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp23-midterm.pdf">Fall 2020 Midterm Q4 (a-e)</a></li>
-        <li><a href="https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp23-midterm.pdf">Fall 2019 Midterm Q1</a></li>
-        <li><a href="https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp23-midterm.pdf">Spring 2019 Midterm Q1</a></li>
-        <li><a href="https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp23-midterm.pdf">Spring 2019 Midterm Q4 (f-g)</a></li>
+        <li>Fall 2020 Midterm Q4 (a-e)</li>
+        <li>Fall 2019 Midterm Q1 </li>
+        <li></li> Spring 2019 Final Q1</li>
+        <li>Spring 2019 Midterm Q1</li>
+        <li></li> Spring 2019 Midterm Q4 (f-g)</li>
+        <li></li> Fall 2018 Midterm Q4 (e-g) </li>
+    </ul>
+  </div>
+</div>
+
+<div id="Tablesdropdown" style="margin: 20px 0;">
+  <button onclick="toggleVisibility('mathPracticeContent')" style="background-color: #4ca6f3; color: white; border: none; padding: 8px 15px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 5px;">Tables</button>
+  <div id="tableContent" style="display: none; margin-top: 10px;">
+    <ul>
+      <li>Spring 2022 Final Q2</li>
+      <li>Spring 2022 Midterm Q1</li>
+      <li>Spring 2022 Midterm Q2b</li>
+      <li>Fall 2021 Final Q12</li>
+      <li>Fall 2021 Final Q2</li>
+      <li>Fall 2021 Midterm Q1</li>
+      <li>Fall 2021 Midterm Q2</li>
+      <li>Spring 2021 Final Q1</li>
+      <li>Spring 2021 Midterm Q1</li>
+      <li>Fall 2020 Final Q1</li>
+      <li>Fall 2020 Midterm Q5</li>
+      <li>Spring 2020 Midterm Q2 (e-f)</li>
+      <li>Spring 2020 Midterm Q3(e-f,i,j)</li>
+      <li>Fall 2019 Midterm Q2e</li>
+      <li>Fall 2019 Midterm Q4</li>
+      <li>Spring 2019 Final Q3, 7</li>
+      <li>Spring 2019 Midterm Q3</li>
+      <li>Fall 2018 Final Q2a-f</li>
+      <li>Spring 2018 Final Q5</li>
+      <li>Spring 2018 Midterm Q1</li>
+      <li>Fall 2017 Final Q1</li>
+      <li>Spring 2017 Final Q1</li>
+      <li>Spring 2017 Practice Final Q1</li>
+      <li>Spring 2017 Midterm Q1</li>
+      <li>Summer 2017 Midterm Q1</li>
+      <li>Fall 2016 Final Q9</li>
     </ul>
   </div>
 </div>
