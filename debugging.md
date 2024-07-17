@@ -9,8 +9,6 @@ description: >-
 # Debugging
 {:.no_toc}
 
-<b style="font-size:40px;color:maroon;">This page is a work in progress</b>
-
 ## Table of Contents
 {: .no_toc .text-delta }
 
