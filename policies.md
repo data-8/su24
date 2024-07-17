@@ -8,8 +8,6 @@ description: >-
 
 # Policies
 
-<p style="font-size: 30px; color:maroon">We're still currently finalizing the policies for the course. Please check back here soon!</p>
-
 {:.no_toc}
 
 ## Table of Contents
