@@ -69,7 +69,7 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
 <details>
   <summary>Hypothesis Testing</summary>
 
-* [Spring 2023 Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp23-midterm.pdf)
+    [Spring 2023 Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp23-midterm.pdf)
     
 </details>
 
@@ -80,7 +80,7 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
 
 ## Wellness Resources
 
-Your wellbeing matters, and we hope that Data 8 is _never_ a barrier to taking care of your mental and physical health. Below are some campus resources that may be helpful:
+Your well-being matters, and we hope that Data 8 is _never_ a barrier to taking care of your mental and physical health. Below are some campus resources that may be helpful:
 
 * [University Health Services](https://uhs.berkeley.edu/)
 * [UHS Counseling and Psychological Services (CAPS)](https://uhs.berkeley.edu/caps)
