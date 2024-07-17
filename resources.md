@@ -69,7 +69,7 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
 ### THIS PAGE IS STILL IN BETA
 
 <div id="pythonpracticedropdown" style="margin: 10px 0;">  <!-- Reduced vertical margin -->
-  <button onclick="toggleVisibility('hypothesisTestingContent')" style="background-color: #4ca6f3; color: white; border: none; padding: 8px 15px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 2px 2px; cursor: pointer; border-radius: 5px;">Python Practice</button>
+  <button onclick="toggleVisibility('pythonPracticeContent')" style="background-color: #4ca6f3; color: white; border: none; padding: 8px 15px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 2px 2px; cursor: pointer; border-radius: 5px;">Python Practice</button>
   <div id="pythonPracticeContent" style="display: none; margin-top: 10px;">
     <ul>
       <li><a href="https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp21-midterm.pdf#page=4">Spring 2021 Midterm Q2</a></li>
@@ -84,7 +84,7 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
 </div>
 
 <div id="Tablesdropdown" style="margin: 10px 0;"> <!-- Reduced vertical margin -->
-  <button onclick="toggleVisibility('mathPracticeContent')" style="background-color: #4ca6f3; color: white; border: none; padding: 8px 15px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 2px 2px; cursor: pointer; border-radius: 5px;">Tables</button>
+  <button onclick="toggleVisibility('tableContent')" style="background-color: #4ca6f3; color: white; border: none; padding: 8px 15px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 2px 2px; cursor: pointer; border-radius: 5px;">Tables</button>
   <div id="tableContent" style="display: none; margin-top: 10px;">
     <ul>
       <li>Spring 2022 Final Q2</li>
