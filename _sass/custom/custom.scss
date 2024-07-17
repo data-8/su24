@@ -407,3 +407,8 @@ code {
 .btn-currweek {
   @include btn-color($white, #FA8072);
 }
+
+button:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
+
