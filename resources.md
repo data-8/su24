@@ -64,6 +64,8 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
 | Spring 2017 | [Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-midterm.pdf) [(Solutions)](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-midterm-solution.pdf), [Practice Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-practice.pdf) [(Solutions)](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-practice-solution.pdf) | [Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-final.pdf) [(Solutions)](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-final-solution.pdf), [Practice Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-practice-final.pdf) [(Solutions)](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-practice-final-solution.pdf) |
 | Fall 2016 |  [Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-fa16-midterm.pdf) | [Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-fa16-final.pdf) [(Solutions)](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-fa16-final-sols.pdf) |
 
+## Exam Problems by Topic
+
 <details>
   <summary>Hypothesis Testing</summary>
     
