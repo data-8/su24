@@ -76,7 +76,7 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
 </head>
 <body>
     <div id="dropdownContainer">
-        div class="dropdownWrapper">
+        <div class="dropdownWrapper">
     <div class="dropdown" id="pythonpracticedropdown">
       <button onclick="toggleVisibility('pythonPracticeContent')">Python Practice</button>
       <div id="pythonPracticeContent" class="dropdownContent">
@@ -148,9 +148,10 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
     </div>
   </div>
 </div>
-    <div id="dropdownContainer">
+
+<div id="dropdownContainer">
  <div class="dropdownWrapper">
-    <div class="dropdown" id="Histogramsdropdown">
+    <div class="dropdown" id="histogramsdropdown">
       <button onclick="toggleVisibility('histogramContent')">Histograms/Visualizations</button>
       <div id="histogramContent" class="dropdownContent">
          <ul>
