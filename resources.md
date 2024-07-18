@@ -87,7 +87,7 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
     }
     #contentArea {
         flex-grow: 1;
-        padding: 20px;
+        padding: 250px;
         background-color: #f4f4f4;
     }
     .dropdownContent {
