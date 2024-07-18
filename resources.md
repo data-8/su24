@@ -247,7 +247,7 @@ function toggleVisibility(id) {
 
  <div class="dropdown" id="samplingndropdown">
     <button onclick="toggleVisibility('samplingContent')">Sampling</button>
-    <div id="samplin gnContent" class="samplingContent">
+    <div id="samplingnContent" class="samplingContent">
     <ul>
       <li>Spring 2017 Practice Final Q5</li>
       <li>Spring 2017 Final Q3</li>
