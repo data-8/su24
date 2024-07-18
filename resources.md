@@ -247,25 +247,17 @@ function toggleVisibility(id) {
    </div>
  </div>
  <div class="dropdown" id="samplingdropdown">
-    <button onclick="toggleVisibility('samplingContent')">Sampling</button>
-    <div id="samplingContent" class="samplingContent">
-    <ul>
-      <li>Spring 2017 Practice Final Q5</li>
-      <li>Spring 2017 Final Q3</li>
-      <li>Fall 2017 Final Q2, 5 - 7</li>
-      <li>Fall 2021 Midterm Q8c,d</li>
-    </ul>
-  </div>
+     <button onclick="toggleVisibility('samplingContent')">Sampling</button>
+     <div id="samplingContent" class="samplingContent">
+         <ul>
+             <li>Spring 2017 Practice Final Q5</li>
+             <li>Spring 2017 Final Q3</li>
+             <li>Fall 2017 Final Q2, 5 - 7</li>
+             <li>Fall 2021 Midterm Q8c,d</li>
+         </ul>
+     </div>
  </div>
 </div>
-
-
-
-
-
-
-
-
 
 
 ## Supplemental Videos
