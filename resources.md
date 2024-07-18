@@ -74,24 +74,25 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
 <title>Exam Topics</title>
 <style>
     body {
-        display: flex;
-        min-height: 100vh;
-        margin: 0; /* Removes default margin */
+        display: flex; /* Ensures that sidebar and content area are laid out side by side */
+        margin: 0;
     }
     #sidebar {
-        width: 250px; /* Adjust width as necessary */
+        width: 250px;
         background-color: #f0f0f0;
         padding: 10px;
-        height: 100vh; /* Full viewport height */
-        overflow-y: auto; /* Allows scrolling */
+        height: 100vh; /* Full height */
+        overflow-y: auto; /* Allows scrolling within the sidebar */
     }
     #contentArea {
-        flex-grow: 1;
-        padding: 250px;
+        flex-grow: 1; /* Takes up the remaining width */
+        padding: 20px;
         background-color: #f4f4f4;
+        height: 100vh; /* Full height */
+        overflow-y: auto; /* Allows scrolling within the content area */
     }
     .dropdownContent {
-        display: none; /* Hidden by default */
+        display: none; /* Starts off hidden */
         background-color: #fff;
         padding: 10px;
         box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -99,7 +100,6 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
     button {
         width: 100%;
         padding: 10px;
-        margin-bottom: 5px;
         font-size: 16px;
         color: white;
         background-color: #4ca6f3;
@@ -107,6 +107,8 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
         cursor: pointer;
     }
 </style>
+</head>
+<body>
 <script>
 function toggleVisibility(id) {
     var contentAreas = document.querySelectorAll('.dropdownContent');
@@ -124,14 +126,6 @@ function toggleVisibility(id) {
 
 <div id="sidebar">
     <button onclick="toggleVisibility('pythonPracticeContent')">Python Practice</button>
-    <button onclick="toggleVisibility('tableContent')">Tables</button>
-    <button onclick="toggleVisibility('functionsContent')">Functions</button>
-    <button onclick="toggleVisibility('histogramContent')">Histograms/Visualizations</button>
-    <button onclick="toggleVisibility('iterationContent')">Iteration</button>
-    <button onclick="toggleVisibility('samplingContent')">Sampling</button>
-    <button onclick="toggleVisibility('standardhypothesistestingContent')">Standard Hypothesis Testing</button>
-    <button onclick="toggleVisibility('bootstrapContent')">Bootstrap</button>
-    <button onclick="toggleVisibility('ABContent')">A/B Testing</button>
 </div>
 
 <div id="contentArea">
