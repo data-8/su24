@@ -189,7 +189,7 @@ function toggleVisibility(id) {
 
   <div class="dropdownWrapper">
     <div class="dropdown" id="Histogramsdropdown">
-      <button onclick="toggleVisibility('histogramContent')">Histograms and Other Visualizations</button>
+      <button onclick="toggleVisibility('histogramContent')">Histograms/Visualizations</button>
       <div id="histogramContent" class="dropdownContent">
          <ul>
               <li>Spring 2022 Final Q7a,b</li>
