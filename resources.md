@@ -118,143 +118,155 @@ function toggleVisibility(id) {
 
 
 <div id="dropdownContainer">
-  <div class="dropdown" id="pythonpracticedropdown">
-    <button onclick="toggleVisibility('pythonPracticeContent')">Python Practice</button>
-    <div id="pythonPracticeContent" class="dropdownContent">
-      <ul>
-        <li><a href="https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp21-midterm.pdf#page=4">Spring 2021 Midterm Q2</a></li>
-        <li>Fall 2020 Midterm Q4 (a-e)</li>
-        <li>Fall 2019 Midterm Q1</li>
-        <li>Spring 2019 Final Q1</li>
-        <li>Spring 2019 Midterm Q1</li>
-        <li>Spring 2019 Midterm Q4 (f-g)</li>
-        <li>Fall 2018 Midterm Q4 (e-g)</li>
-     </ul>
+    <div class="dropdownWrapper">
+      <div class="dropdown" id="pythonpracticedropdown">
+        <button onclick="toggleVisibility('pythonPracticeContent')">Python Practice</button>
+        <div id="pythonPracticeContent" class="dropdownContent">
+          <ul>
+            <li><a href="https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp21-midterm.pdf#page=4">Spring 2021 Midterm Q2</a></li>
+            <li>Fall 2020 Midterm Q4 (a-e)</li>
+            <li>Fall 2019 Midterm Q1</li>
+            <li>Spring 2019 Final Q1</li>
+            <li>Spring 2019 Midterm Q1</li>
+            <li>Spring 2019 Midterm Q4 (f-g)</li>
+            <li>Fall 2018 Midterm Q4 (e-g)</li>
+         </ul>
+        </div>
+      </div>
     </div>
-  </div>
 
   <div class="dropdown" id="Tablesdropdown">
-    <button onclick="toggleVisibility('tableContent')">Tables</button>
-    <div id="tableContent" class="dropdownContent">
-      <ul>
-          <li>Spring 2022 Final Q2</li>
-          <li>Spring 2022 Midterm Q1</li>
-          <li>Spring 2022 Midterm Q2b</li>
-          <li>Fall 2021 Final Q12</li>
-          <li>Fall 2021 Final Q2</li>
-          <li>Fall 2021 Midterm Q1</li>
-          <li>Fall 2021 Midterm Q2</li>
-          <li>Spring 2021 Final Q1</li>
-          <li>Spring 2021 Midterm Q1</li>
-          <li>Fall 2020 Final Q1</li>
-          <li>Fall 2020 Midterm Q5</li>
-          <li>Spring 2020 Midterm Q2 (e - f)</li>
-          <li>Spring 2020 Midterm Q3(e - f, i, j)</li>
-          <li>Fall 2019 Midterm Q2e</li>
-          <li>Fall 2019 Midterm Q4</li>
-          <li>Spring 2019 Final Q3, 7</li>
-          <li>Spring 2019 Midterm Q3</li>
-          <li>Fall 2018 Final Q2 (a - f)</li>
-          <li>Spring 2018 Final Q5</li>
-          <li>Spring 2018 Midterm Q1</li>
-          <li>Fall 2017 Final Q1</li>
-          <li>Spring 2017 Final Q1</li>
-          <li>Spring 2017 Practice Final Q1</li>
-          <li>Spring 2017 Midterm Q1</li>
-          <li>Summer 2017 Midterm Q1</li>
-          <li>Fall 2016 Final Q9</li>
-      </ul>
-    </div>
+      <div class="dropdownWrapper">
+        <button onclick="toggleVisibility('tableContent')">Tables</button>
+        <div id="tableContent" class="dropdownContent">
+          <ul>
+              <li>Spring 2022 Final Q2</li>
+              <li>Spring 2022 Midterm Q1</li>
+              <li>Spring 2022 Midterm Q2b</li>
+              <li>Fall 2021 Final Q12</li>
+              <li>Fall 2021 Final Q2</li>
+              <li>Fall 2021 Midterm Q1</li>
+              <li>Fall 2021 Midterm Q2</li>
+              <li>Spring 2021 Final Q1</li>
+              <li>Spring 2021 Midterm Q1</li>
+              <li>Fall 2020 Final Q1</li>
+              <li>Fall 2020 Midterm Q5</li>
+              <li>Spring 2020 Midterm Q2 (e - f)</li>
+              <li>Spring 2020 Midterm Q3(e - f, i, j)</li>
+              <li>Fall 2019 Midterm Q2e</li>
+              <li>Fall 2019 Midterm Q4</li>
+              <li>Spring 2019 Final Q3, 7</li>
+              <li>Spring 2019 Midterm Q3</li>
+              <li>Fall 2018 Final Q2 (a - f)</li>
+              <li>Spring 2018 Final Q5</li>
+              <li>Spring 2018 Midterm Q1</li>
+              <li>Fall 2017 Final Q1</li>
+              <li>Spring 2017 Final Q1</li>
+              <li>Spring 2017 Practice Final Q1</li>
+              <li>Spring 2017 Midterm Q1</li>
+              <li>Summer 2017 Midterm Q1</li>
+              <li>Fall 2016 Final Q9</li>
+          </ul>
+        </div>
+      </div>
   </div>
 
   <div class="dropdown" id="Functionsdropdown">
-    <button onclick="toggleVisibility('functionsContent')">Functions</button>
-    <div id="functionsContent" class="dropdownContent">
-      <ul>
-          <li>Spring 2022 Final Q7h</li>
-          <li>Spring 2022 Final Q6d</li>
-          <li>Fall 2021 Final Q6a,f</li>
-          <li>Fall 2021 Final Q2d</li>
-          <li>Fall 2021 Final Q1</li>
-          <li>Fall 2021 Midterm Q8a</li>
-          <li>Fall 2021 Midterm Q4h,i</li>
-          <li>Fall 2020 Final Q5a</li>
-          <li>Spring 2020 Midterm Q3g-h</li>
-          <li>Spring 2019 Midterm Q4d</li>
-          <li>Fall 2018 Midterm Q2g</li>
-      </ul>
-    </div>
+      <div class="dropdownWrapper">
+        <button onclick="toggleVisibility('functionsContent')">Functions</button>
+        <div id="functionsContent" class="dropdownContent">
+          <ul>
+              <li>Spring 2022 Final Q7h</li>
+              <li>Spring 2022 Final Q6d</li>
+              <li>Fall 2021 Final Q6a,f</li>
+              <li>Fall 2021 Final Q2d</li>
+              <li>Fall 2021 Final Q1</li>
+              <li>Fall 2021 Midterm Q8a</li>
+              <li>Fall 2021 Midterm Q4h,i</li>
+              <li>Fall 2020 Final Q5a</li>
+              <li>Spring 2020 Midterm Q3g-h</li>
+              <li>Spring 2019 Midterm Q4d</li>
+              <li>Fall 2018 Midterm Q2g</li>
+          </ul>
+        </div>
+      </div>
   </div>
 
   <div class="dropdown" id="Histogramsdropdown">
-    <button onclick="toggleVisibility('histogramContent')">Histograms and Other Visualizations</button>
-    <div id="histogramContent" class="dropdownContent">
-      <ul>
-          <li>Spring 2022 Final Q7a,b</li>
-          <li>Spring 2022 Final Q3h</li>
-          <li>Spring 2022 Midterm Q2</li>
-          <li>Spring 2022 Midterm Q1e</li>
-          <li>Fall 2021 Final Q3</li>
-          <li>Fall 2021 Midterm Q9</li>
-          <li>Fall 2021 Midterm Q6b</li>
-          <li>Fall 2021 Midterm Q5</li>
-          <li>Spring 2021 Final Q7a-c</li>
-          <li>Spring 2021 Midterm Q7</li>
-          <li>Spring 2021 Midterm Q6</li>
-          <li>Fall 2020 Final Q5b</li>
-          <li>Fall 2020 Final Q4g</li>
-          <li>Fall 2020 Midterm Q3</li>
-          <li>Fall 2020 Midterm Q2</li>
-          <li>Spring 2020 Midterm Q3a-d</li>
-          <li>Spring 2020 Midterm Q2a-d</li>
-          <li>Fall 2019 Midterm Q5</li>
-          <li>Fall 2019 Midterm Q2a-d</li>
-          <li>Spring 2019 Midterm Q6e</li>
-          <li>Spring 2019 Midterm Q4</li>
-          <li>Spring 2019 Midterm Q2b</li>
-          <li>Fall 2018 Midterm Q1</li>
-          <li>Spring 2018 Midterm Q6</li>
-          <li>Spring 2017 Practice Final Q2</li>
-          <li>Spring 2017 Midterm Q2</li>
-          <li>Summer 2017 Midterm Q3</li>
-          <li>Fall 2016 Final Q14</li>
-          <li>Fall 2016 Final Q11</li>
-          <li>Fall 2016 Final Q10</li>
-          <li>Fall 2016 Final Q8</li>
-          <li>Fall 2016 Final Q6</li>
-          <li>Fall 2016 Final Q2</li>
-      </ul>
+      <div class="dropdownWrapper">
+        <button onclick="toggleVisibility('histogramContent')">Histograms and Other Visualizations</button>
+        <div id="histogramContent" class="dropdownContent">
+          <ul>
+              <li>Spring 2022 Final Q7a,b</li>
+              <li>Spring 2022 Final Q3h</li>
+              <li>Spring 2022 Midterm Q2</li>
+              <li>Spring 2022 Midterm Q1e</li>
+              <li>Fall 2021 Final Q3</li>
+              <li>Fall 2021 Midterm Q9</li>
+              <li>Fall 2021 Midterm Q6b</li>
+              <li>Fall 2021 Midterm Q5</li>
+              <li>Spring 2021 Final Q7a-c</li>
+              <li>Spring 2021 Midterm Q7</li>
+              <li>Spring 2021 Midterm Q6</li>
+              <li>Fall 2020 Final Q5b</li>
+              <li>Fall 2020 Final Q4g</li>
+              <li>Fall 2020 Midterm Q3</li>
+              <li>Fall 2020 Midterm Q2</li>
+              <li>Spring 2020 Midterm Q3a-d</li>
+              <li>Spring 2020 Midterm Q2a-d</li>
+              <li>Fall 2019 Midterm Q5</li>
+              <li>Fall 2019 Midterm Q2a-d</li>
+              <li>Spring 2019 Midterm Q6e</li>
+              <li>Spring 2019 Midterm Q4</li>
+              <li>Spring 2019 Midterm Q2b</li>
+              <li>Fall 2018 Midterm Q1</li>
+              <li>Spring 2018 Midterm Q6</li>
+              <li>Spring 2017 Practice Final Q2</li>
+              <li>Spring 2017 Midterm Q2</li>
+              <li>Summer 2017 Midterm Q3</li>
+              <li>Fall 2016 Final Q14</li>
+              <li>Fall 2016 Final Q11</li>
+              <li>Fall 2016 Final Q10</li>
+              <li>Fall 2016 Final Q8</li>
+              <li>Fall 2016 Final Q6</li>
+              <li>Fall 2016 Final Q2</li>
+          </ul>
+        </div>
+      </div>
     </div>
-  </div>
 </div>
 
 <div id="dropdownContainer">
     <div class="dropdown" id="iterationdropdown">
-        <button onclick="toggleVisibility('iterationContent')">Iteration</button>
-        <div id="iterationContent" class="dropdownContent">
-            <ul>
-                <li>Fall 2021 Midterm Q8b</li>
-                <li>Fall 2020 Midterm Q4 (f, g)</li>
-                <li>Fall 2019 Midterm Q3g</li>
-                <li>Spring 2019 Midterm Q6d</li>
-                <li>Spring 2019 Midterm Q2c</li>
-                <li>Fall 2018 Midterm Q3d</li>
-                <li>Spring 2018 Midterm Q2</li>
-                <li>Spring 2017 Midterm Q3b</li>
-            </ul>
+        <div class="dropdownWrapper">
+            <button onclick="toggleVisibility('iterationContent')">Iteration</button>
+            <div id="iterationContent" class="dropdownContent">
+                <ul>
+                    <li>Fall 2021 Midterm Q8b</li>
+                    <li>Fall 2020 Midterm Q4 (f, g)</li>
+                    <li>Fall 2019 Midterm Q3g</li>
+                    <li>Spring 2019 Midterm Q6d</li>
+                    <li>Spring 2019 Midterm Q2c</li>
+                    <li>Fall 2018 Midterm Q3d</li>
+                    <li>Spring 2018 Midterm Q2</li>
+                    <li>Spring 2017 Midterm Q3b</li>
+                </ul>
+            </div>
         </div>
     </div>
-    <div class="dropdown" id="samplingdropdown">
-        <button onclick="toggleVisibility('samplingContent')">Sampling</button>
-        <div id="samplingContent" class="dropdownContent">
-            <ul>
-                <li>Spring 2017 Practice Final Q5</li>
-                <li>Spring 2017 Final Q3</li>
-                <li>Fall 2017 Final Q2, 5 - 7</li>
-                <li>Fall 2021 Midterm Q8c,d</li>
-            </ul>
+        <div class="dropdown" id="samplingdropdown">
+            <div class="dropdownWrapper">
+                <button onclick="toggleVisibility('samplingContent')">Sampling</button>
+                <div id="samplingContent" class="dropdownContent">
+                    <ul>
+                        <li>Spring 2017 Practice Final Q5</li>
+                        <li>Spring 2017 Final Q3</li>
+                        <li>Fall 2017 Final Q2, 5 - 7</li>
+                        <li>Fall 2021 Midterm Q8c,d</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
 </div>
 
 
