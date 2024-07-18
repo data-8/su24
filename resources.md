@@ -76,13 +76,14 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
     body {
         display: flex;
         min-height: 100vh;
+        margin: 0; /* Removes default margin */
     }
     #sidebar {
-        width: 500px;
+        width: 250px; /* Adjust width as necessary */
         background-color: #f0f0f0;
         padding: 10px;
-        height: 100vh;
-        overflow: auto;
+        height: 100vh; /* Full viewport height */
+        overflow-y: auto; /* Allows scrolling */
     }
     #contentArea {
         flex-grow: 1;
@@ -90,18 +91,10 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
         background-color: #f4f4f4;
     }
     .dropdownContent {
-        display: none;
+        display: none; /* Hidden by default */
         background-color: #fff;
         padding: 10px;
         box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        z-index: 1;
-    }
-    .dropdownContent ul {
-        list-style-type: none;
-        padding: 0;
-    }
-    .dropdownContent li {
-        margin-bottom: 10px;
     }
     button {
         width: 100%;
@@ -121,7 +114,9 @@ function toggleVisibility(id) {
         content.style.display = 'none'; // Hide all contents
     });
     var element = document.getElementById(id);
-    element.style.display = 'block'; // Show the selected content
+    if (element) {
+        element.style.display = 'block'; // Show the selected content
+    }
 }
 </script>
 </head>
@@ -138,6 +133,7 @@ function toggleVisibility(id) {
     <button onclick="toggleVisibility('bootstrapContent')">Bootstrap</button>
     <button onclick="toggleVisibility('ABContent')">A/B Testing</button>
 </div>
+
 <div id="contentArea">
     <div id="pythonPracticeContent" class="dropdownContent">
         <ul>
@@ -150,7 +146,6 @@ function toggleVisibility(id) {
             <li>Fall 2018 Midterm Q4 (e-g)</li>
         </ul>
     </div>
-    <!-- Add similar divs for each button's corresponding content -->
 </div>
 </body>
 </html>
