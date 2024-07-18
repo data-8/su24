@@ -95,16 +95,15 @@ function toggleVisibility(id) {
 }
 
 .dropdown button {
-    padding: 0; /* Adjust padding or remove if necessary */
+    width: 100%; /* Ensure the button stretches to the full width of its container */
+    padding: 10px; /* Adjust padding to control the button's inner spacing */
     font-size: 16px;
-    line-height: 50px; /* Aligns text vertically */
-    text-align: center; /* Ensures text is centered horizontally */
     color: white;
     background-color: #4ca6f3;
     border: none;
     cursor: pointer;
-    margin-bottom: 2px;
-    border-radius: 10px; 
+    height: 100%; /* Make the button fill its container vertically */
+    border-radius: 10px; /* Adds slightly rounded corners */
 }
 
 .dropdownContent {
