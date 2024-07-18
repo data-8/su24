@@ -78,46 +78,37 @@ function toggleVisibility(id) {
 </script>
 
 
-<style>
-  #dropdownContainer {
-  display: flex; /* Flex layout for horizontal alignment */
-  justify-content: flex-start; /* Align items to the start of the container */
-  flex-wrap: wrap; /* Allow wrapping if not enough space */
-  gap: 5px; /* Adjust gap between buttons for more control */
-  padding: 5px 
-    }
-.dropdown {
-  flex: 1 1 auto; /* Allow buttons to grow and shrink equally */
-  margin: 2px; /* Reduced margin */
-    }
-.dropdown button {
-  background-color: #4ca6f3;
-  color: white;
-  border: none;
-  padding: 10px 12px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 5px;
-  width: 100%; /* Ensure buttons expand to fill their containers */
-    }
-.dropdownContent {
-  display: none; /* Start hidden */
-  margin-top: 2px;
-    }
-</style>
-
-<script>
-function toggleVisibility(id) {
-  var element = document.getElementById(id);
-  if (element.style.display === 'block') {
-    element.style.display = 'none';
-  } else {
-    element.style.display = 'block';
-  }
+#dropdownContainer {
+    display: flex;
+    justify-content: flex-start; /* or 'space-around' depending on desired spacing */
+    flex-wrap: wrap; /* Allows wrapping if necessary, consider 'nowrap' to force one line */
+    gap: 5px;
+    padding: 5px;
 }
-</script>
+
+.dropdown {
+    margin: 2px;
+    flex: 0 1 auto; /* Adjusts so items can shrink but not grow beyond their content size */
+}
+
+.dropdown button {
+    background-color: #4ca6f3;
+    color: white;
+    border: none;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    /* Removed width: 100%; to avoid forcing full container width */
+}
+
+.dropdownContent {
+    display: none;
+    margin-top: 2px;
+}
+
 
 <div id="dropdownContainer">
   <div class="dropdown" id="pythonpracticedropdown">
