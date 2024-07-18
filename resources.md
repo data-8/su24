@@ -84,9 +84,8 @@ function toggleVisibility(id) {
     flex-wrap: wrap; /* Allow items to wrap onto the next line if space runs out */
     justify-content: space-around; /* Evenly space the dropdowns across the container */
     align-items: center; /* Center items vertically */
-    padding: 10px; /* Optional: Adds some space inside the container */
+    padding: 5px; /* Optional: Adds some space inside the container */
     gap: 10px; /* Space between each dropdown */
-    width: 100%; /* Ensure the container takes full width */
 }
 dropdownWrapper {
     flex: 1 1 20%; /* Allow each dropdown to grow and shrink but base at 20% width */
