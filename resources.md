@@ -66,57 +66,17 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
 
 ## Exam Problems by Topic (THIS PAGE IS STILL IN BETA)
 
-<script>
-function toggleVisibility(id) {
-  var element = document.getElementById(id);
-  if (element.style.display === 'block') {
-    element.style.display = 'none';
-  } else {
-    element.style.display = 'block';
-  }
-}
-</script>
-
-<style>
-    #dropdownContainer {
-    display: flex;
-    flex-direction: row; /* Ensure items are laid out in a row */
-    flex-wrap: wrap; /* Allow items to wrap onto the next line if space runs out */
-    justify-content: space-between; /* Distribute space between items evenly */
-    align-items: stretch; /* Stretch items to fill the container vertically */
-    width: 100%; /* Ensure the container takes full width */
-    padding: 10px; /* Optional: Adds some space inside the container */
-}
-
-.dropdownWrapper {
-    flex: 1 1 20%; /* Flex grow, shrink, and basis set for responsive sizing */
-    min-width: 180px; /* Minimum width to maintain readability and appearance */
-    margin: 5px; /* Spacing between buttons */
-}
-
-.dropdown button {
-    width: 100%; /* Ensure the button stretches to the full width of its container */
-    padding: 10px; /* Adjust padding to control the button's inner spacing */
-    font-size: 16px;
-    color: white;
-    background-color: #4ca6f3;
-    border: none;
-    cursor: pointer;
-    height: 100%; /* Make the button fill its container vertically */
-    border-radius: 10px; /* Adds slightly rounded corners */
-}
-
-.dropdownContent {
-    display: none; /* Keep content hidden by default */
-    background-color: #f4f4f4;
-    padding: 5px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds shadow for better visibility */
-    z-index: 1; /* Ensures dropdown content lays on top of other content if expanded */
-}
-</style>
-
-<div id="dropdownContainer">
-  <div class="dropdownWrapper">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Title</title>
+    <link rel="stylesheet" href="_sass/custom/resources.css">
+</head>
+<body>
+    <div id="dropdownContainer">
+        div class="dropdownWrapper">
     <div class="dropdown" id="pythonpracticedropdown">
       <button onclick="toggleVisibility('pythonPracticeContent')">Python Practice</button>
       <div id="pythonPracticeContent" class="dropdownContent">
@@ -188,160 +148,18 @@ function toggleVisibility(id) {
     </div>
   </div>
 </div>
-
-<div id="dropdownContainer">
- <div class="dropdownWrapper">
-    <div class="dropdown" id="Histogramsdropdown">
-      <button onclick="toggleVisibility('histogramContent')">Histograms/Visualizations</button>
-      <div id="histogramContent" class="dropdownContent">
-         <ul>
-              <li>Spring 2022 Final Q7a,b</li>
-              <li>Spring 2022 Final Q3h</li>
-              <li>Spring 2022 Midterm Q2</li>
-              <li>Spring 2022 Midterm Q1e</li>
-              <li>Fall 2021 Final Q3</li>
-              <li>Fall 2021 Midterm Q9</li>
-              <li>Fall 2021 Midterm Q6b</li>
-              <li>Fall 2021 Midterm Q5</li>
-              <li>Spring 2021 Final Q7a-c</li>
-              <li>Spring 2021 Midterm Q7</li>
-              <li>Spring 2021 Midterm Q6</li>
-              <li>Fall 2020 Final Q5b</li>
-              <li>Fall 2020 Final Q4g</li>
-              <li>Fall 2020 Midterm Q3</li>
-              <li>Fall 2020 Midterm Q2</li>
-              <li>Spring 2020 Midterm Q3a-d</li>
-              <li>Spring 2020 Midterm Q2a-d</li>
-              <li>Fall 2019 Midterm Q5</li>
-              <li>Fall 2019 Midterm Q2a-d</li>
-              <li>Spring 2019 Midterm Q6e</li>
-              <li>Spring 2019 Midterm Q4</li>
-              <li>Spring 2019 Midterm Q2b</li>
-              <li>Fall 2018 Midterm Q1</li>
-              <li>Spring 2018 Midterm Q6</li>
-              <li>Spring 2017 Practice Final Q2</li>
-              <li>Spring 2017 Midterm Q2</li>
-              <li>Summer 2017 Midterm Q3</li>
-              <li>Fall 2016 Final Q14</li>
-              <li>Fall 2016 Final Q11</li>
-              <li>Fall 2016 Final Q10</li>
-              <li>Fall 2016 Final Q8</li>
-              <li>Fall 2016 Final Q6</li>
-              <li>Fall 2016 Final Q2</li>
-          </ul>
-      </div>
-    </div>
-  </div>
-    <div class="dropdownWrapper" id="iterationdropdown">
-        <div class = "dropdown">
-            <button onclick="toggleVisibility('iterationContent')">Iteration</button>
-            <div id="iterationContent" class="dropdownContent">
-                <ul>
-                    <li>Fall 2021 Midterm Q8b</li>
-                    <li>Fall 2020 Midterm Q4 (f, g)</li>
-                    <li>Fall 2019 Midterm Q3g</li>
-                    <li>Spring 2019 Midterm Q6d</li>
-                    <li>Spring 2019 Midterm Q2c</li>
-                    <li>Fall 2018 Midterm Q3d</li>
-                    <li>Spring 2018 Midterm Q2</li>
-                    <li>Spring 2017 Midterm Q3b</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="dropdownWrapper" id="samplingdropdown">
-        <div class = "dropdown">
-            <button onclick="toggleVisibility('samplingContent')">Sampling</button>
-            <div id="samplingContent" class="dropdownContent">
-                <ul>
-                    <li>Spring 2017 Practice Final Q5</li>
-                    <li>Spring 2017 Final Q3</li>
-                    <li>Fall 2017 Final Q2, 5 - 7</li>
-                    <li>Fall 2021 Midterm Q8c,d</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div id="dropdownContainer">
-<div class="dropdownWrapper" id="standardhypothesistestingdropdown">
-        <div class = "dropdown">
-            <button onclick="toggleVisibility('standardhypothesistestingContent')">Standard Hypothesis Testing</button>
-            <div id="standardhypothesistestingContent" class="dropdownContent">
-                <ul>
-                  <li>Spring 2022 Final Q6e</li>
-                  <li>Spring 2022 Final Q1k</li>
-                  <li>Spring 2022 Midterm Q4</li>
-                  <li>Fall 2021 Final Q6</li>
-                  <li>Fall 2021 Midterm Q6</li>
-                  <li>Spring 2021 Final Q6b</li>
-                  <li>Spring 2021 Midterm Q5</li>
-                  <li>Fall 2020 Final Q7a-c</li>
-                  <li>Fall 2020 Midterm Q7</li>
-                  <li>Spring 2020 Midterm Q4a-c</li>
-                  <li>Spring 2020 Midterm Q3k</li>
-                  <li>Fall 2019 Midterm Q6</li>
-                  <li>Fall 2019 Midterm Q3e-g,h,i</li>
-                  <li>Spring 2019 Final Q5</li>
-                  <li>Spring 2019 Midterm Q6</li>
-                  <li>Spring 2019 Midterm Q2a</li>
-                  <li>Fall 2018 Final Q4 f-h</li>
-                  <li>Fall 2018 Final Q3</li>
-                  <li>Fall 2018 Midterm Q3</li>
-                  <li>Spring 2018 Final Q8</li>
-                  <li>Spring 2018 Midterm Q5b-d</li>
-                  <li>Spring 2018 Midterm Q4</li>
-                  <li>Fall 2017 Final Q3</li>
-                  <li>Spring 2017 Practice Final Q4</li>
-                  <li>Spring 2017 Final Q2</li>
-                  <li>Spring 2017 Midterm Q4</li>
-                  <li>Summer 2017 Midterm Q4</li>
-                  <li>Fall 2016 Final Q15</li>
-                  <li>Fall 2016 Final Q13</li>
-                  <li>Fall 2016 Final Q4</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="dropdownWrapper" id="bootstrapdropdown">
-        <div class = "dropdown">
-            <button onclick="toggleVisibility('bootstrapContent')">Bootstrap</button>
-            <div id="bootstrapContent" class="dropdownContent">
-                <ul>
-                  <li>Spring 2022 Final Q6c</li>
-                  <li>Fall 2021 Final Q10</li>
-                  <li>Fall 2021 Final Q5a</li>
-                  <li>Fall 2020 Final Q7d-f</li>
-                  <li>Fall 2020 Final Qh</li>
-                  <li>Fall 2018 Final Q5</li>
-                  <li>Fall 2018 Final Q3</li>
-                  <li>Fall 2016 Final Q16</li>
-                  <li>Fall 2016 Final Q12</li>
-                  <li>Fall 2016 Final Q7</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="dropdownWrapper" id="ABtestingdropdown">
-        <div class = "dropdown">
-            <button onclick="toggleVisibility('ABContent')">A/B Testing</button>
-            <div id="ABContent" class="dropdownContent">
-                <ul>
-                  <li>Spring 2021 Final Q6a</li>
-                  <li>Fall 2021 Midterm Q7</li>
-                  <li>Fall 2021 Midterm Q5</li>
-                  <li>Spring 2021 Midterm Q3</li>
-                  <li>Fall 2020 Midterm Q8</li>
-                  <li>Spring 2020 Midterm Q4d,e</li>
-                  <li>Fall 2018 Final Q6</li>
-                  <li>Spring 2018 Final Q11</li>
-                  <li>Spring 2019 Midterm Q7</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
+    <script>
+    function toggleVisibility(id) {
+      var element = document.getElementById(id);
+      if (element.style.display === 'block') {
+        element.style.display = 'none';
+      } else {
+        element.style.display = 'block';
+      }
+    }
+    </script>
+</body>
+</html>
 
 ## Supplemental Videos
 * [Group Animation](https://drive.google.com/file/d/1kOVPDuMt68I62qlhPKrVYTY5VQl7MYJm/view?usp=sharing)
