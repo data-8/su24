@@ -83,25 +83,28 @@ function toggleVisibility(id) {
   display: flex; /* Flex layout for horizontal alignment */
   justify-content: flex-start; /* Align items to the start of the container */
   flex-wrap: wrap; /* Allow wrapping if not enough space */
-  gap: 10px; /* Adjust gap between buttons for more control */
+  gap: 5px; /* Adjust gap between buttons for more control */
+  padding: 5px 
     }
 .dropdown {
-  margin: 0; /* Eliminate outer margins for the dropdowns */
+  flex: 1 1 auto; /* Allow buttons to grow and shrink equally */
+  margin: 2px; /* Reduced margin */
     }
 .dropdown button {
   background-color: #4ca6f3;
   color: white;
   border: none;
-  padding: 8px 15px;
+  padding: 10px 12px;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
   cursor: pointer;
   border-radius: 5px;
+  width: 100%; /* Ensure buttons expand to fill their containers */
     }
 .dropdownContent {
   display: none; /* Start hidden */
-  margin-top: 6px;
+  margin-top: 2px;
     }
 </style>
 
