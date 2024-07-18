@@ -107,8 +107,6 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
         cursor: pointer;
     }
 </style>
-</head>
-<body>
 <script>
 function toggleVisibility(id) {
     var contentAreas = document.querySelectorAll('.dropdownContent');
@@ -118,6 +116,8 @@ function toggleVisibility(id) {
     var element = document.getElementById(id);
     if (element) {
         element.style.display = 'block'; // Show the selected content
+    } else {
+        console.error('Element not found for ID:', id); // Log if not found
     }
 }
 </script>
