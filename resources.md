@@ -104,12 +104,13 @@ function toggleVisibility(id) {
     cursor: pointer;
     height: 100%; /* Make the button fill its container vertically */
     border-radius: 10px /* Makes the button round */
+    margin-bottom: 5px; /* Decrease vertical distance between buttons */
 }
 
 .dropdownContent {
     display: none; /* Keep content hidden by default */
     background-color: #f4f4f4;
-    padding: 10px;
+    padding: 5px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds shadow for better visibility */
     z-index: 1; /* Ensures dropdown content lays on top of other content if expanded */
 }
