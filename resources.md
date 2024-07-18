@@ -88,6 +88,12 @@ function toggleVisibility(id) {
     gap: 10px; /* Provides gap between elements */
   }
 
+.dropdownWrapper {
+  position: relative; /* Set the dropdown's position context */
+  flex: 1;
+  width: 100%; /* Responsive width */
+}
+
   .dropdown {
     flex: 1; /* Flex grow, shrink and basis set for responsive sizing */
     display: flex;
