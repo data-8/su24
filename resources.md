@@ -80,45 +80,39 @@ function toggleVisibility(id) {
 <style>
   #dropdownContainer {
     display: flex;
-    flex-direction: row; /* Ensures horizontal layout */
-    flex-wrap: wrap; /* Allows wrapping if not enough space */
-    justify-content: space-around; /* Distributes space evenly */
-    align-items: center; /* Align items vertically */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
     padding: 5px;
-    gap: 10px; /* Provides gap between elements */
-  }
-
-.dropdownWrapper {
-  position: relative; /* Set the dropdown's position context */
-  flex: 1;
-  width: 100%; /* Responsive width */
 }
-
-  .dropdown {
-    flex: 1; /* Flex grow, shrink and basis set for responsive sizing */
-    display: flex;
-    flex-direction: column; /* Stack button and content vertically */
-    width: 100;
-  }
-
-  .dropdown button {
+.dropdownWrapper {
+    position: relative; 
+    flex-basis: 100%; /* Adjust this based on your layout needs */
+    margin: 5px;
     background-color: #4ca6f3;
-    color: white;
-    border: none;
+}
+.dropdown button {
+    width: 100%;
     padding: 10px;
     font-size: 16px;
+    color: white;
+    background-color: #4ca6f3;
+    border: none;
     cursor: pointer;
+    text-align: center;
+}
+.dropdownContent {
+    position: absolute;
+    width: 100%;
+    background-color: #f4f4f4;
+    display: none; 
     border-radius: 5px;
-    width: 100%; /* Button fills the width of the dropdown container */
-  }
-
-  .dropdownContent {
-    display: none;
-    background-color: #f4f4f4; /* Light background for visibility */
     padding: 10px;
-    border-radius: 5px;
-    width: 100%; /* Ensure content box matches button width */
-  }
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Optional: Adds a drop shadow for better visibility */
+    z-index: 1;
+}
 </style>
 
 
@@ -243,36 +237,32 @@ function toggleVisibility(id) {
 </div>
 
 <div id="dropdownContainer">
-    <div class="dropdown" id="iterationdropdown">
-        <div class="dropdownWrapper">
-            <button onclick="toggleVisibility('iterationContent')">Iteration</button>
-            <div id="iterationContent" class="dropdownContent">
-                <ul>
-                    <li>Fall 2021 Midterm Q8b</li>
-                    <li>Fall 2020 Midterm Q4 (f, g)</li>
-                    <li>Fall 2019 Midterm Q3g</li>
-                    <li>Spring 2019 Midterm Q6d</li>
-                    <li>Spring 2019 Midterm Q2c</li>
-                    <li>Fall 2018 Midterm Q3d</li>
-                    <li>Spring 2018 Midterm Q2</li>
-                    <li>Spring 2017 Midterm Q3b</li>
-                </ul>
-            </div>
+    <div class="dropdownWrapper" id="iterationdropdown">
+        <button onclick="toggleVisibility('iterationContent')">Iteration</button>
+        <div id="iterationContent" class="dropdownContent">
+            <ul>
+                <li>Fall 2021 Midterm Q8b</li>
+                <li>Fall 2020 Midterm Q4 (f, g)</li>
+                <li>Fall 2019 Midterm Q3g</li>
+                <li>Spring 2019 Midterm Q6d</li>
+                <li>Spring 2019 Midterm Q2c</li>
+                <li>Fall 2018 Midterm Q3d</li>
+                <li>Spring 2018 Midterm Q2</li>
+                <li>Spring 2017 Midterm Q3b</li>
+            </ul>
         </div>
     </div>
-        <div class="dropdown" id="samplingdropdown">
-            <div class="dropdownWrapper">
-                <button onclick="toggleVisibility('samplingContent')">Sampling</button>
-                <div id="samplingContent" class="dropdownContent">
-                    <ul>
-                        <li>Spring 2017 Practice Final Q5</li>
-                        <li>Spring 2017 Final Q3</li>
-                        <li>Fall 2017 Final Q2, 5 - 7</li>
-                        <li>Fall 2021 Midterm Q8c,d</li>
-                    </ul>
-                </div>
-            </div>
+    <div class="dropdownWrapper" id="samplingdropdown">
+        <button onclick="toggleVisibility('samplingContent')">Sampling</button>
+        <div id="samplingContent" class="dropdownContent">
+            <ul>
+                <li>Spring 2017 Practice Final Q5</li>
+                <li>Spring 2017 Final Q3</li>
+                <li>Fall 2017 Final Q2, 5 - 7</li>
+                <li>Fall 2021 Midterm Q8c,d</li>
+            </ul>
         </div>
+    </div>
 </div>
 
 
