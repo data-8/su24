@@ -74,30 +74,31 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
 <title>Exam Topics</title>
 <style>
     body {
-        display: flex; /* Ensures that sidebar and content area are laid out side by side */
+        display: flex; /* Horizontal layout */
         margin: 0;
     }
     #sidebar {
         width: 250px;
         background-color: #f0f0f0;
         padding: 10px;
-        height: 100vh; /* Full height */
-        overflow-y: auto; /* Allows scrolling within the sidebar */
+        height: 100vh;
+        overflow-y: auto;
     }
     #contentArea {
-        flex-grow: 1; /* Takes up the remaining width */
+        flex-grow: 1; /* Takes remaining space */
         padding: 20px;
         background-color: #f4f4f4;
-        height: 100vh; /* Full height */
-        overflow-y: auto; /* Allows scrolling within the content area */
+        height: 100vh;
+        overflow-y: auto;
     }
     .dropdownContent {
-        display: none; /* Starts off hidden */
+        display: none; /* Hidden by default */
         background-color: #fff;
         padding: 10px;
         box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
     button {
+        display: block;
         width: 100%;
         padding: 10px;
         font-size: 16px;
@@ -107,25 +108,13 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
         cursor: pointer;
     }
 </style>
-<script>
-function toggleVisibility(id) {
-    var contentAreas = document.querySelectorAll('.dropdownContent');
-    contentAreas.forEach(function(content) {
-        content.style.display = 'none'; // Hide all contents
-    });
-    var element = document.getElementById(id);
-    if (element) {
-        element.style.display = 'block'; // Show the selected content
-    } else {
-        console.error('Element not found for ID:', id); // Log if not found
-    }
-}
-</script>
 </head>
 <body>
 
 <div id="sidebar">
     <button onclick="toggleVisibility('pythonPracticeContent')">Python Practice</button>
+    <button onclick="toggleVisibility('tableContent')">Tables</button>
+    <!-- More buttons for other categories -->
 </div>
 
 <div id="contentArea">
@@ -140,7 +129,24 @@ function toggleVisibility(id) {
             <li>Fall 2018 Midterm Q4 (e-g)</li>
         </ul>
     </div>
+    <!-- Additional content divs for other topics -->
 </div>
+
+<script>
+function toggleVisibility(id) {
+    var contentAreas = document.querySelectorAll('.dropdownContent');
+    contentAreas.forEach(function(content) {
+        content.style.display = 'none'; // Hide all contents
+    });
+
+    var element = document.getElementById(id);
+    if (element) {
+        element.style.display = 'block'; // Only show the selected content
+    } else {
+        console.error('Element not found for ID:', id); // Error handling if element is not found
+    }
+}
+</script>
 </body>
 </html>
 
