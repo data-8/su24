@@ -95,16 +95,17 @@ function toggleVisibility(id) {
 }
 
 .dropdown button {
-    width: 100%; /* Ensure the button stretches to the full width of its container */
-    padding: 5px 10px; /* Adjust padding to control the button's inner spacing (smaller height, same width) */
+    width: 50px; /* Fixed width */
+    height: 50px; /* Equal height to match the width, adjust size as needed */
+    padding: 0; /* Adjust padding or remove if necessary */
     font-size: 16px;
+    line-height: 50px; /* Aligns text vertically */
+    text-align: center; /* Ensures text is centered horizontally */
     color: white;
     background-color: #4ca6f3;
     border: none;
     cursor: pointer;
-    height: 100%; /* Make the button height adjust based on content and padding */
-    border-radius: 10px; /* Ensure corners are still rounded */
-    margin-bottom: 0px; /* Decrease vertical distance between buttons */
+    border-radius: 50%; /* Ensures the button is perfectly round */
 }
 
 .dropdownContent {
