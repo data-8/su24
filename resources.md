@@ -89,10 +89,10 @@ function toggleVisibility(id) {
   }
 
   .dropdown {
-    flex: 1 1 200px; /* Flex grow, shrink and basis set for responsive sizing */
-    margin: 5px;
+    flex: 1; /* Flex grow, shrink and basis set for responsive sizing */
     display: flex;
     flex-direction: column; /* Stack button and content vertically */
+    width: 100;
   }
 
   .dropdown button {
@@ -231,7 +231,7 @@ function toggleVisibility(id) {
 <div id="dropdownContainer">
     <div class="dropdown" id="iterationdropdown">
         <button onclick="toggleVisibility('iterationContent')">Iteration</button>
-        <div id="iterationContent" class="iterationContent">
+        <div id="iterationContent" class="dropdownContent">
             <ul>
                 <li>Fall 2021 Midterm Q8b</li>
                 <li>Fall 2020 Midterm Q4 (f, g)</li>
@@ -246,7 +246,7 @@ function toggleVisibility(id) {
     </div>
     <div class="dropdown" id="samplingdropdown">
         <button onclick="toggleVisibility('samplingContent')">Sampling</button>
-        <div id="samplingContent" class="samplingContent">
+        <div id="samplingContent" class="dropdownContent">
             <ul>
                 <li>Spring 2017 Practice Final Q5</li>
                 <li>Spring 2017 Final Q3</li>
