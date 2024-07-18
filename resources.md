@@ -70,7 +70,7 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
 
 <div id="pythonpracticedropdown" style="margin: 10px 0;">  <!-- Reduced vertical margin -->
   <button onclick="toggleVisibility('pythonPracticeContent')" style="background-color: #4ca6f3; color: white; border: none; padding: 8px 15px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 2px 2px; cursor: pointer; border-radius: 5px;">Python Practice</button>
-  <div id="pythonPracticeContent" style="display: none; margin-top: 10px;">
+  <div id="pythonPracticeContent" style="display: none; margin-top: 6px;">
     <ul>
       <li><a href="https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp21-midterm.pdf#page=4">Spring 2021 Midterm Q2</a></li>
       <li>Fall 2020 Midterm Q4 (a-e)</li>
@@ -85,7 +85,7 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
 
 <div id="Tablesdropdown" style="margin: 10px 0;"> <!-- Reduced vertical margin -->
   <button onclick="toggleVisibility('tableContent')" style="background-color: #4ca6f3; color: white; border: none; padding: 8px 15px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 2px 2px; cursor: pointer; border-radius: 5px;">Tables</button>
-  <div id="tableContent" style="display: none; margin-top: 10px;">
+  <div id="tableContent" style="display: none; margin-top: 6px;">
     <ul>
       <li>Spring 2022 Final Q2</li>
       <li>Spring 2022 Midterm Q1</li>
@@ -98,13 +98,13 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
       <li>Spring 2021 Midterm Q1</li>
       <li>Fall 2020 Final Q1</li>
       <li>Fall 2020 Midterm Q5</li>
-      <li>Spring 2020 Midterm Q2 (e-f)</li>
-      <li>Spring 2020 Midterm Q3(e-f,i,j)</li>
+      <li>Spring 2020 Midterm Q2 (e - f)</li>
+      <li>Spring 2020 Midterm Q3(e - f, i, j)</li>
       <li>Fall 2019 Midterm Q2e</li>
       <li>Fall 2019 Midterm Q4</li>
       <li>Spring 2019 Final Q3, 7</li>
       <li>Spring 2019 Midterm Q3</li>
-      <li>Fall 2018 Final Q2a-f</li>
+      <li>Fall 2018 Final Q2 (a - f)</li>
       <li>Spring 2018 Final Q5</li>
       <li>Spring 2018 Midterm Q1</li>
       <li>Fall 2017 Final Q1</li>
