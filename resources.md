@@ -78,40 +78,39 @@ function toggleVisibility(id) {
 </script>
 
 <style>
-  #dropdownContainer {
+    #dropdownContainer {
     display: flex;
     flex-direction: row; /* Ensure items are laid out in a row */
     flex-wrap: wrap; /* Allow items to wrap onto the next line if space runs out */
-    justify-content: space-around; /* Evenly space the dropdowns across the container */
-    align-items: center; /* Center items vertically */
-    padding: 5px; /* Optional: Adds some space inside the container */
-    gap: 10px; /* Space between each dropdown */
+    justify-content: space-between; /* Distribute space between items evenly */
+    align-items: stretch; /* Stretch items to fill the container vertically */
+    width: 100%; /* Ensure the container takes full width */
+    padding: 10px; /* Optional: Adds some space inside the container */
 }
-dropdownWrapper {
-    flex: 1 1 20%; /* Allow each dropdown to grow and shrink but base at 20% width */
-    max-width: 20%; /* Prevent any dropdown from taking more than 20% width */
-    box-sizing: border-box; /* Include padding and border in the element's total width */
-    margin: 5px; /* Optional: Adds margin around each dropdown */
+
+.dropdownWrapper {
+    flex: 1 1 20%; /* Flex grow, shrink, and basis set for responsive sizing */
+    min-width: 180px; /* Minimum width to maintain readability and appearance */
+    margin: 5px; /* Spacing between buttons */
 }
+
 .dropdown button {
-    background-color: #4ca6f3; /* Light blue background */
-    color: white; /* White text color */
-    border: none;
+    width: 100%; /* Ensure the button stretches to the full width of its container */
     padding: 10px;
     font-size: 16px;
+    color: white;
+    background-color: #4ca6f3;
+    border: none;
     cursor: pointer;
-    border-radius: 5px;
-    width: 100%; /* Ensures the button fills its container */
+    height: 100%; /* Make the button fill its container vertically */
 }
+
 .dropdownContent {
-    position: absolute;
-    width: 100%;
+    display: none; /* Keep content hidden by default */
     background-color: #f4f4f4;
-    display: none; 
-    border-radius: 5px;
     padding: 10px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Optional: Adds a drop shadow for better visibility */
-    z-index: 1;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds shadow for better visibility */
+    z-index: 1; /* Ensures dropdown content lays on top of other content if expanded */
 }
 </style>
 
