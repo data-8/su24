@@ -78,7 +78,7 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
         min-height: 100vh;
     }
     #sidebar {
-        width: 200px;
+        width: 500px;
         background-color: #f0f0f0;
         padding: 10px;
         height: 100vh;
@@ -120,7 +120,6 @@ function toggleVisibility(id) {
     contentAreas.forEach(function(content) {
         content.style.display = 'none'; // Hide all contents
     });
-
     var element = document.getElementById(id);
     element.style.display = 'block'; // Show the selected content
 }
