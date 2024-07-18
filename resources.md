@@ -244,7 +244,6 @@ function toggleVisibility(id) {
       <li>Spring 2017 Midterm Q3b</li>
     </ul>
   </div>
-</div>
 
  <div class="dropdown" id="samplingndropdown">
     <button onclick="toggleVisibility('samplingContent')">Sampling</button>
@@ -258,43 +257,6 @@ function toggleVisibility(id) {
   </div>
 </div>
 
-<div class="dropdown" id="samplingndropdown">
-    <button onclick="toggleVisibility('samplingContent')">Sampling</button>
-    <div id="samplin gnContent" class="samplingContent">
-    <ul>
-      <li>Spring 2022 Final Q6e</li>
-      <li>Spring 2022 Final Q1k</li>
-      <li>Spring 2022 Midterm Q4</li>
-      <li>Fall 2021 Final Q6</li>
-      <li>Fall 2021 Midterm Q6</li>
-      <li>Spring 2021 Final Q6b</li>
-      <li>Spring 2021 Midterm Q5</li>
-      <li>Fall 2020 Final Q7 (a - c)</li>
-      <li>Fall 2020 Midterm Q7</li>
-      <li>Spring 2020 Midterm Q4(a - c)</li>
-      <li>Spring 2020 Midterm Q3k</li>
-      <li>Fall 2019 Midterm Q6</li>
-      <li>Fall 2019 Midterm Q3e-g,h,i</li>
-      <li>Spring 2019 Final Q5</li>
-      <li>Spring 2019 Midterm Q6</li>
-      <li>Spring 2019 Midterm Q2a</li>
-      <li>Fall 2018 Final Q4 (f - h)</li>
-      <li>Fall 2018 Final Q3</li>
-      <li>Fall 2018 Midterm Q3</li>
-      <li>Spring 2018 Final Q8</li>
-      <li>Spring 2018 Midterm Q5(b - d)</li>
-      <li>Spring 2018 Midterm Q4</li>
-      <li>Fall 2017 Final Q3</li>
-      <li>Spring 2017 Practice Final Q4</li>
-      <li>Spring 2017 Final Q2</li>
-      <li>Spring 2017 Midterm Q4</li>
-      <li>Summer 2017 Midterm Q4</li>
-      <li>Fall 2016 Final Q15</li>
-      <li>Fall 2016 Final Q13</li>
-      <li>Fall 2016 Final Q4</li>
-    </ul>
-  </div>
-</div>
 
 
 
