@@ -1,0 +1,35 @@
+#dropdownContainer {
+    display: flex;
+    flex-direction: row; /* Ensure items are laid out in a row */
+    flex-wrap: wrap; /* Allow items to wrap onto the next line if space runs out */
+    justify-content: space-between; /* Distribute space between items evenly */
+    align-items: stretch; /* Stretch items to fill the container vertically */
+    width: 100%; /* Ensure the container takes full width */
+    padding: 10px; /* Optional: Adds some space inside the container */
+}
+
+.dropdownWrapper {
+    flex: 1 1 20%; /* Flex grow, shrink, and basis set for responsive sizing */
+    min-width: 180px; /* Minimum width to maintain readability and appearance */
+    margin: 5px; /* Spacing between buttons */
+}
+
+.dropdown button {
+    width: 100%; /* Ensure the button stretches to the full width of its container */
+    padding: 10px; /* Adjust padding to control the button's inner spacing */
+    font-size: 16px;
+    color: white;
+    background-color: #4ca6f3;
+    border: none;
+    cursor: pointer;
+    height: 100%; /* Make the button fill its container vertically */
+    border-radius: 10px; /* Adds slightly rounded corners */
+}
+
+.dropdownContent {
+    display: none; /* Keep content hidden by default */
+    background-color: #f4f4f4;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds shadow for better visibility */
+    z-index: 1; /* Ensures dropdown content lays on top of other content if expanded */
+}
