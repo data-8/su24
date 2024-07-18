@@ -102,9 +102,9 @@ function toggleVisibility(id) {
     background-color: #4ca6f3;
     border: none;
     cursor: pointer;
-    height: auto; /* Make the button height adjust based on content and padding */
+    height: 100%; /* Make the button height adjust based on content and padding */
     border-radius: 10px; /* Ensure corners are still rounded */
-    margin-bottom: 2px; /* Decrease vertical distance between buttons */
+    margin-bottom: 0px; /* Decrease vertical distance between buttons */
 }
 
 .dropdownContent {
