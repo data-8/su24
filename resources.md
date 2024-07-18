@@ -83,9 +83,10 @@ function toggleVisibility(id) {
     display: flex; /* Flex layout for horizontal alignment */
     justify-content: space-around; /* Evenly space the dropdowns */
     flex-wrap: wrap; /* Allow wrapping if not enough space */
+    gap: 4px; /* Adjust gap between buttons for more control */
   }
   .dropdown {
-    margin: 10px; /* Reduced and consistent margin for all dropdowns */
+    margin: 4px; /* Reduced and consistent margin for all dropdowns */
   }
   .dropdown button {
     background-color: #4ca6f3;
@@ -223,6 +224,22 @@ function toggleVisibility(id) {
           <li>Fall 2016 Final Q2</li>
       </ul>
     </div>
+  </div>
+</div>
+
+ <div class="dropdown" id="iterationdropdown">
+    <button onclick="toggleVisibility('iterationContent')">Iteration</button>
+    <div id="iterationContent" class="iterationContent">
+    <ul>
+      <li>Fall 2021 Midterm Q8b</li>
+      <li>Fall 2020 Midterm Q4 (f, g)</li>
+      <li>Fall 2019 Midterm Q3g</li>
+      <li>Spring 2019 Midterm Q6d</li>
+      <li>Spring 2019 Midterm Q2c</li>
+      <li>Fall 2018 Midterm Q3d</li>
+      <li>Spring 2018 Midterm Q2</li>
+      <li>Spring 2017 Midterm Q3b</li>
+    </ul>
   </div>
 </div>
 
