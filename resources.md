@@ -105,7 +105,8 @@ function toggleVisibility(id) {
     background-color: #4ca6f3;
     border: none;
     cursor: pointer;
-    border-radius: 50%; /* Ensures the button is perfectly round */
+    margin-bottom: 2px;
+    border-radius: 10px; 
 }
 
 .dropdownContent {
