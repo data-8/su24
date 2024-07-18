@@ -266,7 +266,7 @@ function toggleVisibility(id) {
 <div id="dropdownContainer">
 <div class="dropdownWrapper" id="standardhypothesistestingdropdown">
         <div class = "dropdown">
-            <button onclick="toggleVisibility('standardhypothesistestingContent')">Sampling</button>
+            <button onclick="toggleVisibility('standardhypothesistestingContent')">Standard Hypothesis Testing</button>
             <div id="standardhypothesistestingContent" class="dropdownContent">
                 <ul>
                   <li>Spring 2022 Final Q6e</li>
@@ -299,6 +299,43 @@ function toggleVisibility(id) {
                   <li>Fall 2016 Final Q15</li>
                   <li>Fall 2016 Final Q13</li>
                   <li>Fall 2016 Final Q4</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="dropdownWrapper" id="bootstrapdropdown">
+        <div class = "dropdown">
+            <button onclick="toggleVisibility('bootstrapContent')">Bootstrap</button>
+            <div id="bootstrapContent" class="dropdownContent">
+                <ul>
+                  <li>Spring 2022 Final Q6c</li>
+                  <li>Fall 2021 Final Q10</li>
+                  <li>Fall 2021 Final Q5a</li>
+                  <li>Fall 2020 Final Q7d-f</li>
+                  <li>Fall 2020 Final Qh</li>
+                  <li>Fall 2018 Final Q5</li>
+                  <li>Fall 2018 Final Q3</li>
+                  <li>Fall 2016 Final Q16</li>
+                  <li>Fall 2016 Final Q12</li>
+                  <li>Fall 2016 Final Q7</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="dropdownWrapper" id="ABtestingdropdown">
+        <div class = "dropdown">
+            <button onclick="toggleVisibility('ABContent')">A/B Testing</button>
+            <div id="ABContent" class="dropdownContent">
+                <ul>
+                  <li>Spring 2021 Final Q6a</li>
+                  <li>Fall 2021 Midterm Q7</li>
+                  <li>Fall 2021 Midterm Q5</li>
+                  <li>Spring 2021 Midterm Q3</li>
+                  <li>Fall 2020 Midterm Q8</li>
+                  <li>Spring 2020 Midterm Q4d,e</li>
+                  <li>Fall 2018 Final Q6</li>
+                  <li>Spring 2018 Final Q11</li>
+                  <li>Spring 2019 Midterm Q7</li>
                 </ul>
             </div>
         </div>
