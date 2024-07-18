@@ -103,7 +103,7 @@ function toggleVisibility(id) {
     border: none;
     cursor: pointer;
     height: 100%; /* Make the button fill its container vertically */
-    border-radius: 50%; /* Makes the button round */
+    border-radius: 10px /* Makes the button round */
 }
 
 .dropdownContent {
