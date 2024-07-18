@@ -77,37 +77,31 @@ function toggleVisibility(id) {
 }
 </script>
 
-
-#dropdownContainer {
-    display: flex;
-    justify-content: flex-start; /* or 'space-around' depending on desired spacing */
-    flex-wrap: wrap; /* Allows wrapping if necessary, consider 'nowrap' to force one line */
-    gap: 5px;
-    padding: 5px;
-}
-
-.dropdown {
-    margin: 2px;
-    flex: 0 1 auto; /* Adjusts so items can shrink but not grow beyond their content size */
-}
-
-.dropdown button {
+<style>
+  #dropdownContainer {
+    display: flex; /* Flex layout for horizontal alignment */
+    justify-content: space-around; /* Evenly space the dropdowns */
+    flex-wrap: wrap; /* Allow wrapping if not enough space */
+  }
+  .dropdown {
+    margin: 10px; /* Reduced and consistent margin for all dropdowns */
+  }
+  .dropdown button {
     background-color: #4ca6f3;
     color: white;
     border: none;
-    padding: 10px 12px;
+    padding: 8px 15px;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
-    /* Removed width: 100%; to avoid forcing full container width */
-}
-
-.dropdownContent {
-    display: none;
-    margin-top: 2px;
-}
+  }
+  .dropdownContent {
+    display: none; /* Start hidden */
+    margin-top: 6px;
+  }
+</style>
 
 
 <div id="dropdownContainer">
