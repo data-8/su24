@@ -95,8 +95,6 @@ function toggleVisibility(id) {
 }
 
 .dropdown button {
-    width: 50px; /* Fixed width */
-    height: 50px; /* Equal height to match the width, adjust size as needed */
     padding: 0; /* Adjust padding or remove if necessary */
     font-size: 16px;
     line-height: 50px; /* Aligns text vertically */
