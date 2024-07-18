@@ -64,9 +64,7 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
 | Spring 2017 | [Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-midterm.pdf) [(Solutions)](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-midterm-solution.pdf), [Practice Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-practice.pdf) [(Solutions)](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-practice-solution.pdf) | [Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-final.pdf) [(Solutions)](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-final-solution.pdf), [Practice Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-practice-final.pdf) [(Solutions)](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-practice-final-solution.pdf) |
 | Fall 2016 |  [Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-fa16-midterm.pdf) | [Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-fa16-final.pdf) [(Solutions)](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-fa16-final-sols.pdf) |
 
-## Exam Problems by Topic
-
-## THIS PAGE IS STILL IN BETA
+## Exam Problems by Topic (THIS PAGE IS STILL IN BETA)
 
 <div id="pythonpracticedropdown" style="margin: 10px 0;">  <!-- Reduced vertical margin -->
   <button onclick="toggleVisibility('pythonPracticeContent')" style="background-color: #4ca6f3; color: white; border: none; padding: 8px 15px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 2px 2px; cursor: pointer; border-radius: 5px;">Python Practice</button>
