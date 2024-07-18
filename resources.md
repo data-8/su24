@@ -228,7 +228,7 @@ function toggleVisibility(id) {
   </div>
 </div>
 
-<div id="secondContainer">
+<div id="dropdownContainer">
     <div class="dropdown" id="iterationdropdown">
         <button onclick="toggleVisibility('iterationContent')">Iteration</button>
         <div id="iterationContent" class="iterationContent">
