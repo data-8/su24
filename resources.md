@@ -94,14 +94,14 @@ function toggleVisibility(id) {
     background-color: #4ca6f3;
 }
 .dropdown button {
-    width: 100%;
+    background-color: #4ca6f3; /* Light blue background */
+    color: white; /* White text color */
+    border: none;
     padding: 10px;
     font-size: 16px;
-    color: white;
-    background-color: #4ca6f3;
-    border: none;
     cursor: pointer;
-    text-align: center;
+    border-radius: 5px;
+    width: 100%; /* Ensures the button fills its container */
 }
 .dropdownContent {
     position: absolute;
@@ -238,29 +238,33 @@ function toggleVisibility(id) {
 
 <div id="dropdownContainer">
     <div class="dropdownWrapper" id="iterationdropdown">
-        <button onclick="toggleVisibility('iterationContent')">Iteration</button>
-        <div id="iterationContent" class="dropdownContent">
-            <ul>
-                <li>Fall 2021 Midterm Q8b</li>
-                <li>Fall 2020 Midterm Q4 (f, g)</li>
-                <li>Fall 2019 Midterm Q3g</li>
-                <li>Spring 2019 Midterm Q6d</li>
-                <li>Spring 2019 Midterm Q2c</li>
-                <li>Fall 2018 Midterm Q3d</li>
-                <li>Spring 2018 Midterm Q2</li>
-                <li>Spring 2017 Midterm Q3b</li>
-            </ul>
+        <div class = "dropdown">
+            <button onclick="toggleVisibility('iterationContent')">Iteration</button>
+            <div id="iterationContent" class="dropdownContent">
+                <ul>
+                    <li>Fall 2021 Midterm Q8b</li>
+                    <li>Fall 2020 Midterm Q4 (f, g)</li>
+                    <li>Fall 2019 Midterm Q3g</li>
+                    <li>Spring 2019 Midterm Q6d</li>
+                    <li>Spring 2019 Midterm Q2c</li>
+                    <li>Fall 2018 Midterm Q3d</li>
+                    <li>Spring 2018 Midterm Q2</li>
+                    <li>Spring 2017 Midterm Q3b</li>
+                </ul>
+            </div>
         </div>
     </div>
     <div class="dropdownWrapper" id="samplingdropdown">
-        <button onclick="toggleVisibility('samplingContent')">Sampling</button>
-        <div id="samplingContent" class="dropdownContent">
-            <ul>
-                <li>Spring 2017 Practice Final Q5</li>
-                <li>Spring 2017 Final Q3</li>
-                <li>Fall 2017 Final Q2, 5 - 7</li>
-                <li>Fall 2021 Midterm Q8c,d</li>
-            </ul>
+        <div class = "dropdown">
+            <button onclick="toggleVisibility('samplingContent')">Sampling</button>
+            <div id="samplingContent" class="dropdownContent">
+                <ul>
+                    <li>Spring 2017 Practice Final Q5</li>
+                    <li>Spring 2017 Final Q3</li>
+                    <li>Fall 2017 Final Q2, 5 - 7</li>
+                    <li>Fall 2021 Midterm Q8c,d</li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
