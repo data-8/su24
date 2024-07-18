@@ -79,29 +79,42 @@ function toggleVisibility(id) {
 
 <style>
   #dropdownContainer {
-    display: flex; /* Flex layout for horizontal alignment */
-    justify-content: space-around; /* Evenly space the dropdowns */
-    flex-wrap: wrap; /* Allow wrapping if not enough space */
+    display: flex;
+    flex-direction: row; /* Ensures horizontal layout */
+    flex-wrap: wrap; /* Allows wrapping if not enough space */
+    justify-content: space-around; /* Distributes space evenly */
+    align-items: center; /* Align items vertically */
+    padding: 5px;
+    gap: 10px; /* Provides gap between elements */
   }
+
   .dropdown {
-    margin: 10px; /* Reduced and consistent margin for all dropdowns */
+    flex: 1 1 200px; /* Flex grow, shrink and basis set for responsive sizing */
+    margin: 5px;
+    display: flex;
+    flex-direction: column; /* Stack button and content vertically */
   }
+
   .dropdown button {
     background-color: #4ca6f3;
     color: white;
     border: none;
-    padding: 8px 15px;
-    text-align: center;
-    text-decoration: none;
+    padding: 10px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
+    width: 100%; /* Button fills the width of the dropdown container */
   }
+
   .dropdownContent {
-    display: none; /* Start hidden */
-    margin-top: 6px;
+    display: none;
+    background-color: #f4f4f4; /* Light background for visibility */
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%; /* Ensure content box matches button width */
   }
 </style>
+
 
 
 <div id="dropdownContainer">
