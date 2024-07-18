@@ -68,7 +68,8 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
 <script>
 function toggleVisibility(id) {
   var element = document.getElementById(id);
-  if (element.style.display === 'block') {
+  var currentDisplay = window.getComputedStyle(element).display;
+  if (currentDisplay === 'block') {
     element.style.display = 'none';
   } else {
     element.style.display = 'block';
@@ -264,10 +265,10 @@ function toggleVisibility(id) {
 </div>
 
 <div id="dropdownContainer">
-<div class="dropdownWrapper" id="standardhypothesistestingdropdown">
+<div class="dropdownWrapper" id="hypothesistestingdropdown">
         <div class = "dropdown">
-            <button onclick="toggleVisibility('standardhypothesistestingContent')">Standard Hypothesis Testing</button>
-            <div id="standardhypothesistestingContent" class="dropdownContent">
+            <button onclick="toggleVisibility('htestingContent')">Standard Hypothesis Testing</button>
+            <div id="htestingContent" class="dropdownContent">
                 <ul>
                   <li>Spring 2022 Final Q6e</li>
                   <li>Spring 2022 Final Q1k</li>
@@ -340,7 +341,6 @@ function toggleVisibility(id) {
             </div>
         </div>
     </div>
-    
 </div>
 <div id="dropdownContainer">
 <div class="dropdownWrapper" id="confidencedropdown">
