@@ -230,6 +230,7 @@ function toggleVisibility(id) {
   </div>
 </div>
 
+<div id="dropdownContainer">
  <div class="dropdown" id="iterationdropdown">
     <button onclick="toggleVisibility('iterationContent')">Iteration</button>
     <div id="iterationContent" class="iterationContent">
@@ -245,9 +246,9 @@ function toggleVisibility(id) {
     </ul>
   </div>
 
- <div class="dropdown" id="samplingndropdown">
+ <div class="dropdown" id="samplingdropdown">
     <button onclick="toggleVisibility('samplingContent')">Sampling</button>
-    <div id="samplingnContent" class="samplingContent">
+    <div id="samplingContent" class="samplingContent">
     <ul>
       <li>Spring 2017 Practice Final Q5</li>
       <li>Spring 2017 Final Q3</li>
@@ -255,7 +256,7 @@ function toggleVisibility(id) {
       <li>Fall 2021 Midterm Q8c,d</li>
     </ul>
   </div>
-</div>
+ </div>
 
 
 
