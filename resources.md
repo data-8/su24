@@ -115,14 +115,12 @@ function toggleVisibility(id) {
 }
 </style>
 
-
-
 <div id="dropdownContainer">
-    <div class="dropdownWrapper">
-      <div class="dropdown" id="pythonpracticedropdown">
-        <button onclick="toggleVisibility('pythonPracticeContent')">Python Practice</button>
-        <div id="pythonPracticeContent" class="dropdownContent">
-          <ul>
+  <div class="dropdownWrapper">
+    <div class="dropdown" id="pythonpracticedropdown">
+      <button onclick="toggleVisibility('pythonPracticeContent')">Python Practice</button>
+      <div id="pythonPracticeContent" class="dropdownContent">
+        <ul>
             <li><a href="https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp21-midterm.pdf#page=4">Spring 2021 Midterm Q2</a></li>
             <li>Fall 2020 Midterm Q4 (a-e)</li>
             <li>Fall 2019 Midterm Q1</li>
@@ -131,15 +129,14 @@ function toggleVisibility(id) {
             <li>Spring 2019 Midterm Q4 (f-g)</li>
             <li>Fall 2018 Midterm Q4 (e-g)</li>
          </ul>
-        </div>
       </div>
     </div>
-
-  <div class="dropdown" id="Tablesdropdown">
-      <div class="dropdownWrapper">
-        <button onclick="toggleVisibility('tableContent')">Tables</button>
-        <div id="tableContent" class="dropdownContent">
-          <ul>
+  </div>
+  <div class="dropdownWrapper">
+    <div class="dropdown" id="Tablesdropdown">
+      <button onclick="toggleVisibility('tableContent')">Tables</button>
+      <div id="tableContent" class="dropdownContent">
+        <ul>
               <li>Spring 2022 Final Q2</li>
               <li>Spring 2022 Midterm Q1</li>
               <li>Spring 2022 Midterm Q2b</li>
@@ -167,15 +164,14 @@ function toggleVisibility(id) {
               <li>Summer 2017 Midterm Q1</li>
               <li>Fall 2016 Final Q9</li>
           </ul>
-        </div>
       </div>
+    </div>
   </div>
-
-  <div class="dropdown" id="Functionsdropdown">
-      <div class="dropdownWrapper">
-        <button onclick="toggleVisibility('functionsContent')">Functions</button>
-        <div id="functionsContent" class="dropdownContent">
-          <ul>
+  <div class="dropdownWrapper">
+    <div class="dropdown" id="Functionsdropdown">
+      <button onclick="toggleVisibility('functionsContent')">Functions</button>
+      <div id="functionsContent" class="dropdownContent">
+       <ul>
               <li>Spring 2022 Final Q7h</li>
               <li>Spring 2022 Final Q6d</li>
               <li>Fall 2021 Final Q6a,f</li>
@@ -188,15 +184,15 @@ function toggleVisibility(id) {
               <li>Spring 2019 Midterm Q4d</li>
               <li>Fall 2018 Midterm Q2g</li>
           </ul>
-        </div>
       </div>
+    </div>
   </div>
 
-  <div class="dropdown" id="Histogramsdropdown">
-      <div class="dropdownWrapper">
-        <button onclick="toggleVisibility('histogramContent')">Histograms and Other Visualizations</button>
-        <div id="histogramContent" class="dropdownContent">
-          <ul>
+  <div class="dropdownWrapper">
+    <div class="dropdown" id="Histogramsdropdown">
+      <button onclick="toggleVisibility('histogramContent')">Histograms and Other Visualizations</button>
+      <div id="histogramContent" class="dropdownContent">
+         <ul>
               <li>Spring 2022 Final Q7a,b</li>
               <li>Spring 2022 Final Q3h</li>
               <li>Spring 2022 Midterm Q2</li>
@@ -231,9 +227,9 @@ function toggleVisibility(id) {
               <li>Fall 2016 Final Q6</li>
               <li>Fall 2016 Final Q2</li>
           </ul>
-        </div>
       </div>
     </div>
+  </div>
 </div>
 
 <div id="dropdownContainer">
