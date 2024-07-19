@@ -105,7 +105,7 @@ function toggleVisibility(id) {
     padding: 10px; /* Adjust padding to control the button's inner spacing */
     font-size: 16px;
     color: white;
-    background-color: #4ca6f3;
+    background-color: #9ecfe6;
     border: none;
     cursor: pointer;
     height: 100%; /* Make the button fill its container vertically */
