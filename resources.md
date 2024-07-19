@@ -105,7 +105,7 @@ function toggleVisibility(id) {
     padding: 10px; /* Adjust padding to control the button's inner spacing */
     font-size: 16px;
     color: white;
-    background-color: #9ecfe6;
+    background-color: #8db8cc;
     border: none;
     cursor: pointer;
     height: 100%; /* Make the button fill its container vertically */
@@ -301,7 +301,7 @@ function toggleVisibility(id) {
 <div id="dropdownContainer">
    <div class="dropdownWrapper">
     <div class="dropdown" id="pythonpracticedropdown">
-      <button onclick="toggleVisibility('pythonPracticeContent')">Python Practice</button>
+      <button onclick="toggleVisibility('pythonPracticeContent')" style="background-color: #aa92a6;">Python Practice</button>
       <div id="pythonPracticeContent" class="dropdownContent">
         <ul>
             <li><a href="https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp21-midterm.pdf#page=4">Spring 2021 Midterm Q2</a></li>
@@ -317,7 +317,7 @@ function toggleVisibility(id) {
   </div>
     <div class="dropdownWrapper" id="bootstrapdropdown">
         <div class = "dropdown">
-            <button onclick="toggleVisibility('bootstrapContent')">Bootstrap</button>
+            <button onclick="toggleVisibility('bootstrapContent')" style="background-color: #aa92a6;">Bootstrap</button>
             <div id="bootstrapContent" class="dropdownContent">
                 <ul>
                   <li>Spring 2022 Final Q6c</li>
@@ -336,7 +336,7 @@ function toggleVisibility(id) {
     </div>
     <div class="dropdownWrapper" id="ABtestingdropdown">
         <div class = "dropdown">
-            <button onclick="toggleVisibility('ABContent')">A/B Testing</button>
+            <button onclick="toggleVisibility('ABContent')" style="background-color: #aa92a6;">A/B Testing</button>
             <div id="ABContent" class="dropdownContent">
                 <ul>
                   <li>Spring 2021 Final Q6a</li>
