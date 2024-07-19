@@ -387,6 +387,7 @@ function toggleVisibility(id) {
         </div>
     </div>
 </div>
+
 <div id="dropdownContainer">
     <div class="dropdownWrapper" id="samplemeansdropdown">
         <div class = "dropdown">
@@ -401,7 +402,7 @@ function toggleVisibility(id) {
             </div>
         </div>
     </div>
-    <div class="dropdownWrapper" id="cltspread">
+    <div class="dropdownWrapper" id="cltdropdown">
         <div class = "dropdown">
             <button onclick="toggleVisibility('cltContent')">Central Limit Theorem</button>
             <div id="cltContent" class="dropdownContent">
@@ -413,7 +414,7 @@ function toggleVisibility(id) {
             </div>
         </div>
     </div>
-    <div class="dropdownWrapper" id="experimentsropdown">
+    <div class="dropdownWrapper" id="experimentsdropdown">
         <div class = "dropdown">
             <button onclick="toggleVisibility('experimentsContent')">Experiments</button>
             <div id="experimentsContent" class="dropdownContent">
@@ -427,6 +428,103 @@ function toggleVisibility(id) {
     </div>
 </div>
 
+<div id="dropdownContainer">
+    <div class="dropdownWrapper" id="correlationdropdown">
+        <div class = "dropdown">
+            <button onclick="toggleVisibility('corrContent')">Correlation/Regression/Least Squares</button>
+            <div id="corrContent" class="dropdownContent">
+               <ul>
+                  <li>Spring 2022 Final Q1a,f,g,n</li>
+                  <li>Spring 2022 Final Q6a-d</li>
+                  <li>Fall 2021 Final Q7</li>
+                  <li>Spring 2021 Final Q4a-c</li>
+                  <li>Fall 2020 Final Q5c,d</li>
+                  <li>Fall 2018 Final Q2</li>
+                  <li>Fall 2017 Final Q10</li>
+                  <li>Spring 2017 Practice Final Q3a-c</li>
+                  <li>Spring 2017 Final Q4</li>
+               </ul>
+            </div>
+        </div>
+    </div>
+    <div class="dropdownWrapper" id="resdropdown">
+        <div class = "dropdown">
+            <button onclick="toggleVisibility('resContent')">Residuals/Regression Inference/button>
+            <div id="resContent" class="dropdownContent">
+                <ul>
+                  <li>Spring 2022 Final Q1e</li>
+                  <li>Spring 2022 Final Q1m</li>
+                  <li>Spring 2022 Final Q3h</li>
+                  <li>Spring 2021 Final Q4d-g</li>
+                  <li>Spring 2021 Final Q5g</li>
+                  <li>Fall 2021 Final Q8</li>
+                  <li>Fall 2020 Final Q5e-i</li>
+                  <li>Spring 2019 Final Q7, 9</li>
+                  <li>Fall 2018 Final Q7</li>
+                  <li>Spring 2018 Final Q4, 7</li>
+                  <li>Fall 2016 Final Q3</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="dropdownWrapper" id="classifierdropdown">
+        <div class = "dropdown">
+            <button onclick="toggleVisibility('classContent')">Classification/Classifiers/Decisions</button>
+            <div id="classContent" class="dropdownContent">
+                <ul>
+                  <li>Spring 2022 Final Q1b-d</li>
+                  <li>Spring 2022 Final Q7c-h</li>
+                  <li>Fall 2021 Final Q13</li>
+                  <li>Spring 2021 Final Q7d-f</li>
+                  <li>Fall 2020 Final Q4a-f</li>
+                  <li>Fall 2020 Final Q8</li>
+                  <li>Spring 2019 Final Q4</li>
+                  <li>Fall 2018 Final Q1</li>
+                  <li>Spring 2018 Final Q9, 10</li>
+                  <li>Fall 2017 Final Q9</li>
+                  <li>Spring 2017 Final Q5</li>
+                  <li>Spring 2017 Practice Final Q6</li>
+                  <li>Fall 2016 Final Q5</li>
+                  <li>Fall 2016 Final Q1</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="dropdownContainer">
+    <div class="dropdownWrapper" id="probdropdown">
+        <div class = "dropdown">
+            <button onclick="toggleVisibility('probContent')">Probability</button>
+            <div id="probContent" class="dropdownContent">
+               <ul>
+                  <li>Spring 2022 Final Q5</li>
+                  <li>Spring 2022 Final Q4</li>
+                  <li>Spring 2022 Final Q1l</li>
+                  <li>Spring 2022 Midterm Q4c</li>
+                  <li>Spring 2022 Midterm Q3</li>
+                  <li>Fall 2021 Final Q11</li>
+                  <li>Fall 2021 Midterm Q3</li>
+                  <li>Spring 2021 Final Q3</li>
+                  <li>Spring 2021 Final Q2</li>
+                  <li>Spring 2021 Midterm Q4</li>
+                  <li>Fall 2020 Final Q3</li>
+                  <li>Fall 2020 Final Q2</li>
+                  <li>Fall 2020 Midterm Q6</li>
+                  <li>Spring 2020 Midterm Q1</li>
+                  <li>Spring 2019 Final Q2, 6</li>
+                  <li>Spring 2019 Midterm Q5</li>
+                  <li>Fall 2018 Final Q4</li>
+                  <li>Fall 2018 Midterm Q4</li>
+                  <li>Fall 2017 Final Q8</li>
+                  <li>Spring 2018 Midterm Q3</li>
+                  <li>Spring 2017 Midterm Q3a</li>
+                  <li>Summer 2017 Midterm Q2</li>
+                  <li>Fall 2019 Midterm Q3a-d</li>
+               </ul>
+            </div>
+        </div>
+    </div>
+</div>
 
 ## Supplemental Videos
 * [Group Animation](https://youtu.be/HLoYTCUP0fc?si=J160YHimo01SVKl0)
