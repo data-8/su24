@@ -17,16 +17,6 @@ description: >-
 {:toc}
 
 ---
-## Wellness Resources
-
-Your well-being matters, and we hope that Data 8 is _never_ a barrier to taking care of your mental and physical health. Below are some campus resources that may be helpful:
-
-* [University Health Services](https://uhs.berkeley.edu/)
-* [UHS Counseling and Psychological Services (CAPS)](https://uhs.berkeley.edu/caps)
-* [Campus Academic Accommodations Hub](https://evcp.berkeley.edu/programs-resources/academic-accommodations-hub)
-* [ASUC Student Advocate's Office](https://advocate.berkeley.edu/)
-* [Basic Needs Center](https://basicneeds.berkeley.edu/)
-* [ASUC Mental Health Resources Guide](https://asuc.org/wp-content/uploads/2018/02/Mental-Health-Resources.pdf)
 
 ## Materials
 
@@ -252,7 +242,7 @@ function toggleVisibility(id) {
 <div id="dropdownContainer">
      <div class="dropdownWrapper">
     <div class="dropdown" id="functionsdropdown">
-      <button onclick="toggleVisibility('functionsContent')">Functions</button>
+      <button onclick="toggleVisibility('functionsContent')" style="background-color: #b8e6e3;">Functions</button>
       <div id="functionsContent" class="dropdownContent">
        <ul>
               <li>Spring 2022 Final Q7h</li>
@@ -272,7 +262,7 @@ function toggleVisibility(id) {
   </div>
     <div class="dropdownWrapper" id="iterationdropdown">
         <div class = "dropdown">
-            <button onclick="toggleVisibility('iterationContent')">Iteration</button>
+            <button onclick="toggleVisibility('iterationContent')" style="background-color: #b8e6e3>Iteration</button>
             <div id="iterationContent" class="dropdownContent">
                 <ul>
                     <li>Fall 2021 Midterm Q8b</li>
@@ -289,7 +279,7 @@ function toggleVisibility(id) {
     </div>
     <div class="dropdownWrapper" id="confidencedropdown">
         <div class = "dropdown">
-            <button onclick="toggleVisibility('confidenceContent')">Confidence Intervals</button>
+            <button onclick="toggleVisibility('confidenceContent')" style="background-color: #b8e6e3>Confidence Intervals</button>
             <div id="confidenceContent" class="dropdownContent">
                 <ul>
                   <li>Spring 2022 Final Q3a-g</li>
@@ -541,6 +531,17 @@ function toggleVisibility(id) {
         </div>
     </div>
 </div>
+
+## Wellness Resources
+
+Your well-being matters, and we hope that Data 8 is _never_ a barrier to taking care of your mental and physical health. Below are some campus resources that may be helpful:
+
+* [University Health Services](https://uhs.berkeley.edu/)
+* [UHS Counseling and Psychological Services (CAPS)](https://uhs.berkeley.edu/caps)
+* [Campus Academic Accommodations Hub](https://evcp.berkeley.edu/programs-resources/academic-accommodations-hub)
+* [ASUC Student Advocate's Office](https://advocate.berkeley.edu/)
+* [Basic Needs Center](https://basicneeds.berkeley.edu/)
+* [ASUC Mental Health Resources Guide](https://asuc.org/wp-content/uploads/2018/02/Mental-Health-Resources.pdf)
 
 <script src="../assets/darkmode.js"></script>
 <script>
