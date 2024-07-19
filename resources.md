@@ -191,6 +191,7 @@ function toggleVisibility(id) {
     </div>
   </div>  
   <div class="dropdown" id="Histogramsdropdown">
+    <div class = "dropdown">
     <button onclick="toggleVisibility('histogramContent')">Histograms/Visualizations</button>
     <div id="histogramContent" class="dropdownContent">
       <ul>
