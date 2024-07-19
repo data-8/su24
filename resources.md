@@ -151,7 +151,6 @@ function toggleVisibility(id) {
       </div>
     </div>
   </div>
-  <div class="dropdownWrapper">
     <div class="dropdownWrapper" id="hypothesistestingdropdown">
       <div class = "dropdown">
           <button onclick="toggleVisibility('htestingContent')">Standard Hypothesis Testing</button>
@@ -190,49 +189,48 @@ function toggleVisibility(id) {
             </ul>
         </div>
     </div>
-    </div>  
-    <div class="dropdownWrapper">
-      <div class="dropdown" id="Histogramsdropdown">
-        <button onclick="toggleVisibility('histogramContent')">Histograms/Visualizations</button>
-        <div id="histogramContent" class="dropdownContent">
-          <ul>
-              <li>Spring 2022 Final Q7a,b</li>
-              <li>Spring 2022 Final Q3h</li>
-              <li>Spring 2022 Midterm Q2</li>
-              <li>Spring 2022 Midterm Q1e</li>
-              <li>Fall 2021 Final Q3</li>
-              <li>Fall 2021 Midterm Q9</li>
-              <li>Fall 2021 Midterm Q6b</li>
-              <li>Fall 2021 Midterm Q5</li>
-              <li>Spring 2021 Final Q7a-c</li>
-              <li>Spring 2021 Midterm Q7</li>
-              <li>Spring 2021 Midterm Q6</li>
-              <li>Fall 2020 Final Q5b</li>
-              <li>Fall 2020 Final Q4g</li>
-              <li>Fall 2020 Midterm Q3</li>
-              <li>Fall 2020 Midterm Q2</li>
-              <li>Spring 2020 Midterm Q3a-d</li>
-              <li>Spring 2020 Midterm Q2a-d</li>
-              <li>Fall 2019 Midterm Q5</li>
-              <li>Fall 2019 Midterm Q2a-d</li>
-              <li>Spring 2019 Midterm Q6e</li>
-              <li>Spring 2019 Midterm Q4</li>
-              <li>Spring 2019 Midterm Q2b</li>
-              <li>Fall 2018 Midterm Q1</li>
-              <li>Spring 2018 Midterm Q6</li>
-              <li>Spring 2017 Practice Final Q2</li>
-              <li>Spring 2017 Midterm Q2</li>
-              <li>Summer 2017 Midterm Q3</li>
-              <li>Fall 2016 Final Q14</li>
-              <li>Fall 2016 Final Q11</li>
-              <li>Fall 2016 Final Q10</li>
-              <li>Fall 2016 Final Q8</li>
-              <li>Fall 2016 Final Q6</li>
-              <li>Fall 2016 Final Q2</li>
-          </ul>
-      </div>
+  </div>  
+  <div class="dropdown" id="Histogramsdropdown">
+    <button onclick="toggleVisibility('histogramContent')">Histograms/Visualizations</button>
+    <div id="histogramContent" class="dropdownContent">
+      <ul>
+        <li>Spring 2022 Final Q7a,b</li>
+        <li>Spring 2022 Final Q3h</li>
+        <li>Spring 2022 Midterm Q2</li>
+        <li>Spring 2022 Midterm Q1e</li>
+        <li>Fall 2021 Final Q3</li>
+        <li>Fall 2021 Midterm Q9</li>
+        <li>Fall 2021 Midterm Q6b</li>
+        <li>Fall 2021 Midterm Q5</li>
+        <li>Spring 2021 Final Q7a-c</li>
+        <li>Spring 2021 Midterm Q7</li>
+        <li>Spring 2021 Midterm Q6</li>
+        <li>Fall 2020 Final Q5b</li>
+        <li>Fall 2020 Final Q4g</li>
+        <li>Fall 2020 Midterm Q3</li>
+        <li>Fall 2020 Midterm Q2</li>
+        <li>Spring 2020 Midterm Q3a-d</li>
+        <li>Spring 2020 Midterm Q2a-d</li>
+        <li>Fall 2019 Midterm Q5</li>
+        <li>Fall 2019 Midterm Q2a-d</li>
+        <li>Spring 2019 Midterm Q6e</li>
+        <li>Spring 2019 Midterm Q4</li>
+        <li>Spring 2019 Midterm Q2b</li>
+        <li>Fall 2018 Midterm Q1</li>
+        <li>Spring 2018 Midterm Q6</li>
+        <li>Spring 2017 Practice Final Q2</li>
+        <li>Spring 2017 Midterm Q2</li>
+        <li>Summer 2017 Midterm Q3</li>
+        <li>Fall 2016 Final Q14</li>
+        <li>Fall 2016 Final Q11</li>
+        <li>Fall 2016 Final Q10</li>
+        <li>Fall 2016 Final Q8</li>
+        <li>Fall 2016 Final Q6</li>
+        <li>Fall 2016 Final Q2</li>
+      </ul>
     </div>
   </div>
+ </div> 
 </div>
 <div id="dropdownContainer">
      <div class="dropdownWrapper">
