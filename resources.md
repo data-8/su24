@@ -449,7 +449,7 @@ function toggleVisibility(id) {
     </div>
     <div class="dropdownWrapper" id="resdropdown">
         <div class = "dropdown">
-            <button onclick="toggleVisibility('resContent')">Residuals/Regression Inference/button>
+            <button onclick="toggleVisibility('resContent')">Residuals/Regression Inference</button>
             <div id="resContent" class="dropdownContent">
                 <ul>
                   <li>Spring 2022 Final Q1e</li>
