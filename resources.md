@@ -151,51 +151,51 @@ function toggleVisibility(id) {
       </div>
     </div>
   </div>
-   <div class="dropdownWrapper">
-        <div class="dropdownWrapper" id="hypothesistestingdropdown">
-        <div class = "dropdown">
-            <button onclick="toggleVisibility('htestingContent')">Standard Hypothesis Testing</button>
-            <div id="htestingContent" class="dropdownContent">
-                <ul>
-                  <li>Spring 2022 Final Q6e</li>
-                  <li>Spring 2022 Final Q1k</li>
-                  <li>Spring 2022 Midterm Q4</li>
-                  <li>Fall 2021 Final Q6</li>
-                  <li>Fall 2021 Midterm Q6</li>
-                  <li>Spring 2021 Final Q6b</li>
-                  <li>Spring 2021 Midterm Q5</li>
-                  <li>Fall 2020 Final Q7a-c</li>
-                  <li>Fall 2020 Midterm Q7</li>
-                  <li>Spring 2020 Midterm Q4a-c</li>
-                  <li>Spring 2020 Midterm Q3k</li>
-                  <li>Fall 2019 Midterm Q6</li>
-                  <li>Fall 2019 Midterm Q3e-g,h,i</li>
-                  <li>Spring 2019 Final Q5</li>
-                  <li>Spring 2019 Midterm Q6</li>
-                  <li>Spring 2019 Midterm Q2a</li>
-                  <li>Fall 2018 Final Q4 f-h</li>
-                  <li>Fall 2018 Final Q3</li>
-                  <li>Fall 2018 Midterm Q3</li>
-                  <li>Spring 2018 Final Q8</li>
-                  <li>Spring 2018 Midterm Q5b-d</li>
-                  <li>Spring 2018 Midterm Q4</li>
-                  <li>Fall 2017 Final Q3</li>
-                  <li>Spring 2017 Practice Final Q4</li>
-                  <li>Spring 2017 Final Q2</li>
-                  <li>Spring 2017 Midterm Q4</li>
-                  <li>Summer 2017 Midterm Q4</li>
-                  <li>Fall 2016 Final Q15</li>
-                  <li>Fall 2016 Final Q13</li>
-                  <li>Fall 2016 Final Q4</li>
-                </ul>
-            </div>
+  <div class="dropdownWrapper">
+    <div class="dropdownWrapper" id="hypothesistestingdropdown">
+      <div class = "dropdown">
+          <button onclick="toggleVisibility('htestingContent')">Standard Hypothesis Testing</button>
+          <div id="htestingContent" class="dropdownContent">
+            <ul>
+              <li>Spring 2022 Final Q6e</li>
+              <li>Spring 2022 Final Q1k</li>
+              <li>Spring 2022 Midterm Q4</li>
+              <li>Fall 2021 Final Q6</li>
+              <li>Fall 2021 Midterm Q6</li>
+              <li>Spring 2021 Final Q6b</li>
+              <li>Spring 2021 Midterm Q5</li>
+              <li>Fall 2020 Final Q7a-c</li>
+              <li>Fall 2020 Midterm Q7</li>
+              <li>Spring 2020 Midterm Q4a-c</li>
+              <li>Spring 2020 Midterm Q3k</li>
+              <li>Fall 2019 Midterm Q6</li>
+              <li>Fall 2019 Midterm Q3e-g,h,i</li>
+              <li>Spring 2019 Final Q5</li>
+              <li>Spring 2019 Midterm Q6</li>
+              <li>Spring 2019 Midterm Q2a</li>
+              <li>Fall 2018 Final Q4 f-h</li>
+              <li>Fall 2018 Final Q3</li>
+              <li>Fall 2018 Midterm Q3</li>
+              <li>Spring 2018 Final Q8</li>
+              <li>Spring 2018 Midterm Q5b-d</li>
+              <li>Spring 2018 Midterm Q4</li>
+              <li>Fall 2017 Final Q3</li>
+              <li>Spring 2017 Practice Final Q4</li>
+              <li>Spring 2017 Final Q2</li>
+              <li>Spring 2017 Midterm Q4</li>
+              <li>Summer 2017 Midterm Q4</li>
+              <li>Fall 2016 Final Q15</li>
+              <li>Fall 2016 Final Q13</li>
+              <li>Fall 2016 Final Q4</li>
+            </ul>
         </div>
-        </div>  
-        <div class="dropdownWrapper">
-    <div class="dropdown" id="Histogramsdropdown">
-      <button onclick="toggleVisibility('histogramContent')">Histograms/Visualizations</button>
-      <div id="histogramContent" class="dropdownContent">
-         <ul>
+    </div>
+    </div>  
+    <div class="dropdownWrapper">
+      <div class="dropdown" id="Histogramsdropdown">
+        <button onclick="toggleVisibility('histogramContent')">Histograms/Visualizations</button>
+        <div id="histogramContent" class="dropdownContent">
+          <ul>
               <li>Spring 2022 Final Q7a,b</li>
               <li>Spring 2022 Final Q3h</li>
               <li>Spring 2022 Midterm Q2</li>
@@ -310,7 +310,6 @@ function toggleVisibility(id) {
       </div>
     </div>
   </div>
-    </div>
     <div class="dropdownWrapper" id="bootstrapdropdown">
         <div class = "dropdown">
             <button onclick="toggleVisibility('bootstrapContent')">Bootstrap</button>
@@ -406,7 +405,7 @@ function toggleVisibility(id) {
     <div class="dropdownWrapper" id="cltspread">
         <div class = "dropdown">
             <button onclick="toggleVisibility('cltContent')">Central Limit Theorem</button>
-            <div id="centerContent" class="cltContent">
+            <div id="cltContent" class="dropdownContent">
                 <ul>
                   <li>Spring 2022 Final Q1i,j</li>
                   <li>Spring 2021 Final Q5f</li>
