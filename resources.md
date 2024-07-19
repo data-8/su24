@@ -190,8 +190,8 @@ function toggleVisibility(id) {
 </div>
 
 ## Supplemental Videos
-* [Group Animation](https://drive.google.com/file/d/1kOVPDuMt68I62qlhPKrVYTY5VQl7MYJm/view?usp=sharing)
-* [Pivot Animation](https://drive.google.com/file/d/1aOFG3n8pOlQSJrAr3kMI9AofhMykNKbX/view?usp=sharing)
+* [Group Animation](https://youtu.be/HLoYTCUP0fc?si=J160YHimo01SVKl0)
+* [Pivot Animation](https://youtu.be/4WzXo8eKLAg?si=dWrB6Vedh041wV-N)
 
 ## Wellness Resources
 
