@@ -159,7 +159,7 @@ function toggleVisibility(id) {
     </div>
     <div class="dropdownWrapper" id="hypothesistestingdropdown">
         <div class = "dropdown">
-            <button onclick="toggleVisibility('htestingContent')">Standard Hypothesis Testing</button>
+            <button onclick="toggleVisibility('htestingContent')" style="background-color: #93b8b6;">Standard Hypothesis Testing</button>
             <div id="htestingContent" class="dropdownContent">
                 <ul>
                   <li>Spring 2022 Final Q6e</li>
@@ -198,7 +198,7 @@ function toggleVisibility(id) {
     </div>  
     <div class="dropdownWrapper" id="histdropdown">
         <div class = "dropdown">
-            <button onclick="toggleVisibility('histContent')">Histograms/ Visualizations</button>
+            <button onclick="toggleVisibility('histContent')" style="background-color:#b9c8b5";>Histograms/ Visualizations</button>
             <div id="histContent" class="dropdownContent">
                 <ul>
                     <li>Spring 2022 Final Q7a,b</li>
@@ -242,7 +242,7 @@ function toggleVisibility(id) {
 <div id="dropdownContainer">
      <div class="dropdownWrapper">
     <div class="dropdown" id="functionsdropdown">
-      <button onclick="toggleVisibility('functionsContent')" style="background-color: #93b8b6;">Functions</button>
+      <button onclick="toggleVisibility('functionsContent')">Functions</button>
       <div id="functionsContent" class="dropdownContent">
        <ul>
               <li>Spring 2022 Final Q7h</li>
@@ -279,7 +279,7 @@ function toggleVisibility(id) {
     </div>
     <div class="dropdownWrapper" id="confidencedropdown">
         <div class = "dropdown">
-            <button onclick="toggleVisibility('confidenceContent')" style="background-color: #93b8b6;">Confidence Intervals</button>
+            <button onclick="toggleVisibility('confidenceContent')" style="background-color: #b9c8b5;">Confidence Intervals</button>
             <div id="confidenceContent" class="dropdownContent">
                 <ul>
                   <li>Spring 2022 Final Q3a-g</li>
@@ -304,7 +304,7 @@ function toggleVisibility(id) {
 <div id="dropdownContainer">
    <div class="dropdownWrapper">
     <div class="dropdown" id="pythonpracticedropdown">
-      <button onclick="toggleVisibility('pythonPracticeContent')" style="background-color: #b9c8b5;">Python Practice</button>
+      <button onclick="toggleVisibility('pythonPracticeContent')">Python Practice</button>
       <div id="pythonPracticeContent" class="dropdownContent">
         <ul>
             <li><a href="https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp21-midterm.pdf#page=4">Spring 2021 Midterm Q2</a></li>
@@ -320,7 +320,7 @@ function toggleVisibility(id) {
   </div>
     <div class="dropdownWrapper" id="bootstrapdropdown">
         <div class = "dropdown">
-            <button onclick="toggleVisibility('bootstrapContent')" style="background-color: #b9c8b5;">Bootstrap</button>
+            <button onclick="toggleVisibility('bootstrapContent')" style="background-color: #93b8b6;">Bootstrap</button>
             <div id="bootstrapContent" class="dropdownContent">
                 <ul>
                   <li>Spring 2022 Final Q6c</li>
@@ -361,7 +361,7 @@ function toggleVisibility(id) {
 <div id="dropdownContainer">
     <div class="dropdownWrapper" id="samplingdropdown">
         <div class = "dropdown">
-            <button onclick="toggleVisibility('samplingContent')" style="background-color: #b4b4cf ;">Sampling</button>
+            <button onclick="toggleVisibility('samplingContent')">Sampling</button>
             <div id="samplingContent" class="dropdownContent">
                 <ul>
                     <li>Spring 2017 Practice Final Q5</li>
@@ -374,7 +374,7 @@ function toggleVisibility(id) {
     </div>
     <div class="dropdownWrapper" id="centerspread">
         <div class = "dropdown">
-            <button onclick="toggleVisibility('centerContent')" style="background-color: #b4b4cf;">Center and Spread</button>
+            <button onclick="toggleVisibility('centerContent')" style="background-color: #93b8b6;">Center and Spread</button>
             <div id="centerContent" class="dropdownContent">
                 <ul>
                   <li>Spring 2022 Final Q1i,j</li>
@@ -386,7 +386,7 @@ function toggleVisibility(id) {
     </div>
     <div class="dropdownWrapper" id="averagesdropdown">
         <div class = "dropdown">
-            <button onclick="toggleVisibility('averagesContent')" style="background-color: #b4b4cf;">Law of Averages</button>
+            <button onclick="toggleVisibility('averagesContent')" style="background-color: #b9c8b5;">Law of Averages</button>
             <div id="averagesContent" class="dropdownContent">
                 <ul>
                   <li>Fall 2021 Midterm Q1</li>
@@ -402,7 +402,7 @@ function toggleVisibility(id) {
 <div id="dropdownContainer">
     <div class="dropdownWrapper" id="samplemeansdropdown">
         <div class = "dropdown">
-            <button onclick="toggleVisibility('samplemeansContent')" style="background-color: #b9c8b5;">Sample Means</button>
+            <button onclick="toggleVisibility('samplemeansContent')">Sample Means</button>
             <div id="samplemeansContent" class="dropdownContent">
                <ul>
                   <li>Spring 2022 Final Q3b-c,f</li>
@@ -415,7 +415,7 @@ function toggleVisibility(id) {
     </div>
     <div class="dropdownWrapper" id="cltdropdown">
         <div class = "dropdown">
-            <button onclick="toggleVisibility('cltContent')" style="background-color: #b9c8b5;">Central Limit Theorem</button>
+            <button onclick="toggleVisibility('cltContent')" style="background-color: #93b8b6;">Central Limit Theorem</button>
             <div id="cltContent" class="dropdownContent">
                 <ul>
                   <li>Spring 2022 Final Q1i,j</li>
@@ -442,7 +442,7 @@ function toggleVisibility(id) {
 <div id="dropdownContainer">
     <div class="dropdownWrapper" id="correlationdropdown">
         <div class = "dropdown">
-            <button onclick="toggleVisibility('corrContent')" style="background-color:#93b8b6;">Correlation/Regression/Least Squares</button>
+            <button onclick="toggleVisibility('corrContent')">Correlation/Regression/Least Squares</button>
             <div id="corrContent" class="dropdownContent">
                <ul>
                   <li>Spring 2022 Final Q1a,f,g,n</li>
@@ -480,7 +480,7 @@ function toggleVisibility(id) {
     </div>
     <div class="dropdownWrapper" id="classifierdropdown">
         <div class = "dropdown">
-            <button onclick="toggleVisibility('classContent')" style="background-color:#93b8b6;">Classification/Classifiers/Decisions</button>
+            <button onclick="toggleVisibility('classContent')" style="background-color:#b9c8b5;">Classification/Classifiers/Decisions</button>
             <div id="classContent" class="dropdownContent">
                 <ul>
                   <li>Spring 2022 Final Q1b-d</li>
