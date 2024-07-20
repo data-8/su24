@@ -209,7 +209,7 @@ function toggleVisibility(id) {
                     <li>Fall 2021 Midterm Q9</li>
                     <li>Fall 2021 Midterm Q6b</li>
                     <li>Fall 2021 Midterm Q5</li>
-                    <li>Spring 2021 Final Q7a-c</li>
+                    <li>Spring 2021 Final Q7 (a - c)</li>
                     <li>Spring 2021 Midterm Q7</li>
                     <li>Spring 2021 Midterm Q6</li>
                     <li>Fall 2020 Final Q5b</li>
@@ -247,11 +247,11 @@ function toggleVisibility(id) {
        <ul>
               <li>Spring 2022 Final Q7h</li>
               <li>Spring 2022 Final Q6d</li>
-              <li>Fall 2021 Final Q6a,f</li>
+              <li>Fall 2021 Final Q6 (a, f)</li>
               <li>Fall 2021 Final Q2d</li>
               <li>Fall 2021 Final Q1</li>
               <li>Fall 2021 Midterm Q8a</li>
-              <li>Fall 2021 Midterm Q4h,i</li>
+              <li>Fall 2021 Midterm Q4 (h, i)</li>
               <li>Fall 2020 Final Q5a</li>
               <li>Spring 2020 Midterm Q3 (g - h)</li>
               <li>Spring 2019 Midterm Q4d</li>
@@ -347,7 +347,7 @@ function toggleVisibility(id) {
                   <li>Fall 2021 Midterm Q5</li>
                   <li>Spring 2021 Midterm Q3</li>
                   <li>Fall 2020 Midterm Q8</li>
-                  <li>Spring 2020 Midterm Q4d,e</li>
+                  <li>Spring 2020 Midterm Q4 (d, e)</li>
                   <li>Fall 2018 Final Q6</li>
                   <li>Spring 2018 Final Q11</li>
                   <li>Spring 2019 Midterm Q7</li>
@@ -407,7 +407,7 @@ function toggleVisibility(id) {
                <ul>
                   <li>Spring 2022 Final Q3 (b - c, f)</li>
                   <li>Fall 2021 Final Q5b</li>
-                  <li>Spring 2021 Final Q5a-d</li>
+                  <li>Spring 2021 Final Q5 (a - d)</li>
                   <li>Fall 2020 Final Q6(c - e)</li>
                 </ul>
             </div>
@@ -470,9 +470,9 @@ function toggleVisibility(id) {
                   <li>Spring 2021 Final Q5g</li>
                   <li>Fall 2021 Final Q8</li>
                   <li>Fall 2020 Final Q5 (e - i) </li>
-                  <li>Spring 2019 Final Q7, 9</li>
+                  <li>Spring 2019 Final Q (7, 9)</li>
                   <li>Fall 2018 Final Q7</li>
-                  <li>Spring 2018 Final Q4, 7</li>
+                  <li>Spring 2018 Final Q (4, 7)</li>
                   <li>Fall 2016 Final Q3</li>
                 </ul>
             </div>
@@ -486,12 +486,12 @@ function toggleVisibility(id) {
                   <li>Spring 2022 Final Q1 (b - d)</li>
                   <li>Spring 2022 Final Q7 (c - h)</li>
                   <li>Fall 2021 Final Q13</li>
-                  <li>Spring 2021 Final Q7(d - f)</li>
-                  <li>Fall 2020 Final Q4(a - f)</li>
+                  <li>Spring 2021 Final Q7 (d - f)</li>
+                  <li>Fall 2020 Final Q4 (a - f)</li>
                   <li>Fall 2020 Final Q8</li>
                   <li>Spring 2019 Final Q4</li>
                   <li>Fall 2018 Final Q1</li>
-                  <li>Spring 2018 Final Q9, 10</li>
+                  <li>Spring 2018 Final Q9, Q10)</li>
                   <li>Fall 2017 Final Q9</li>
                   <li>Spring 2017 Final Q5</li>
                   <li>Spring 2017 Practice Final Q6</li>
@@ -522,7 +522,7 @@ function toggleVisibility(id) {
                   <li>Fall 2020 Final Q2</li>
                   <li>Fall 2020 Midterm Q6</li>
                   <li>Spring 2020 Midterm Q1</li>
-                  <li>Spring 2019 Final Q2, 6</li>
+                  <li>Spring 2019 Final Q2, Q6</li>
                   <li>Spring 2019 Midterm Q5</li>
                   <li>Fall 2018 Final Q4</li>
                   <li>Fall 2018 Midterm Q4</li>
@@ -530,7 +530,7 @@ function toggleVisibility(id) {
                   <li>Spring 2018 Midterm Q3</li>
                   <li>Spring 2017 Midterm Q3a</li>
                   <li>Summer 2017 Midterm Q2</li>
-                  <li>Fall 2019 Midterm Q3 (a-d)</li>
+                  <li>Fall 2019 Midterm Q3 (a - d)</li>
                </ul>
             </div>
         </div>
