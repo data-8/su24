@@ -198,7 +198,7 @@ function toggleVisibility(id) {
     </div>  
     <div class="dropdownWrapper" id="histdropdown">
         <div class = "dropdown">
-            <button onclick="toggleVisibility('histContent')" style="background-color:#b9c8b5";>Histograms/ Visualizations</button>
+            <button onclick="toggleVisibility('histContent')" style="background-color:#b9c8b5;">Histograms/ Visualizations</button>
             <div id="histContent" class="dropdownContent">
                 <ul>
                     <li>Spring 2022 Final Q7a,b</li>
@@ -505,7 +505,7 @@ function toggleVisibility(id) {
 <div id="dropdownContainer">
     <div class="dropdownWrapper" id="probdropdown">
         <div class = "dropdown">
-            <button onclick="toggleVisibility('probContent')">Probability</button>
+            <button onclick="toggleVisibility('probContent')" style="background-color:#a48ca0;">Probability</button>
             <div id="probContent" class="dropdownContent">
                <ul>
                   <li>Spring 2022 Final Q5</li>
