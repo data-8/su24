@@ -16,19 +16,6 @@ We use an [online sign-up system](https://oh.data8.org/) to help keep track of e
 
 ### Data 8 Summer 2024 Office Hour Calendar
 
-
-{% for schedule in site.schedules %}
-{{ schedule }}
-{% endfor %}
-
-<script src="../assets/darkmode.js"></script>
-<script>
-  window.addEventListener("DOMContentLoaded", (event) => {
-    onLoad();
-});
-</script>
-
-<!--
 <style>
     /* Style the container to enable rounded corners and drop shadow */
     .calendar-container {
@@ -56,4 +43,3 @@ window.addEventListener("DOMContentLoaded", (event) => {
     onLoad();
 });
 </script>
--->
