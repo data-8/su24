@@ -500,7 +500,7 @@ function toggleVisibility(id) {
 <div id="dropdownContainer">
     <div class="dropdownWrapper" id="probdropdown">
         <div class = "dropdown">
-            <button onclick="toggleVisibility('probContent')" style="background-color: #597480;">Probability</button>
+            <button onclick="toggleVisibility('probContent')" style="background-color: #8c9ea6;">Probability</button>
             <div id="probContent" class="dropdownContent">
                <ul>
                   <li>Spring 2022 Final Q5</li>
