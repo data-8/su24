@@ -51,11 +51,11 @@ schedule:
         location: Warren 101BA (Section C)
   - name: Wednesday
     events:
-     - name: Staff Office Hours
+      - name: Staff Office Hours
         start: 9:00 AM
         end: 11:00 AM
         location: Warren 101BA (Section C)
-     - name: Data 8 Lecture
+      - name: Data 8 Lecture
         start: 11:10 AM
         end: 12:00 PM
         location: Dwinelle Hall 155
@@ -67,13 +67,13 @@ schedule:
         start: 10:10 AM
         end: 12:00 PM
         location: SOCS 110
-        - name: Staff Office Hours
+      - name: Staff Office Hours
         start: 12:00 PM
         end: 1:00 PM
         location: Warren 101BA
   - name: Thursday
     events:
-       - name: Staff Office Hours
+      - name: Staff Office Hours
         start: 9:00 AM
         end: 11:00 AM
         location: Warren 101BA (Section C)
