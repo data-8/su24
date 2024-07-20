@@ -505,7 +505,7 @@ function toggleVisibility(id) {
 <div id="dropdownContainer">
     <div class="dropdownWrapper" id="probdropdown">
         <div class = "dropdown">
-            <button onclick="toggleVisibility('probContent')" style="background-color: #faa5a7;">Probability</button>
+            <button onclick="toggleVisibility('probContent')";">Probability</button>
             <div id="probContent" class="dropdownContent">
                <ul>
                   <li>Spring 2022 Final Q5</li>
