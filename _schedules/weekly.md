@@ -63,10 +63,6 @@ schedule:
         start: 10:00 AM
         end: 11:00 AM
         location: Evans 323
-      - name: Lecture
-        start: 10:10 AM
-        end: 12:00 PM
-        location: SOCS 110
       - name: Staff Office Hours
         start: 12:00 PM
         end: 1:00 PM
@@ -85,10 +81,6 @@ schedule:
         start: 10:00 AM
         end: 11:00 AM
         location: Evans 323
-      - name: Lecture
-        start: 10:10 AM
-        end: 12:00 PM
-        location: SOCS 110
       - name: Staff Office Hours
         start: 12:00 PM
         end: 8:00 PM
