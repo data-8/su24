@@ -98,10 +98,6 @@ function toggleVisibility(id) {
     flex: 1 1 20%; /* Flex grow, shrink, and basis set for responsive sizing */
     min-width: 180px; /* Minimum width to maintain readability and appearance */
     margin: 5px; /* Spacing between buttons */
-    box-shadow: 
-        0 2px 4px rgba(0, 0, 0, 0.04),  /* Side shadow */
-        0 4px 8px rgba(0, 0, 0, 0.07); /* Bottom shadow more pronounced */
-    border-radius: 10px; /* Adds rounded corners to the wrapper */
 }
 
 .dropdown button {
