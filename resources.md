@@ -117,7 +117,7 @@ function toggleVisibility(id) {
     box-shadow: 
         0 2px 4px rgba(0, 0, 0, 0.07),  /* Side shadow */
         0 4px 8px rgba(0, 0, 0, 0.13); /* Bottom shadow more pronounced */
-    opacity: 0.6;
+    opacity: 0.9;
 }
 
 .dropdownContent {
