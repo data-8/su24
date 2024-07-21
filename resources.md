@@ -70,7 +70,7 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
 
 ## Exam Problems by Topic
 Created by Brandon Concepcion
-    * This section is still under construction 
+* This section is still under construction 
 
 <script>
 function toggleVisibility(id) {
