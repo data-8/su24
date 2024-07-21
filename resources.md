@@ -110,14 +110,13 @@ function toggleVisibility(id) {
     cursor: pointer;
     height: 100%; /* Make the button fill its container vertically */
     border-radius: 10px; /* Adds slightly rounded corners */
-    transition: box-shadow 0.25s opacity 0.25s;
+    transition: box-shadow 0.25s;
 }
 
 .dropdown button:hover{
     box-shadow: 
         0 2px 4px rgba(0, 0, 0, 0.07),  /* Side shadow */
         0 4px 8px rgba(0, 0, 0, 0.13); /* Bottom shadow more pronounced */
-    opacity: 0.9;
 }
 
 .dropdownContent {
