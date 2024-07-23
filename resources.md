@@ -7,6 +7,7 @@ description: >-
 ---
 
 # Resources
+* Contributions made by Aileen Wu, Brandon Concepcion, Edwin Vargas Navarro, and Jonathan Ferrari
 
 {:.no_toc}
 
