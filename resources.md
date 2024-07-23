@@ -5,12 +5,12 @@ title: Resources
 description: >-
     Resources
 ---
-
+# Resources
 Contributions made by Aileen Wu, Brandon Concepcion, Edwin Vargas Navarro, and Jonathan Ferrari
 
 {:.no_toc}
 
-## Table of Contents
+### Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -18,12 +18,12 @@ Contributions made by Aileen Wu, Brandon Concepcion, Edwin Vargas Navarro, and J
 
 ---
 
-# Materials
+## Materials
 
-## Student Materials Folder
+### Student Materials Folder
 We will post student materials in [this folder](https://drive.google.com/drive/folders/16o8duRO-J-EnnWiue1QJjyHW9BQFetDJ?usp=drive_link) throughout the semester.
 
-## Guides
+### Guides
 * [Arrays Primer](https://drive.google.com/file/d/1SzpKe_SnFf9_mkLyhETz5-AiaBJBYJDv/view?usp=sharing)
 * [Tabular Thinking](https://drive.google.com/file/d/1D9PXUgDLXjFBXZoyGVSKpzk0nKQziDTP/view?usp=sharing)
 * [Confidence Intervals](https://drive.google.com/file/d/1MTHu81FjF2SKps4a6x_N_sMWcFs2APx4/view?usp=sharing)
@@ -32,20 +32,20 @@ We will post student materials in [this folder](https://drive.google.com/drive/f
 * [Table Functions](https://drive.google.com/file/d/1j2hjhweJdGWW0EdvmjGHsXFUatXIZax4/view?usp=sharing)
 * [Hypothesis Testing](https://drive.google.com/file/d/1s9e252XRIUYxNeI8dNG4D0f8B9iwEv6x/view?usp=sharing)
 
-## Table Resources
+### Table Resources
 * [Table Function Visualizer](https://www.data8.org/interactive_table_functions/)
 
-## Supplemental Videos
+### Supplemental Videos
 * [Group Animation](https://youtu.be/HLoYTCUP0fc?si=J160YHimo01SVKl0)
 * [Pivot Animation](https://youtu.be/4WzXo8eKLAg?si=dWrB6Vedh041wV-N)
 
-# Exam Resources
+## Exam Resources
 
-## Study Guides
+### Study Guides
 * The midterm study guide will be distributed with the midterm exam.
 * The final study guide will be distributed with the final exam.
 
-# Past Exams
+## Past Exams
 Exams, practice exams, and walkthrough videos from previous semesters can be found below. These exams may differ slightly in terms of material covered and syntax used, as the `datascience` module has changed over time.
 * A review document identifying past exam problems by topic can be found [here!](https://docs.google.com/document/d/1zed6Q9LAgUvCoazdGMOd5K0FpLcfZF-IMZMyGzTOFfk/edit?usp=sharing) 
 
@@ -68,7 +68,7 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
 | Spring 2017 | [Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-midterm.pdf) [(Solutions)](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-midterm-solution.pdf), [Practice Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-practice.pdf) [(Solutions)](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-practice-solution.pdf) | [Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-final.pdf) [(Solutions)](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-final-solution.pdf), [Practice Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-practice-final.pdf) [(Solutions)](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-sp17-practice-final-solution.pdf) |
 | Fall 2016 |  [Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-fa16-midterm.pdf) | [Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-fa16-final.pdf) [(Solutions)](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-fa16-final-sols.pdf) |
 
-# Exam Problems by Topic
+## Exam Problems by Topic
 * This section is still under construction 
 
 <script>
@@ -544,7 +544,7 @@ function toggleVisibility(id) {
     </div>
 </div>
 
-# Wellness Resources
+## Wellness Resources
 
 Your well-being matters, and we hope that Data 8 is _never_ a barrier to taking care of your mental and physical health. Below are some campus resources that may be helpful:
 
