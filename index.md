@@ -15,6 +15,8 @@ seo:
 UC Berkeley, Summer 2024
 {: .mb-2 .fs-6 .text-grey-dk-000 }
 
+Website layout courtesy of James Weichert!
+
 <button class="js-toggle-dark-mode dm-btn btn">Toggle Dark Mode</button>
 
 [Ed](https://edstem.org/us/courses/59844/discussion/){: .btn .btn-ed}
@@ -24,7 +26,6 @@ UC Berkeley, Summer 2024
 [Extensions](https://docs.google.com/forms/d/e/1FAIpQLScuJXqPqocHgYd1SLx2GryGVUhcA6_OzDtYZvbhek3La65KxA/viewform){: .btn .btn-extensions}
 [Jump to Current Week](#week-{{ site.current_week }}){: .btn .btn-currweek}
 
-<i>Courtesy of James Weichert!<i>
 
 ## Announcements
 
@@ -47,7 +48,6 @@ UC Berkeley, Summer 2024
 {% for module in active-mods %}
   {{ module }}
 {% endfor %}
-
 
 <!--DARKMODE UNDER CONSTRUCTION-->
 <br />
