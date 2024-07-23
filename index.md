@@ -24,6 +24,8 @@ UC Berkeley, Summer 2024
 [Extensions](https://docs.google.com/forms/d/e/1FAIpQLScuJXqPqocHgYd1SLx2GryGVUhcA6_OzDtYZvbhek3La65KxA/viewform){: .btn .btn-extensions}
 [Jump to Current Week](#week-{{ site.current_week }}){: .btn .btn-currweek}
 
+<i>Courtesy of James Weichert!<i>
+
 ## Announcements
 
 
