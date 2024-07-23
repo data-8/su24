@@ -15,8 +15,6 @@ seo:
 UC Berkeley, Summer 2024
 {: .mb-2 .fs-6 .text-grey-dk-000 }
 
-Website layout courtesy of James Weichert!
-
 <button class="js-toggle-dark-mode dm-btn btn">Toggle Dark Mode</button>
 
 [Ed](https://edstem.org/us/courses/59844/discussion/){: .btn .btn-ed}
