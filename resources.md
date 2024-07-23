@@ -273,7 +273,7 @@ function toggleVisibility(id) {
             <div id="iterationContent" class="dropdownContent">
                 <ul>
                     <li>Fall 2021 Midterm Q8b</li>
-                    <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=8" target="_blank">Fall 2020 Midterm Q4 (f, g)</li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=9" target="_blank">Fall 2020 Midterm Q4 (f, g)</a></li>
                     <li>Fall 2019 Midterm Q3g</li>
                     <li>Spring 2019 Midterm Q6d</li>
                     <li>Spring 2019 Midterm Q2c</li>
@@ -315,7 +315,7 @@ function toggleVisibility(id) {
       <div id="pythonPracticeContent" class="dropdownContent">
         <ul>
             <li><a href="https://www.data8.org/su24/exams/Sp21_Midterm.pdf#page=9" target="_blank">Spring 2021 Midterm Q2</a></li>
-            <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=7" target="_blank">Fall 2020 Midterm Q4 (a - e)</li>
+            <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=7" target="_blank">Fall 2020 Midterm Q4 (a - e)</a></li>
             <li>Fall 2019 Midterm Q1</li>
             <li>Spring 2019 Final Q1</li>
             <li>Spring 2019 Midterm Q1</li>
