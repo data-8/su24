@@ -314,7 +314,7 @@ function toggleVisibility(id) {
       <button onclick="toggleVisibility('pythonPracticeContent')">Python Practice</button>
       <div id="pythonPracticeContent" class="dropdownContent">
         <ul>
-            <li><a href=exams/Sp21_Midterm.pdf/#page=9" target="_blank">Spring 2021 Midterm Q2</a></li>
+            <li><a href=exams/Sp21_Midterm.pdf#page=9" target="_blank">Spring 2021 Midterm Q2</a></li>
             <li>Fall 2020 Midterm Q4 (a - e)</li>
             <li>Fall 2019 Midterm Q1</li>
             <li>Spring 2019 Final Q1</li>
