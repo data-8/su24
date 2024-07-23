@@ -39,7 +39,7 @@ We will post student materials in [this folder](https://drive.google.com/drive/f
 * [Group Animation](https://youtu.be/HLoYTCUP0fc?si=J160YHimo01SVKl0)
 * [Pivot Animation](https://youtu.be/4WzXo8eKLAg?si=dWrB6Vedh041wV-N)
 
-## Exam Resources
+# Exam Resources
 
 ## Study Guides
 * The midterm study guide will be distributed with the midterm exam.
