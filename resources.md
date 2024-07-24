@@ -177,7 +177,7 @@ function toggleVisibility(id) {
                   <li>Spring 2021 Final Q6b</li>
                   <li>Spring 2021 Midterm Q5</li>
                   <li>Fall 2020 Final Q7 (a - c)</li>
-                  <li><a href="https://github.com/data-8/archived-exams/raw/master/data8-fa20-midterm.pdf#page=14" target="_blank">Fall 2020 Midterm Q7</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=14" target="_blank">Fall 2020 Midterm Q7</a></li>
                   <li>Spring 2020 Midterm Q4 (a - c)</li>
                   <li>Spring 2020 Midterm Q3k</li>
                   <li>Fall 2019 Midterm Q6</li>
