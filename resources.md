@@ -134,7 +134,7 @@ function toggleVisibility(id) {
             <button onclick="toggleVisibility('tableContent')">Tables</button>
             <div id="tableContent" class="dropdownContent">
                 <ul>
-                  <li>Spring 2022 Final Q2</li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=4" target="_blank">Spring 2022 Final Q2</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=2" target="_blank">Spring 2022 Midterm Q1</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=9" target="_blank">Spring 2022 Midterm Q2b</a></li>
                   <li>Fall 2021 Final Q12</li>
@@ -171,8 +171,8 @@ function toggleVisibility(id) {
             <button onclick="toggleVisibility('htestingContent')" style="background-color: #93b8b6;">Standard Hypothesis Testing</button>
             <div id="htestingContent" class="dropdownContent">
                 <ul>
-                  <li>Spring 2022 Final Q6e</li>
-                  <li>Spring 2022 Final Q1k</li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=18" target="_blank">Spring 2022 Final Q6e</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=3" target="_blank">Spring 2022 Final Q1k</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=13" target="_blank">Spring 2022 Midterm Q4</a></li>
                   <li>Fall 2021 Final Q6</li>
                   <li>Fall 2021 Midterm Q6</li>
@@ -212,9 +212,9 @@ function toggleVisibility(id) {
             <button onclick="toggleVisibility('histContent')" style="background-color:#b9c8b5;">Histograms/ Visualizations</button>
             <div id="histContent" class="dropdownContent">
                 <ul>
-                    <li>Spring 2022 Final Q7(a, b)</li>
-                    <li>Spring 2022 Final Q3h</li>
-                    <li<a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=8" target="_blank">Spring 2022 Midterm Q2</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=19" target="_blank">Spring 2022 Final Q7(a, b)</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=9" target="_blank">Spring 2022 Final Q3h</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=8" target="_blank">Spring 2022 Midterm Q2</a></li>
                     <li><a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=6" target="_blank">Spring 2022 Midterm Q1e</a></li>
                     <li>Fall 2021 Final Q3</li>
                     <li>Fall 2021 Midterm Q9</li>
@@ -258,8 +258,8 @@ function toggleVisibility(id) {
       <button onclick="toggleVisibility('functionsContent')">Functions</button>
       <div id="functionsContent" class="dropdownContent">
        <ul>
-              <li>Spring 2022 Final Q7h</li>
-              <li>Spring 2022 Final Q6d</li>
+              <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=22" target="_blank">Spring 2022 Final Q7h</a></li>
+              <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=17" target="_blank">Spring 2022 Final Q6d</a></li>
               <li>Fall 2021 Final Q6 (a, f)</li>
               <li>Fall 2021 Final Q2d</li>
               <li>Fall 2021 Final Q1</li>
@@ -295,8 +295,8 @@ function toggleVisibility(id) {
             <button onclick="toggleVisibility('confidenceContent')" style="background-color: #b9c8b5;">Confidence Intervals</button>
             <div id="confidenceContent" class="dropdownContent">
                 <ul>
-                  <li>Spring 2022 Final Q3 (a - g)</li>
-                  <li>Spring 2022 Final Q1f</li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=7" target="_blank">Spring 2022 Final Q3 (a - g)</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=2" target="_blank">Spring 2022 Final Q1f</a></li>
                   <li>Fall 2021 Final Q10</li>
                   <li>Fall 2021 Final Q9</li>
                   <li>Fall 2021 Final Q5b</li>
@@ -338,7 +338,7 @@ function toggleVisibility(id) {
             <button onclick="toggleVisibility('bootstrapContent')" style="background-color: #93b8b6;">Bootstrap</button>
             <div id="bootstrapContent" class="dropdownContent">
                 <ul>
-                  <li>Spring 2022 Final Q6c</li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=16" target="_blank">Spring 2022 Final Q6c</a></li>
                   <li>Fall 2021 Final Q10</li>
                   <li>Fall 2021 Final Q5a</li>
                   <li>Fall 2020 Final Q7 (d - f)</li>
@@ -394,7 +394,7 @@ function toggleVisibility(id) {
             <button onclick="toggleVisibility('centerContent')" style="background-color: #93b8b6;">Center and Spread</button>
             <div id="centerContent" class="dropdownContent">
                 <ul>
-                  <li>Spring 2022 Final Q1 (i, j)</li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=3" target="_blank">Spring 2022 Final Q1 (i, j)</a></li>
                    <!--> This one don't match
                   <li>Spring 2021 Final Q5f</li>
                   -->
@@ -424,7 +424,7 @@ function toggleVisibility(id) {
             <button onclick="toggleVisibility('samplemeansContent')">Sample Means</button>
             <div id="samplemeansContent" class="dropdownContent">
                <ul>
-                  <li>Spring 2022 Final Q3 (b - c, f)</li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=7" target="_blank">Spring 2022 Final Q3 (b - c, f)</a></li>
                   <li>Fall 2021 Final Q5b</li>
                    <!--> This one don't match
                   <li>Spring 2021 Final Q5 (a - d)</li>
@@ -439,7 +439,7 @@ function toggleVisibility(id) {
             <button onclick="toggleVisibility('cltContent')" style="background-color: #93b8b6;">Central Limit Theorem</button>
             <div id="cltContent" class="dropdownContent">
                 <ul>
-                  <li>Spring 2022 Final Q1(i, j)</li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=3" target="_blank">Spring 2022 Final Q1(i, j)</a></li>
                    <!--> This one don't match
                   <li>Spring 2021 Final Q5f</li>
                   -->
@@ -468,8 +468,8 @@ function toggleVisibility(id) {
             <button onclick="toggleVisibility('corrContent')">Correlation/Regression/Least Squares</button>
             <div id="corrContent" class="dropdownContent">
                <ul>
-                  <li>Spring 2022 Final Q1 (a, f, g, n)</li>
-                  <li>Spring 2022 Final Q6 (a - d)</li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=2" target="_blank">Spring 2022 Final Q1 (a, f, g, n)</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=14" target="_blank">Spring 2022 Final Q6 (a - d)</a></li>
                   <li>Fall 2021 Final Q7</li>
                    <!--> This one don't match
                   <li>Spring 2021 Final Q4 (a - c)</li>
@@ -488,9 +488,9 @@ function toggleVisibility(id) {
             <button onclick="toggleVisibility('resContent')" style="background-color:#93b8b6;">Residuals/Regression Inference</button>
             <div id="resContent" class="dropdownContent">
                 <ul>
-                  <li>Spring 2022 Final Q1e</li>
-                  <li>Spring 2022 Final Q1m</li>
-                  <li>Spring 2022 Final Q3h</li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=2" target="_blank">Spring 2022 Final Q1e</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=19" target="_blank">Spring 2022 Final Q1m</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=9" target="_blank">Spring 2022 Final Q3h</a></li>
                    <!--> This one don't match
                   <li>Spring 2021 Final Q4(d - g)</li>
                   <li>Spring 2021 Final Q5g</li>
@@ -510,8 +510,8 @@ function toggleVisibility(id) {
             <button onclick="toggleVisibility('classContent')" style="background-color:#b9c8b5;">Classification/Classifiers/Decisions</button>
             <div id="classContent" class="dropdownContent">
                 <ul>
-                  <li>Spring 2022 Final Q1 (b - d)</li>
-                  <li>Spring 2022 Final Q7 (c - h)</li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=7" target="_blank">Spring 2022 Final Q1 (b - d)</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=20" target="_blank">Spring 2022 Final Q7 (c - h)</a></li>
                   <li>Fall 2021 Final Q13</li>
                    <!--> This one don't match
                   <li>Spring 2021 Final Q7 (d - f)</li>
@@ -537,9 +537,9 @@ function toggleVisibility(id) {
             <button onclick="toggleVisibility('probContent')" style="background-color:#b99eb4;">Probability</button>
             <div id="probContent" class="dropdownContent">
                <ul>
-                  <li>Spring 2022 Final Q5</li>
-                  <li>Spring 2022 Final Q4</li>
-                  <li>Spring 2022 Final Q1L </li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=13" target="_blank">Spring 2022 Final Q5</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=11" target="_blank">Spring 2022 Final Q4</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=3" target="_blank">Spring 2022 Final Q1L</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=10" target="_blank">Spring 2022 Midterm Q3</a></li>
                   <li>Fall 2021 Final Q11</li>
                   <li>Fall 2021 Midterm Q3</li>
