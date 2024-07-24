@@ -214,7 +214,7 @@ function toggleVisibility(id) {
                 <ul>
                     <li>Spring 2022 Final Q7(a, b)</li>
                     <li>Spring 2022 Final Q3h</li>
-                    <li<a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=8" target="_blank">>Spring 2022 Midterm Q2</a></li>
+                    <li<a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=8" target="_blank">Spring 2022 Midterm Q2</a></li>
                     <li><a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=6" target="_blank">Spring 2022 Midterm Q1e</a></li>
                     <li>Fall 2021 Final Q3</li>
                     <li>Fall 2021 Midterm Q9</li>
@@ -540,7 +540,7 @@ function toggleVisibility(id) {
                   <li>Spring 2022 Final Q5</li>
                   <li>Spring 2022 Final Q4</li>
                   <li>Spring 2022 Final Q1L </li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=10" target="_blank">Spring 2022 Midterm Q3 (a - b)</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=10" target="_blank">Spring 2022 Midterm Q3</a></li>
                   <li>Fall 2021 Final Q11</li>
                   <li>Fall 2021 Midterm Q3</li>
                    <!--> This one don't match
