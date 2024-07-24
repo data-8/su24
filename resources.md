@@ -440,6 +440,7 @@ function toggleVisibility(id) {
             <div id="cltContent" class="dropdownContent">
                 <ul>
                   <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=3" target="_blank">Spring 2022 Final Q1(i, j)</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=3" target="_blank">Spring 2022 Final Q3d</a></li>
                    <!--> This one don't match
                   <li>Spring 2021 Final Q5f</li>
                   -->
@@ -488,7 +489,7 @@ function toggleVisibility(id) {
             <button onclick="toggleVisibility('resContent')" style="background-color:#93b8b6;">Residuals/Regression Inference</button>
             <div id="resContent" class="dropdownContent">
                 <ul>
-                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=2" target="_blank">Spring 2022 Final Q1e</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=2" target="_blank">Spring 2022 Final Q1f</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=19" target="_blank">Spring 2022 Final Q1m</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=9" target="_blank">Spring 2022 Final Q3h</a></li>
                    <!--> This one don't match
