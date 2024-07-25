@@ -227,7 +227,7 @@ function toggleVisibility(id) {
                     <li>Spring 2021 Midterm Q7</li>
                     <li>Spring 2021 Midterm Q6</li>
                     <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=11" target="_blank">Fall 2020 Final Q5b</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=9" target="_blank">Fall 2020 Final Q4g</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=9" target="_blank">Fall 2020 Final Q4g</a></li>
                     <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=6" target="_blank">Fall 2020 Midterm Q3</a></li>
                     <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=5" target="_blank">Fall 2020 Midterm Q2</a></li>
                     <li><a href="https://www.data8.org/su24/exams/Sp20_Midterm.pdf#page=5" target="_blank">Spring 2020 Midterm Q3 (a - d)</a></li>
@@ -344,7 +344,7 @@ function toggleVisibility(id) {
                   <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=16" target="_blank">Spring 2022 Final Q6c</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=13" target="_blank">Fall 2021 Final Q10</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=5" target="_blank">Fall 2021 Final Q5a</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=20" target="_blank">Fall 2020 Final Q7 (d - f)</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=20" target="_blank">Fall 2020 Final Q7 (c - f)</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=14" target="_blank">Fall 2020 Final Q5h</a></li>
                   <li>Fall 2018 Final Q5</li>
                   <li>Fall 2018 Final Q3</li>
@@ -398,6 +398,7 @@ function toggleVisibility(id) {
             <div id="centerContent" class="dropdownContent">
                 <ul>
                   <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=3" target="_blank">Spring 2022 Final Q1 (i, j)</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=15" target="_blank">Fall 2020 Final Q6f</a></li>
                    <!--> This one don't match
                   <li>Spring 2021 Final Q5f</li>
                   -->
@@ -431,7 +432,7 @@ function toggleVisibility(id) {
                    <!--> This one don't match
                   <li>Spring 2021 Final Q5 (a - d)</li>
                   -->
-                  <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=15" target="_blank">Fall 2020 Final Q6(c - e)</a></li>
+                  <li>cent</li>
                 </ul>
             </div>
         </div>
