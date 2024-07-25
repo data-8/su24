@@ -217,7 +217,7 @@ function toggleVisibility(id) {
                     <li><a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=8" target="_blank">Spring 2022 Midterm Q2</a></li>
                     <li><a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=6" target="_blank">Spring 2022 Midterm Q1e</a></li>
                     <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=4" target="_blank">Fall 2021 Final Q3</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=16" target="_blank">Fall 2021 Midterm Q9</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=18" target="_blank">Fall 2021 Midterm Q9</a></li>
                     <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=11" target="_blank">Fall 2021 Midterm Q6b</a></li>
                     <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=8" target="_blank">Fall 2021 Midterm Q5</a></li>
                      <!--> This one don't match
@@ -281,7 +281,7 @@ function toggleVisibility(id) {
             <button onclick="toggleVisibility('iterationContent')" style="background-color: #93b8b6;">Iteration</button>
             <div id="iterationContent" class="dropdownContent">
                 <ul>
-                    <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=14" target="_blank">Fall 2021 Midterm Q8b</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=15" target="_blank">Fall 2021 Midterm Q8b</a></li>
                     <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=7" target="_blank">Fall 2020 Midterm Q4 (f, g)</a></li>
                     <li>Fall 2019 Midterm Q3g</li>
                     <li>Spring 2019 Midterm Q6d</li>
@@ -364,7 +364,7 @@ function toggleVisibility(id) {
                   <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=23" target="_blank">Spring 2021 Final Q6a</a></li>
                   -->
                   <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=13" target="_blank">Fall 2021 Midterm Q7</a></li>
-                  <li>Fall 2021 Midterm Q5</li>
+                  <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=8" target="_blank">Fall 2021 Midterm Q5</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=6" target="_blank">Spring 2021 Midterm Q3</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=18" target="_blank">Fall 2020 Midterm Q8</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Sp0_Midterm.pdf#page=9" target="_blank">Spring 2020 Midterm Q4 (d, e)</a></li>
@@ -384,10 +384,10 @@ function toggleVisibility(id) {
             <button onclick="toggleVisibility('samplingContent')">Sampling</button>
             <div id="samplingContent" class="dropdownContent">
                 <ul>
+                    <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=16" target="_blank">Fall 2021 Midterm Q8 (c, d)</a></li>
                     <li>Spring 2017 Practice Final Q5</li>
                     <li>Spring 2017 Final Q3</li>
                     <li>Fall 2017 Final Q2, 5 - 7</li>
-                    <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=15" target="_blank">Fall 2021 Midterm Q8 (c, d)</a></li>
                 </ul>
             </div>
         </div>
