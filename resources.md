@@ -18,17 +18,6 @@ Contributions made by Aileen Wu, Brandon Concepcion, Edwin Vargas Navarro, and J
 
 ---
 
-## Wellness Resources
-
-Your well-being matters, and we hope that Data 8 is _never_ a barrier to taking care of your mental and physical health. Below are some campus resources that may be helpful:
-
-* [University Health Services](https://uhs.berkeley.edu/)
-* [UHS Counseling and Psychological Services (CAPS)](https://uhs.berkeley.edu/caps)
-* [Campus Academic Accommodations Hub](https://evcp.berkeley.edu/programs-resources/academic-accommodations-hub)
-* [ASUC Student Advocate's Office](https://advocate.berkeley.edu/)
-* [Basic Needs Center](https://basicneeds.berkeley.edu/)
-* [ASUC Mental Health Resources Guide](https://asuc.org/wp-content/uploads/2018/02/Mental-Health-Resources.pdf)
-
 ## Materials
 
 ### Student Materials Folder
@@ -530,7 +519,7 @@ function toggleVisibility(id) {
                    <!--> This one don't match
                   <li>Spring 2021 Final Q7 (d - f)</li>
                   -->
-                  <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=7" target="_blank">Fall 2020 Final Q4 (a - f)</c></li>
+                  <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=7" target="_blank">Fall 2020 Final Q4 (a - f)</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=24" target="_blank">Fall 2020 Final Q8</a></li>
                   <li>Spring 2019 Final Q4</li>
                   <li>Fall 2018 Final Q1</li>
@@ -580,6 +569,17 @@ function toggleVisibility(id) {
         </div>
     </div>
 </div>
+
+## Wellness Resources
+
+Your well-being matters, and we hope that Data 8 is _never_ a barrier to taking care of your mental and physical health. Below are some campus resources that may be helpful:
+
+* [University Health Services](https://uhs.berkeley.edu/)
+* [UHS Counseling and Psychological Services (CAPS)](https://uhs.berkeley.edu/caps)
+* [Campus Academic Accommodations Hub](https://evcp.berkeley.edu/programs-resources/academic-accommodations-hub)
+* [ASUC Student Advocate's Office](https://advocate.berkeley.edu/)
+* [Basic Needs Center](https://basicneeds.berkeley.edu/)
+* [ASUC Mental Health Resources Guide](https://asuc.org/wp-content/uploads/2018/02/Mental-Health-Resources.pdf)
 
 <script src="../assets/darkmode.js"></script>
 <script>
