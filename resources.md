@@ -281,7 +281,7 @@ function toggleVisibility(id) {
             <button onclick="toggleVisibility('iterationContent')" style="background-color: #93b8b6;">Iteration</button>
             <div id="iterationContent" class="dropdownContent">
                 <ul>
-                    <li>Fall 2021 Midterm Q8b</li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=14" target="_blank">Fall 2021 Midterm Q8b</a></li>
                     <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=7" target="_blank">Fall 2020 Midterm Q4 (f, g)</a></li>
                     <li>Fall 2019 Midterm Q3g</li>
                     <li>Spring 2019 Midterm Q6d</li>
@@ -363,9 +363,9 @@ function toggleVisibility(id) {
                  <!--> This one don't match
                   <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=23" target="_blank">Spring 2021 Final Q6a</a></li>
                   -->
-                  <li>Fall 2021 Midterm Q7</li>
+                  <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=13" target="_blank">Fall 2021 Midterm Q7</a></li>
                   <li>Fall 2021 Midterm Q5</li>
-                  <li>Spring 2021 Midterm Q3</li>
+                  <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=6" target="_blank">Spring 2021 Midterm Q3</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=18" target="_blank">Fall 2020 Midterm Q8</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Sp0_Midterm.pdf#page=9" target="_blank">Spring 2020 Midterm Q4 (d, e)</a></li>
                   <li>Fall 2018 Final Q6</li>
@@ -387,7 +387,7 @@ function toggleVisibility(id) {
                     <li>Spring 2017 Practice Final Q5</li>
                     <li>Spring 2017 Final Q3</li>
                     <li>Fall 2017 Final Q2, 5 - 7</li>
-                    <li>Fall 2021 Midterm Q8 (c, d)</li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=15" target="_blank">Fall 2021 Midterm Q8 (c, d)</a></li>
                 </ul>
             </div>
         </div>
@@ -411,7 +411,6 @@ function toggleVisibility(id) {
             <button onclick="toggleVisibility('averagesContent')" style="background-color: #b9c8b5;">Law of Averages</button>
             <div id="averagesContent" class="dropdownContent">
                 <ul>
-                  <li>Fall 2021 Midterm Q1</li>
                   <li>Fall 2018 Midterm Q3f</li>
                   <li>Spring 2018 Midterm Q5a</li>
                   <li>Spring 2017 Midterm Q3c</li>
@@ -546,7 +545,7 @@ function toggleVisibility(id) {
                   <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=3" target="_blank">Spring 2022 Final Q1L</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=10" target="_blank">Spring 2022 Midterm Q3</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=15" target="_blank">Fall 2021 Final Q11</a></li>
-                  <li>Fall 2021 Midterm Q3</li>
+                  <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=6" target="_blank">Fall 2021 Midterm Q3</a></li>
                    <!--> This one don't match
                   <li>Spring 2021 Final Q3</li>
                   <li>Spring 2021 Final Q2</li>
