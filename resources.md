@@ -191,7 +191,7 @@ function toggleVisibility(id) {
                   <li>Spring 2019 Midterm Q2a</li>
                   <li>Fall 2018 Final Q4 (f - h)</li>
                   <li>Fall 2018 Final Q3</li>
-                  <li>Fall 2018 Midterm Q3</li>
+                  <li><a href="https://www.data8.org/su24/exams/Fa18_Midterm.pdf#page=4" target="_blank">Fall 2018 Midterm Q3</a></li>
                   <li>Spring 2018 Final Q8</li>
                   <li>Spring 2018 Midterm Q5 (b - d)</li>
                   <li>Spring 2018 Midterm Q4</li>
@@ -236,7 +236,7 @@ function toggleVisibility(id) {
                     <li>Spring 2019 Midterm Q6e</li>
                     <li>Spring 2019 Midterm Q4</li>
                     <li>Spring 2019 Midterm Q2b</li>
-                    <li>Fall 2018 Midterm Q1</li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa18_Midterm.pdf#page=2" target="_blank">Fall 2018 Midterm Q1</a></li>
                     <li>Spring 2018 Midterm Q6</li>
                     <li>Spring 2017 Practice Final Q2</li>
                     <li>Spring 2017 Midterm Q2</li>
@@ -271,7 +271,7 @@ function toggleVisibility(id) {
               <li>Fall 2020 Final Q5a</li>
               <li><a href="https://www.data8.org/su24/exams/Sp20_Midterm.pdf#page=6" target="_blank">Spring 2020 Midterm Q3h</a></li>
               <li>Spring 2019 Midterm Q4d</li>
-              <li>Fall 2018 Midterm Q2g</li>
+              <li><a href="https://www.data8.org/su24/exams/Fa18_Midterm.pdf#page=3" target="_blank">Fall 2018 Midterm Q2g</a></li>
           </ul>
       </div>
     </div>
@@ -286,7 +286,7 @@ function toggleVisibility(id) {
                     <li>Fall 2019 Midterm Q3g</li>
                     <li>Spring 2019 Midterm Q6d</li>
                     <li>Spring 2019 Midterm Q2c</li>
-                    <li>Fall 2018 Midterm Q3d</li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa18_Midterm.pdf#page=5" target="_blank">Fall 2018 Midterm Q3d</a></li>
                     <li>Spring 2018 Midterm Q2</li>
                     <li>Spring 2017 Midterm Q3b</li>
                 </ul>
@@ -331,7 +331,6 @@ function toggleVisibility(id) {
             <li>Spring 2019 Final Q1</li>
             <li>Spring 2019 Midterm Q1</li>
             <li>Spring 2019 Midterm Q4 (f - g)</li>
-            <li>Fall 2018 Midterm Q4 (e - g)</li>
          </ul>
       </div>
     </div>
@@ -411,7 +410,7 @@ function toggleVisibility(id) {
             <button onclick="toggleVisibility('averagesContent')" style="background-color: #b9c8b5;">Law of Averages</button>
             <div id="averagesContent" class="dropdownContent">
                 <ul>
-                  <li>Fall 2018 Midterm Q3f</li>
+                  <li><a href="https://www.data8.org/su24/exams/Fa18_Midterm.pdf#page=5" target="_blank">Fall 2018 Midterm Q3f</a></li>
                   <li>Spring 2018 Midterm Q5a</li>
                   <li>Spring 2017 Midterm Q3c</li>
                 </ul>
@@ -558,7 +557,7 @@ function toggleVisibility(id) {
                   <li>Spring 2019 Final Q2, Q6</li>
                   <li>Spring 2019 Midterm Q5</li>
                   <li>Fall 2018 Final Q4</li>
-                  <li>Fall 2018 Midterm Q4</li>
+                  <li><a href="https://www.data8.org/su24/exams/Fa18_Midterm.pdf#page=6" target="_blank">Fall 2018 Midterm Q4</a></li>
                   <li>Fall 2017 Final Q8</li>
                   <li>Spring 2018 Midterm Q3</li>
                   <li>Spring 2017 Midterm Q3a</li>
