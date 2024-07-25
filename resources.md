@@ -174,7 +174,7 @@ function toggleVisibility(id) {
                   <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=18" target="_blank">Spring 2022 Final Q6e</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=3" target="_blank">Spring 2022 Final Q1k</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=13" target="_blank">Spring 2022 Midterm Q4</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=12" target="_blank">Fall 2021 Final Q6</li>
+                  <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=12" target="_blank">Fall 2021 Final Q6</a></li>
                   <li>Fall 2021 Midterm Q6</li>
                    <!--> This one don't match
                   <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=24" target="_blank">Spring 2021 Final Q6b</a></li>
