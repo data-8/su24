@@ -139,8 +139,8 @@ function toggleVisibility(id) {
                   <li><a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=9" target="_blank">Spring 2022 Midterm Q2b</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=15" target="_blank">Fall 2021 Final Q12</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=2" target="_blank">Fall 2021 Final Q2</a></li>
-                  <li>Fall 2021 Midterm Q1</li>
-                  <li>Fall 2021 Midterm Q2</li>
+                  <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=3" target="_blank">Fall 2021 Midterm Q1</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=5" target="_blank">Fall 2021 Midterm Q2</a></li>
                   <!--> This one don't match
                   <li><a href="https://www.data8.org/su24/exams/Sp21_Midterm.pdf#page=3" target="_blank">Spring 2021 Final Q1</a></li>
                   -->
@@ -175,7 +175,7 @@ function toggleVisibility(id) {
                   <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=3" target="_blank">Spring 2022 Final Q1k</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=13" target="_blank">Spring 2022 Midterm Q4</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=7" target="_blank">Fall 2021 Final Q6</a></li>
-                  <li>Fall 2021 Midterm Q6</li>
+                  <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=10" target="_blank">Fall 2021 Midterm Q6</a></li>
                    <!--> This one don't match
                   <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=24" target="_blank">Spring 2021 Final Q6b</a></li>
                   <li>Spring 2021 Midterm Q5</li>
@@ -217,9 +217,9 @@ function toggleVisibility(id) {
                     <li><a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=8" target="_blank">Spring 2022 Midterm Q2</a></li>
                     <li><a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=6" target="_blank">Spring 2022 Midterm Q1e</a></li>
                     <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=4" target="_blank">Fall 2021 Final Q3</a></li>
-                    <li>Fall 2021 Midterm Q9</li>
-                    <li>Fall 2021 Midterm Q6b</li>
-                    <li>Fall 2021 Midterm Q5</li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=16" target="_blank">Fall 2021 Midterm Q9</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=11" target="_blank">Fall 2021 Midterm Q6b</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=8" target="_blank">Fall 2021 Midterm Q5</a></li>
                      <!--> This one don't match
                     <li>Spring 2021 Final Q7 (a - c)</li>
                     -->
@@ -264,8 +264,10 @@ function toggleVisibility(id) {
               <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=7" target="_blank">Fall 2021 Final Q6a</a></li>
               <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=3" target="_blank">Fall 2021 Final Q2d</a></li>
               <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=2" target="_blank">Fall 2021 Final Q1</a></li>
-              <li>Fall 2021 Midterm Q8a</li>
-              <li>Fall 2021 Midterm Q4 (h, i)</li>
+              <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=14" target="_blank">Fall 2021 Midterm Q8a</a></li>
+              <!--> This one don't match
+              <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=3" target="_blank">Fall 2021 Midterm Q4 (h, i)</c></li>
+              -->
               <li>Fall 2020 Final Q5a</li>
               <li><a href="https://www.data8.org/su24/exams/Sp20_Midterm.pdf#page=6" target="_blank">Spring 2020 Midterm Q3h</a></li>
               <li>Spring 2019 Midterm Q4d</li>
