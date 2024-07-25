@@ -23,6 +23,7 @@ UC Berkeley, Summer 2024
 [Textbook](https://inferentialthinking.com/chapters/intro.html){: .btn .btn-textbook}
 [Extensions](https://docs.google.com/forms/d/e/1FAIpQLScuJXqPqocHgYd1SLx2GryGVUhcA6_OzDtYZvbhek3La65KxA/viewform){: .btn .btn-extensions}
 [Jump to Current Week](#week-{{ site.current_week }}){: .btn .btn-currweek}
+[Office Hours Queue](https://oh.data8.org/){: .btn .btn-officehours}
 
 
 ## Announcements
