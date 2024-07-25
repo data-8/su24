@@ -499,7 +499,7 @@ function toggleVisibility(id) {
                   <li>Spring 2021 Final Q5g</li>
                   -->
                   <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=10" target="_blank">Fall 2021 Final Q8</a></li>
-                  <li>Fall 2020 Final Q5 (e - i) </li>
+                  <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=13" target="_blank">Fall 2020 Final Q5 (e - i) </li>
                   <li>Spring 2019 Final Q7, Q)</li>
                   <li>Fall 2018 Final Q7</li>
                   <li>Spring 2018 Final Q4, Q7</li>
