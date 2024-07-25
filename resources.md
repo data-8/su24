@@ -155,7 +155,7 @@ function toggleVisibility(id) {
                   <li>Spring 2019 Midterm Q3</li>
                   <li>Fall 2018 Final Q2 (a - f)</li>
                   <li>Spring 2018 Final Q5</li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=3" target="_blank">Fall 2018 Midterm Q2</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/Fa18_Midterm.pdf#page=3" target="_blank">Fall 2018 Midterm Q2</a></li>
                   <li>Spring 2018 Midterm Q1</li>
                   <li>Fall 2017 Final Q1</li>
                   <li>Spring 2017 Final Q1</li>
