@@ -48,3 +48,22 @@
     {{ content }}
   </div>
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const images = document.querySelectorAll('.staffer-image');
+  
+    images.forEach(img => {
+      const hoverImage = img.getAttribute('data-hover');
+      const originalImage = img.getAttribute('src');
+  
+      img.addEventListener('mouseover', function() {
+        img.setAttribute('src', hoverImage);
+      });
+  
+      img.addEventListener('mouseout', function() {
+        img.setAttribute('src', originalImage);
+      });
+    });
+  });  
+</script>
