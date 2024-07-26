@@ -8,4 +8,5 @@ bio: hi! i’m a senior majoring in DS, CogSci, Psych, and CS. when im not teach
 role: 20-hour Lead uGSI (UCS2)
 team: Course Director
 office-hours: Thu 1-3PM
+hover-photo: hovers/jonathan-hover.png
 ---
