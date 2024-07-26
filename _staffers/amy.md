@@ -8,5 +8,5 @@ bio: Hi! I am a 2nd year studying Data Science from Oakland, CA. I enjoy arrangi
 role: Tutor (UCS1)
 office-hours: Mon 9-11AM, Wed 9-11 AM
 tutoring-section: 10-11AM
-hover-photo: 
+hover-photo: hovers/amy_hover.png
 ---
