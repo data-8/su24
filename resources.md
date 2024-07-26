@@ -432,7 +432,6 @@ function toggleVisibility(id) {
                    <!--> This one don't match
                   <li>Spring 2021 Final Q5 (a - d)</li>
                   -->
-                  <li>cent</li>
                 </ul>
             </div>
         </div>
