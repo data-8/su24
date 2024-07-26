@@ -18,9 +18,9 @@ August 7
 : **Exam**{: .label .label-exam} Final Exam (11 AM - 1 PM)
 
 August 8
-: **35**{: .label} Conclusion
+: **35**{: .label} Panel
     : {{site.links.lec.slides.slide35}} {{site.links.lec.demo.demo35}}
 
 August 9
-: **36**{: .label} Panel
+: **36**{: .label} Conclusion
     : {{site.links.lec.slides.slide36}} {{site.links.lec.demo.demo36}}
