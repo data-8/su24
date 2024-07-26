@@ -20,7 +20,7 @@ July 30
 July 31
 : **30**{: .label} Case Study 1: TBA
     : {{site.links.lec.slides.slide30}} {{site.links.lec.demo.demo30}}
-: **Lab**{: .label .label-lab} {{site.links.lab.lab12}}
+: **Lab**{: .label .label-lab} {{site.links.lab.lab12}} (Due 7/31)
     : {{site.links.wksht.wksht12}}
 : **Project**{: .label .label-project} {{site.links.proj.proj2}} (Due Tues 8/6; Checkpoint Fri 8/2)
 
