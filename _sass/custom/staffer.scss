@@ -8,6 +8,12 @@
     margin-right: $sp-4;
   }
 
+  .staffer-image:hover{
+    border-radius: 50%;
+    height: 100px;
+    margin-right: $sp-4;
+  }
+
   p,
   .staffer-name {
     margin: $sp-1 !important;
