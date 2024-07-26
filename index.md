@@ -25,7 +25,8 @@ UC Berkeley, Summer 2024
 [Jump to Current Week](#week-{{ site.current_week }}){: .btn .btn-currweek}
 [Office Hours Queue](https://oh.data8.org/){: .btn .btn-officehours}
 
-{% assign instructors = site.staffers | where: 'role', 'Instructor' %}
+
+{% assign instructors = site.staffers | where: 'role', 'InstructorFront' %}
 
 <div class="role flex">
 {% for staffer in instructors %}
