@@ -5,6 +5,7 @@ description: Data 8 Spring 2024 Staff
 ---
 
 # Staff
+Hover over staff icons to see a different side of our team!
 
 <!--
 <p style="font-size:30px">Note: This page is under construction.</p>
