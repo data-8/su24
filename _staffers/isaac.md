@@ -8,4 +8,5 @@ bio: hello! my name is isaac and i’m a junior studying cs and cog sci :) i wan
 role: Tutor (UCS1)
 office-hours: Mon 10-11AM, Tue 5-6PM, Wed 10-11AM, Thu 5-6PM, Fri 10-11AM, Fri 5-6PM
 tutoring-section: 4-5PM
+hover-photo: hovers/isaac-hover.jpeg
 ---
