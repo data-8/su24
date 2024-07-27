@@ -7,5 +7,5 @@ website:
 bio: I’m a rising third year from San Francisco who is studying data science and computer science. My current interests include kpop (obsessed with nct) and trying public transportation at different places.
 role: Tutor (UCS1)
 office-hours: Thu 4-8PM
-hover-photo: tiffant-hover.png
+hover-photo: hovers/tiffant-hover.png
 ---
