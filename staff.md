@@ -5,9 +5,9 @@ description: Data 8 Spring 2024 Staff
 ---
 
 # Staff
-Say HELLO to your amazing and talented Summer Data 8️⃣ staff! Feel free to reach out with any questions about life as Data Scientists, the Data Science major, or anything else Cal related!
+Say HELLO to your amazing and talented Summer Data 8️⃣ staff! Always feel free to reach out to us about any questions about the life as Data Scientists, the Data Science major, or anything else Cal related!
 
-Hover over some of our icons to get a different side of our personalities! We hope you enough Data 8 🤩
+Hover over some of our icons to get a different side of our personalities! We hope you enjoy your time with Data 8 this summer 🤩🌴🥥
 
 
 <!--
