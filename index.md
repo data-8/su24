@@ -9,7 +9,7 @@ seo:
   name: Data 8 Summer 2024
 ---
 
-# Data 8: Foundations of Data Science 📶
+# Data 8: Foundations of Data Science 📊
 
 {: .mb-2 }
 UC Berkeley, Summer 2024
