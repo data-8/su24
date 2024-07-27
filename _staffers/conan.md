@@ -7,4 +7,5 @@ bio: Hey everyone! I’m a 3.5th year from Japan studying Statistics and Data Sc
 role: 20-hour Lead uGSI (UCS2)
 office-hours: Thu 1-3PM
 team: Course Director
+hover-photo: hovers/conan-hover.png
 ---
