@@ -45,7 +45,10 @@
   }
 
   .staffer-office-hours-front {
-    font-weight: bold;
+    font-weight: normal; /* Ensure the whole paragraph is normal by default */
+  }
+  .office-hours-label {
+    font-weight: bold; /* Make only the label bold */
   }
   
 }
