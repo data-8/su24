@@ -8,4 +8,5 @@ bio: Hi everyone! I'm Mansoor, a rising sophomore majoring in Applied Math. Beyo
 role: Tutor (UCS1)
 office-hours: Tue 7-8PM, Thu 7-8PM, Fri 3-4PM, Fri 5-8PM
 tutoring-section: 6-7PM
+hover-photo: hovers/mansoor-hover.png
 ---

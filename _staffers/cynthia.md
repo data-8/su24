@@ -7,4 +7,5 @@ bio: Hi everyone! I’m an incoming senior studying Data Science and Economics. 
 role: 20-hour Lead uGSI (UCS2)
 office-hours: Tue 5-7PM
 team: Tutors
+hover-photo: hovers/cynthia-hover.png
 ---
