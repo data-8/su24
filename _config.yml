@@ -21,7 +21,7 @@ baseurl: '/su24' # the subpath of your site, e.g. /blog
 url: 'https://www.data8.org' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 logo: "/data8logo.png"
-current_week: 6
+current_week: 7
 links:
   test: "[Slides](https://slides.google.com)"
   hw:
@@ -34,7 +34,7 @@ links:
     hw07: "[Homework 07](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&branch=main&urlpath=tree%2Fmaterials-su24%2Fhw%2Fhw07%2Fhw07.ipynb&branch=main)"
     hw08: "[Homework 08](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&branch=main&urlpath=tree%2Fmaterials-su24%2Fhw%2Fhw08%2Fhw08.ipynb&branch=main)"
     hw09: "[Homework 09](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&branch=main&urlpath=tree%2Fmaterials-su24%2Fhw%2Fhw09%2Fhw09.ipynb&branch=main)"
-    hw10: "Homework 10"
+    hw10: "[Homework 10](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&branch=main&urlpath=tree%2Fmaterials-su24%2Fhw%2Fhw10%2Fhw10.ipynb&branch=main)"
     hw11: "Homework 11"
     hw12: "Homework 12"
   lab:
