@@ -1,5 +1,5 @@
 ---
-title: Week 6 Announcements
+title: Week 7 Announcements
 week: 7
 date: 2024-07-29
 ---
