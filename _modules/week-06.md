@@ -33,4 +33,4 @@ July 26
 : **27**{: .label} Classification
     : {{site.links.lec.slides.slide27}} {{site.links.lec.demo.demo27}}
 : _Reading:_ [17](https://inferentialthinking.com/chapters/17/Classification.html), [17.1](https://inferentialthinking.com/chapters/17/1/Nearest_Neighbors.html), [17.2](https://inferentialthinking.com/chapters/17/2/Training_and_Testing.html), [17.3](https://inferentialthinking.com/chapters/17/3/Rows_of_Tables.html)
-: **Homework**{: .label .label-homework} {{site.links.hw.hw10}} (Due 7/30)
+: **Homework**{: .label .label-homework} {{site.links.hw.hw10}} (Due 7/31)
