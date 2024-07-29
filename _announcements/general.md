@@ -1,7 +1,7 @@
 ---
 title: Week 6 Announcements
-week: 6
-date: 2024-07-22
+week: 7
+date: 2024-07-29
 ---
 Homework 10 has been released and will be due on **Wednesday, July 31th** at 11 pm.
 * There are also 5 extra points available for submitting it by Tuesday, July 30th at 11 pm.
