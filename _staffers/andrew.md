@@ -8,4 +8,5 @@ bio: Hey there, I'm a fourth year from San Diego, majoring in Political Science 
 role: 20-hour Lead uGSI (UCS2)
 team: Course Director
 office-hours: By Appointment
+hover-photo: hovers/andrew-hover.png
 ---
