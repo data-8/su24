@@ -25,7 +25,7 @@ July 31
 : **Project**{: .label .label-project} {{site.links.proj.proj2}} (Due Tues 8/6; Checkpoint Fri 8/2)
 
 August 1
-: **31**{: .label} Case Study 2: TBA
+: **31**{: .label} Health _(Pre-recorded)_
   : [Slides](https://docs.google.com/presentation/d/1vw9nYhVrDv4T6CRwOfq42t0o7tzJYqOjxW5nZ2hommA/edit?usp=sharing) &#8226; [Video](https://youtu.be/0ic4Bjn-cE4?si=PLvT6Gdpbkmd0jKm) &#8226; [Demos](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-fa22&urlpath=tree%2Fmaterials-fa22%2Flec%2Flec38.ipynb&branch=main)
 
 August 2
