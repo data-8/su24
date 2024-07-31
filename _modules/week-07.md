@@ -19,7 +19,7 @@ July 30
 
 July 31
 : **30**{: .label} Privacy _(Pre-recorded)_
-: {{site.links.lec.slides.slide30}} [Video](https://www.youtube.com/watch?v=tmk-bnQrtik)
+: [Slides](https://drive.google.com/file/d/1PogDwRiWDfOpnVeGVJ_dwdhFJRoD30SX/view?usp=sharing) &#8226; [Video](https://www.youtube.com/watch?v=tmk-bnQrtik)
 : **Lab**{: .label .label-lab} {{site.links.lab.lab12}} (Due 7/31)
 : {{site.links.wksht.wksht12}}
 : **Project**{: .label .label-project} {{site.links.proj.proj2}} (Due Tues 8/6; Checkpoint Fri 8/2)
