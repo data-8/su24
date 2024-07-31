@@ -17,8 +17,8 @@ title: Data 8
 description: Foundations of Data Science
 author: Data 8 Staff
 email: data8@berkeley.edu
-baseurl: '/su24' # the subpath of your site, e.g. /blog
-url: 'https://www.data8.org' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/su24" # the subpath of your site, e.g. /blog
+url: "https://www.data8.org" # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 logo: "/data8logo.png"
 current_week: 7
@@ -139,8 +139,8 @@ links:
       slide27: "[Slides](https://docs.google.com/presentation/d/1bKlEhg9IGU9Cc7wQII2TG8m6QxSZqFfC3tHNE0mFLtY/edit?usp=sharing)"
       slide28: "[Slides](https://docs.google.com/presentation/d/1S22RPwIuOXHcrkheRcyg2InGb_5Np6fj8wh4QgoUnus/edit?usp=sharing)"
       slide29: "[Slides](https://docs.google.com/presentation/d/1m3cJ9c-bEkju2vVERT0q7fajT7gv3bQxLNLYxNpdIhs/edit?usp=sharing)"
-      slide30: "Slides"
-      slide31: "Slides"
+      slide30: "[Slides](https://docs.google.com/presentation/d/1m3cJ9c-bEkju2vVERT0q7fajT7gv3bQxLNLYxNpdIhs/edit?usp=sharing)"
+      slide31: "[Slides](https://drive.google.com/file/d/1PogDwRiWDfOpnVeGVJ_dwdhFJRoD30SX/view?usp=sharing)"
       slide32: "Slides"
       slide33: "Slides"
       slide34: "Slides"
@@ -150,9 +150,6 @@ links:
       slide38: "Slides"
       slide39: "Slides"
 
-  
-
-
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.3.3
 color_scheme: light
@@ -161,11 +158,11 @@ heading_anchors: true
 permalink: pretty
 aux_links:
   Textbook:
-    - 'https://inferentialthinking.com/chapters/intro.html'
+    - "https://inferentialthinking.com/chapters/intro.html"
   Feedback Form:
-    - 'https://forms.gle/Lkg8N2Uk9GVe5sP46'
-  Past Semesters: 
-    - 'https://www.data8.org/'
+    - "https://forms.gle/Lkg8N2Uk9GVe5sP46"
+  Past Semesters:
+    - "https://www.data8.org/"
   # Ed:
   #   - 'https://edstem.org/us/courses/44018/'
 
@@ -186,23 +183,23 @@ collections:
 # Default layouts for each collection type
 defaults:
   - scope:
-      path: ''
+      path: ""
       type: staffers
     values:
       layout: staffer
-      subpath: '/assets/images/'
+      subpath: "/assets/images/"
   - scope:
-      path: ''
+      path: ""
       type: modules
     values:
       layout: module
   - scope:
-      path: ''
+      path: ""
       type: schedules
     values:
       layout: schedule
   - scope:
-      path: ''
+      path: ""
       type: announcements
     values:
       layout: announcement
@@ -224,4 +221,3 @@ kramdown:
   hard_wrap: false
   enable_coderay: false
 safe: false
-
