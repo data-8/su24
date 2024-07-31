@@ -6,29 +6,29 @@ status: Active
 
 July 29
 : **28**{: .label} Classifiers
-: {{site.links.lec.slides.slide28}} {{site.links.lec.demo.demo28}}
+  : {{site.links.lec.slides.slide28}} {{site.links.lec.demo.demo28}}
 : _Reading:_ [17.4](https://inferentialthinking.com/chapters/17/4/Implementing_the_Classifier.html)
 : **Lab**{: .label .label-lab} {{site.links.lab.lab11}} (Due 7/29)
 : {{site.links.wksht.wksht11}}
 
 July 30
 : **29**{: .label} Updating Probabilities
-: {{site.links.lec.slides.slide29}} {{site.links.lec.demo.demo29}}
+  : {{site.links.lec.slides.slide29}} {{site.links.lec.demo.demo29}}
 : _Reading:_ [13](https://inferentialthinking.com/chapters/13/Estimation.html), [18](https://inferentialthinking.com/chapters/18/Updating_Predictions.html)
 : **Homework**{: .label .label-homework} {{site.links.hw.hw11}} (Due 8/2)
 
 July 31
 : **30**{: .label} Privacy _(Pre-recorded)_
-: [Slides](https://drive.google.com/file/d/1PogDwRiWDfOpnVeGVJ_dwdhFJRoD30SX/view?usp=sharing) &#8226; [Video](https://www.youtube.com/watch?v=tmk-bnQrtik)
+  : [Slides](https://drive.google.com/file/d/1PogDwRiWDfOpnVeGVJ_dwdhFJRoD30SX/view?usp=sharing) &#8226; [Video](https://www.youtube.com/watch?v=tmk-bnQrtik)
 : **Lab**{: .label .label-lab} {{site.links.lab.lab12}} (Due 7/31)
 : {{site.links.wksht.wksht12}}
 : **Project**{: .label .label-project} {{site.links.proj.proj2}} (Due Tues 8/6; Checkpoint Fri 8/2)
 
 August 1
 : **31**{: .label} Case Study 2: TBA
-: {{site.links.lec.slides.slide31}} {{site.links.lec.demo.demo31}}
+  : {{site.links.lec.slides.slide31}} {{site.links.lec.demo.demo31}}
 
 August 2
 : **32**{: .label} Final Review
-: {{site.links.lec.slides.slide32}} {{site.links.lec.demo.demo32}}
+  : {{site.links.lec.slides.slide32}} {{site.links.lec.demo.demo32}}
 : **Homework**{: .label .label-homework} {{site.links.hw.hw12}} (Due 8/6)
