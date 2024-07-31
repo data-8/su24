@@ -18,8 +18,8 @@ July 30
 : **Homework**{: .label .label-homework} {{site.links.hw.hw11}} (Due 8/2)
 
 July 31
-: **30**{: .label} Case Study 1: TBA
-    : {{site.links.lec.slides.slide30}} {{site.links.lec.demo.demo30}}
+: **30**{: .label} Privacy *(Pre-recorded)*
+  : [Video](https://www.youtube.com/watch?v=tmk-bnQrtik)
 : **Lab**{: .label .label-lab} {{site.links.lab.lab12}} (Due 7/31)
     : {{site.links.wksht.wksht12}}
 : **Project**{: .label .label-project} {{site.links.proj.proj2}} (Due Tues 8/6; Checkpoint Fri 8/2)
