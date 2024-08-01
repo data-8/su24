@@ -67,7 +67,7 @@ links:
     wksht13: "Lab 13 Worksheet"
   proj:
     proj1: "[Project 1: World Population and Poverty](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&branch=main&urlpath=tree%2Fmaterials-su24%2Fproject%2Fproject1%2Fproject1.ipynb&branch=main)"
-    proj2: "[Project 2: Classifying Movies](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&branch=main&urlpath=tree%2Fmaterials-su24%2Fproject%2Fproject2%2Fproject2.ipynb&branch=main)"
+    proj2: "[Project 2: Movie Classification](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-su24&branch=main&urlpath=tree%2Fmaterials-su24%2Fproject%2Fproject2%2Fproject2.ipynb&branch=main)"
   lec:
     demo:
       demo01: "&#8226; [Demo](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/data-8/materials-su24&urlpath=tree/materials-su24/lec/lec01/lec01.ipynb&branch=main)"
