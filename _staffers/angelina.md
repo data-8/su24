@@ -8,4 +8,5 @@ bio: Hello, I'm a third year from the bay studying DS and Society & Environment.
 role: Tutor (UCS1)
 office-hours: Tue 9-11AM, Tue 2-4PM, Thu 10-11AM, Thu 3-4PM
 tutoring-section: 1-2PM
+hover-photo: hovers/angelina-hover.png
 ---
