@@ -319,8 +319,8 @@ function toggleVisibility(id) {
         <ul>
             <li><a href="https://www.data8.org/su24/exams/Sp21_Midterm.pdf#page=9" target="_blank">Spring 2021 Midterm Q2</a></li>
             <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=7" target="_blank">Fall 2020 Midterm Q4 (a - e)</a></li>
-            <li><a href="https://www.data8.org/su24/exams/Fa19_Midterm.pdf#page=7" target="_blank">Fall 2019 Midterm Q1</a></li>
-            <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=2" target="_blank">Spring 2019 Final Q1</a></li>
+            <li><a href="https://www.data8.org/su24/exams/Fa19_Midterm.pdf#page=2" target="_blank">Fall 2019 Midterm Q1</a></li>
+            <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=3" target="_blank">Spring 2019 Final Q1</a></li>
             <li>Spring 2019 Midterm Q1</li>
             <li>Spring 2019 Midterm Q4 (f - g)</li>
          </ul>
