@@ -9,7 +9,7 @@ July 22
     : {{site.links.lec.slides.slide23}} {{site.links.lec.demo.demo23}}
 : _Reading:_ [15.2](https://inferentialthinking.com/chapters/15/2/Regression_Line.html)
 : **Lab**{: .label .label-lab} {{site.links.lab.lab09}} (Due 7/22)
-: {{site.links.wksht.wksht09}}
+    : {{site.links.wksht.wksht09}}
 
 July 23
 : **24**{: .label} Least Squares
@@ -22,7 +22,7 @@ July 24
     : {{site.links.lec.slides.slide25}} {{site.links.lec.demo.demo25}}
 : _Reading:_ [15.5](https://inferentialthinking.com/chapters/15/5/Visual_Diagnostics.html), [15.6](https://inferentialthinking.com/chapters/15/6/Numerical_Diagnostics.html)
 : **Lab**{: .label .label-lab} {{site.links.lab.lab10}} (Due 7/24)
-: {{site.links.wksht.wksht10}}
+    : {{site.links.wksht.wksht10}}
 
 July 25
 : **26**{: .label} Regression Inference

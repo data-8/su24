@@ -9,7 +9,7 @@ July 15
     : {{site.links.lec.slides.slide18}} {{site.links.lec.demo.demo18}}
 : _Reading:_ [13](https://inferentialthinking.com/chapters/13/Estimation.html), [13.1](https://inferentialthinking.com/chapters/13/1/Percentiles.html), [13.2](https://inferentialthinking.com/chapters/13/2/Bootstrap.html)
 : **Lab**{: .label .label-lab} {{site.links.lab.lab07}} (Due 7/15)
-: {{site.links.wksht.wksht07}}
+    : {{site.links.wksht.wksht07}}
 
 July 16
 : **19**{: .label} Interpreting Confidence
@@ -22,7 +22,7 @@ July 17
     : {{site.links.lec.slides.slide20}} {{site.links.lec.demo.demo20}}
 : _Reading:_ [14](https://inferentialthinking.com/chapters/14/Why_the_Mean_Matters.html), [14.1](https://inferentialthinking.com/chapters/14/1/Properties_of_the_Mean.html), [14.2](https://inferentialthinking.com/chapters/14/2/Variability.html), [14.3](https://inferentialthinking.com/chapters/14/3/SD_and_the_Normal_Curve.html), [14.4](https://inferentialthinking.com/chapters/14/4/Central_Limit_Theorem.html)
 : **Lab**{: .label .label-lab} {{site.links.lab.lab08}} (Due 7/17)
-: {{site.links.wksht.wksht08}}
+    : {{site.links.wksht.wksht08}}
 
 July 18
 : **21**{: .label} Sample Means

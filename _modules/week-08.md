@@ -8,7 +8,7 @@ August 5
 : **33**{: .label} Final Review
     : {{site.links.lec.slides.slide33}} {{site.links.lec.demo.demo33}}
 : **Lab**{: .label .label-lab} {{site.links.lab.lab13}} 
-: {{site.links.wksht.wksht13}}
+    : {{site.links.wksht.wksht13}}
 
 August 6
 : **34**{: .label} Final Review
