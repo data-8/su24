@@ -27,6 +27,7 @@ July 31
 August 1
 : **31**{: .label} Health _(Pre-recorded)_
   : [Slides](https://docs.google.com/presentation/d/1vw9nYhVrDv4T6CRwOfq42t0o7tzJYqOjxW5nZ2hommA/edit?usp=sharing) &#8226; [Demo](https://data8.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmaterials-fa22&urlpath=tree%2Fmaterials-fa22%2Flec%2Flec38.ipynb&branch=main) &#8226; [Video](https://youtu.be/0ic4Bjn-cE4?si=PLvT6Gdpbkmd0jKm)
+
 August 2
 : **32**{: .label} Final Review
   : {{site.links.lec.slides.slide32}} {{site.links.lec.demo.demo32}}
