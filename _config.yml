@@ -177,6 +177,7 @@ footer_content:
 # Collections for website data
 collections:
   acknowledgers:
+    output: true
   staffers:
   modules:
   schedules:
