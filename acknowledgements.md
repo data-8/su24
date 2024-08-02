@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Acknowledgements
+title: acknowledgements
 description: Contributors to Data c8 over the years!
 ---
 
