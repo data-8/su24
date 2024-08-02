@@ -2,7 +2,7 @@
 
 This page is under construction, stay tuned!
 
-{% assign best = site.staffers | where: 'role', 'acknowledgements' %}
+{% assign best = site.acknowledgers| where: 'role', 'acknowledgements' %}
 
 <div class="role flex">
 {% for staffer in best %}
