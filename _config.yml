@@ -176,6 +176,7 @@ footer_content:
 
 # Collections for website data
 collections:
+  acknowledgers:
   staffers:
   modules:
   schedules:
@@ -203,6 +204,11 @@ defaults:
       type: announcements
     values:
       layout: announcement
+  - scope:
+      path: ""
+      type: acknowledgers
+    values:
+      layout: acknowledger
 
 compress_html:
   clippings: all
