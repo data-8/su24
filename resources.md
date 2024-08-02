@@ -152,8 +152,8 @@ function toggleVisibility(id) {
                   <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=4" target="_blank">Spring 2019 Final Q3</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=6" target="_blank">Spring 2019 Final Q4a</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Sp19_Midterm.pdf#page=5" target="_blank">Spring 2019 Midterm Q3</a></li>
-                  <li>Spring 2018 Final Q5</li>
                   <li><a href="https://www.data8.org/su24/exams/Fa18_Midterm.pdf#page=3" target="_blank">Fall 2018 Midterm Q2</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=5" target="_blank">Spring 2018 Final Q5</a></li>
                   <li>Spring 2018 Midterm Q1</li>
                   <li>Fall 2017 Final Q1</li>
                   <li>Spring 2017 Final Q1</li>
@@ -188,7 +188,8 @@ function toggleVisibility(id) {
                   <li><a href="https://www.data8.org/su24/exams/Sp19_Midterm.pdf#page=3" target="_blank">Spring 2019 Midterm Q2a</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Fa18_Final.pdf#page=7" target="_blank">Fall 2018 Final Q4 (f - h)</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Fa18_Midterm.pdf#page=4" target="_blank">Fall 2018 Midterm Q3</a></li>
-                  <li>Spring 2018 Final Q8</li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=9" target="_blank">Spring 2018 Final Q8</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=3" target="_blank">Spring 2018 Final Q11</a></li>
                   <li>Spring 2018 Midterm Q5 (b - d)</li>
                   <li>Spring 2018 Midterm Q4</li>
                   <li>Fall 2017 Final Q3</li>
@@ -301,8 +302,8 @@ function toggleVisibility(id) {
                   <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=10" target="_blank">Spring 2021 Final Q2 (d, e)</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=15" target="_blank">Fall 2020 Final Q6</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=15" target="_blank">Spring 2019 Final Q10f</a></li>
-                  <li>Spring 2018 Final Q6</li>
-                  <li>Spring 2018 Final Q1</li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=6" target="_blank">Spring 2018 Final Q6</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=3" target="_blank">Spring 2018 Final Q1</a></li>
                 </ul>
             </div>
         </div>
@@ -356,7 +357,6 @@ function toggleVisibility(id) {
                   <li><a href="https://www.data8.org/su24/exams/Sp0_Midterm.pdf#page=9" target="_blank">Spring 2020 Midterm Q4 (d, e)</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Sp19_Midterm.pdf#page=14" target="_blank">Spring 2019 Midterm Q7</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Sp19_Midterm.pdf#page=10" target="_blank">Fall 2018 Final Q6</a></li>
-                  <li>Spring 2018 Final Q11</li>
                 </ul>
             </div>
         </div>
@@ -386,7 +386,7 @@ function toggleVisibility(id) {
                   <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=3" target="_blank">Spring 2022 Final Q1 (i, j)</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=12" target="_blank">Spring 2021 Final Q2f</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=15" target="_blank">Fall 2020 Final Q6f</a></li>
-                  <li>Spring 2018 Final Q2</li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=2" target="_blank">Spring 2018 Final Q2</a></li>
                 </ul>
             </div>
         </div>
@@ -426,7 +426,7 @@ function toggleVisibility(id) {
                   <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=3" target="_blank">Spring 2022 Final Q1(i, j)</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=3" target="_blank">Spring 2022 Final Q3d</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=12" target="_blank">Spring 2021 Final Q2f</a></li>
-                  <li>Spring 2018 Final Q2</li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=2" target="_blank">Spring 2018 Final Q2</a></li>
                 </ul>
             </div>
         </div>
@@ -437,7 +437,7 @@ function toggleVisibility(id) {
             <div id="experimentsContent" class="dropdownContent">
                 <ul>
                   <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=3" target="_blank">Fall 2020 Midterm Q1</a></li>
-                  <li>Spring 2018 Final Q3</li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=3" target="_blank">Spring 2018 Final Q3</a></li>
                   <li>Summer 2017 Midterm Q2</li>
                 </ul>
             </div>
@@ -480,7 +480,8 @@ function toggleVisibility(id) {
                   <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=9" target="_blank">Spring 2019 Final Q7</a></li>
                    <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=11" target="_blank">Spring 2019 Final Q9</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Fa18_Final.pdf#page=12" target="_blank">Fall 2018 Final Q7</a></li>
-                  <li>Spring 2018 Final Q4, Q7</li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=7" target="_blank">Spring 2018 Final Q7</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=4" target="_blank">Spring 2018 Final Q4</a></li>
                   <li>Fall 2016 Final Q3</li>
                 </ul>
             </div>
@@ -499,7 +500,8 @@ function toggleVisibility(id) {
                   <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=24" target="_blank">Fall 2020 Final Q8</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=6" target="_blank">Spring 2019 Final Q4</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Fa18_Final.pdf#page=2" target="_blank">Fall 2018 Final Q1</a></li>
-                  <li>Spring 2018 Final Q9, Q10</li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=10" target="_blank">Spring 2018 Final Q9</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=12" target="_blank">Spring 2018 Final Q10</a></li>
                   <li>Fall 2017 Final Q9</li>
                   <li>Spring 2017 Final Q5</li>
                   <li>Spring 2017 Practice Final Q6</li>
