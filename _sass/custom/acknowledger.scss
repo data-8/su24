@@ -1,0 +1,55 @@
+.acknowledger {
+    display: flex;
+    margin: $sp-4;
+  
+    .acknowledger-image{
+      border-radius: 50%;
+      height: 100px;
+      margin-right: $sp-4;
+      transition: opacity 0.3s ease;
+    }
+  
+    .acknowledger-image::before {
+      content: '';
+      background-image: url('{{ site.baseurl }}{{ page.subpath }}{{ page.hover-photo }}');
+      background-size: cover;
+      background-position: center;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    
+    .acknowledger-image:hover::after {
+      opacity: 1;
+    }
+  
+    p,
+    .acknowledger-name {
+      margin: $sp-1 !important;
+    }
+  
+    .acknowledger-pronouns {
+      @extend .label, .text-grey-dk-100, .bg-grey-lt-200;
+    }
+  
+    .acknowledger-meta {
+      @extend .text-grey-dk-000;
+    }
+  
+    .acknowledger-bio {
+      font-size: 1em;
+    }
+  
+    .acknowledger-office-hours-front {
+      font-weight: normal; /* Ensure the whole paragraph is normal by default */
+    }
+    .office-hours-label {
+      font-weight: bold; /* Make only the label bold */
+    }
+    
+  }
+  
