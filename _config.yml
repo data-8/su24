@@ -177,7 +177,6 @@ footer_content:
 # Collections for website data
 collections:
   acknowledgers:
-    output: true
   staffers:
   modules:
   schedules:
@@ -210,6 +209,7 @@ defaults:
       type: acknowledgers
     values:
       layout: acknowledger
+      subpath: "/assets/images/"
 
 compress_html:
   clippings: all
