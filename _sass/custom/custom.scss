@@ -6,6 +6,7 @@
 @import 'module';
 @import 'schedule';
 @import 'staffer';
+@import 'acknowledger';
 
 
 // CUSTOM
@@ -29,6 +30,10 @@
   }
 
   .staffer div {
+    max-width: 200px !important;
+  }
+
+  .acknowledger div {
     max-width: 200px !important;
   }
 
@@ -69,7 +74,17 @@
   font-size: 0.8em !important;
 }
 
+.acknowledger {
+  max-width: 500px !important;
+  font-size: 0.8em !important;
+}
+
 .staffer-name a {
+  color: #27262b !important;
+
+}
+
+.acknowledger-name a {
   color: #27262b !important;
 
 }
@@ -102,6 +117,11 @@
 }
 
 .staffer img {
+  max-width: 85px !important;
+  max-height: 85px !important;
+}
+
+.acknowledger img {
   max-width: 85px !important;
   max-height: 85px !important;
 }
