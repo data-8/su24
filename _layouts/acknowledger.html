@@ -11,7 +11,7 @@
   
   <div class="acknowledger">
     {% if page.photo %}
-    <img class="staffer-image" src="{{ site.baseurl }}{{ page.subpath }}{{ page.photo }}" alt=""
+    <img class="acknowledger-image" src="{{ site.baseurl }}{{ page.subpath }}{{ page.photo }}" alt=""
     {% if page.hover-photo %} data-hover="{{ site.baseurl }}{{ page.subpath }}{{ page.hover-photo }}"{% endif %} alt="">
     {% endif %}
     <div>
@@ -34,21 +34,21 @@
       <p><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
       {% endif %}
       {% if page.section %}
-      <p class="staffer-meta">Quiz Section: {{ page.section | markdownify | strip_html }}</p>
+      <p class="acknowledger-meta">Quiz Section: {{ page.section | markdownify | strip_html }}</p>
       {% endif %}
       {% if page.office-hours %}
-      <p class="staffer-meta">Office Hours: {{ page.office-hours }}</p>
+      <p class="acknowledger-meta">Office Hours: {{ page.office-hours }}</p>
       {% endif %}
       {% if page.office-hours-front %}
-      <p class="staffer-office-hours-front">
+      <p class="acknowledger-office-hours-front">
         <span class="office-hours-label">Office Hours:</span> {{ page.office-hours-front }}
       </p>
       {% endif %}
       {% if page.tutoring-section %}
-      <p class="staffer-meta">Tutoring Section: {{ page.tutoring-section}}</p>
+      <p class="acknowledger-meta">Tutoring Section: {{ page.tutoring-section}}</p>
       {% endif %}
       {% if page.bio %}
-      <p class="staffer-bio">{{ page.bio | markdownify }}</p>
+      <p class="acknowledger-bio">{{ page.bio | markdownify }}</p>
       {% endif %}
       {{ content }}
     </div>
@@ -56,7 +56,7 @@
   
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      const images = document.querySelectorAll('.staffer-image');
+      const images = document.querySelectorAll('.acknowledger-image');
     
       images.forEach(img => {
         const hoverImage = img.getAttribute('data-hover');
