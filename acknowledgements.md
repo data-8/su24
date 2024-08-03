@@ -8,10 +8,20 @@ description: Contributors to Data c8 over the years!
 
 This page is under construction, stay tuned!
 
-{% assign best = site.acknowledgers| where: 'role', 'acknowledgements' %}
+
+{% assign pros = site.acknowledgers| where: 'role', 'professor' %}
 
 <div class="role flex">
-{% for acknowledger in best %}
+{% for acknowledger in pros %}
+{{ acknowledger }}
+{% endfor %}
+</div>
+
+
+{% assign lect = site.acknowledgers| where: 'role', 'acknowledgements' %}
+
+<div class="role flex">
+{% for acknowledger in lect %}
 {{ acknowledger }}
 {% endfor %}
 </div>
