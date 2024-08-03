@@ -2,7 +2,7 @@
 name: Swupnil Sahai
 role:acknowledgements
 email: swupnil@berkeley.edu
-photo: acknowledgements/swupnil.jpeg
+photo: acknowledgements/Swupnil.jpg
 team: Lecturer
 role: lecturer
 ---
