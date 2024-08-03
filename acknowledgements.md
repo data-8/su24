@@ -18,7 +18,7 @@ This page is under construction, stay tuned!
 </div>
 
 
-{% assign lect = site.acknowledgers| where: 'role', 'acknowledgements' %}
+{% assign lect = site.acknowledgers| where: 'role', 'lecturer' %}
 
 <div class="role flex">
 {% for acknowledger in lect %}
