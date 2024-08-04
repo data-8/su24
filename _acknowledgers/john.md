@@ -1,5 +1,5 @@
 ---
-name: John Denero
+name: John DeNero
 role: professor
 photo: acknowledgements/john.jpeg
 email: denero@berkeley.edu
