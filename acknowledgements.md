@@ -7,6 +7,7 @@ description: Contributors to Data c8 over the years!
 # Acknowledgements 
 
 This page is under construction, stay tuned!
+Created by Brandon Concepcion
 
 
 {% assign pros = site.acknowledgers| where: 'role', 'professor' %}
