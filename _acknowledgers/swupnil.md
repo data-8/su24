@@ -2,6 +2,6 @@
 name: Swupnil Sahai
 email: swupnil@berkeley.edu
 photo: acknowledgements/Swupnil.jpg
-team: instructor
+team: Instructor
 role: instructor
 ---
