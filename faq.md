@@ -38,6 +38,10 @@ description: >-
 
 **A:** Please contact your lab GSI.
 
+**Q: I would like to apply for a (u)GSI position for this course. What should I do?**
+
+**A:** All applications for Academic Student Employee positions are managed centrally; you can find all the details [here](https://cdss.berkeley.edu/dsus/student-opportunities/joining-data-course-staff). Please do not email the instructors individually with your resume/etc, as they are not in a position to hire you.
+
 <script src="../assets/darkmode.js"></script>
 <script>
   window.addEventListener("DOMContentLoaded", (event) => {
