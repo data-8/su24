@@ -9,7 +9,6 @@ description: Contributors to Data c8 over the years!
 This page is under construction, stay tuned!
 Created by Brandon Concepcion
 
-
 {% assign pros = site.acknowledgers| where: 'role', 'professor' %}
 
 <div class="role flex">
@@ -18,7 +17,6 @@ Created by Brandon Concepcion
 {% endfor %}
 </div>
 
-
 {% assign lect = site.acknowledgers| where: 'role', 'lecturer' %}
 
 <div class="role flex">
@@ -26,3 +24,6 @@ Created by Brandon Concepcion
 {{ acknowledger }}
 {% endfor %}
 </div>
+
+# Previous Course Directors
+
