@@ -164,7 +164,7 @@ function toggleVisibility(id) {
                   <!--
                   <li>Summer 2017 Midterm Q1</li>
                   -->
-                  <li><a href="https://www.data8.org/su24/exams/fa15_Final.pdf#page=10" target="_blank">Fall 2016 Final Q9</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/fa16_Final.pdf#page=10" target="_blank">Fall 2016 Final Q9</a></li>
               </ul>
             </div>
         </div>
@@ -205,9 +205,9 @@ function toggleVisibility(id) {
                   <!--
                   <li>Summer 2017 Midterm Q4</li>
                   -->
-                  <li><a href="https://www.data8.org/su24/exams/fa15_Final.pdf#page=16" target="_blank">Fall 2016 Final Q15</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/fa15_Final.pdf#page=14" target="_blank">Fall 2016 Final Q13</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/fa15_Final.pdf#page=5" target="_blank">Fall 2016 Final Q4</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/fa16_Final.pdf#page=16" target="_blank">Fall 2016 Final Q15</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/fa16_Final.pdf#page=14" target="_blank">Fall 2016 Final Q13</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/fa16_Final.pdf#page=5" target="_blank">Fall 2016 Final Q4</a></li>
                 </ul>
             </div>
         </div>
@@ -248,12 +248,12 @@ function toggleVisibility(id) {
                     <!--
                     <li>Summer 2017 Midterm Q3</li>
                     -->
-                    <li><a href="https://www.data8.org/su24/exams/fa15_Final.pdf#page=15" target="_blank">Fall 2016 Final Q14</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/fa15_Final.pdf#page=12" target="_blank">Fall 2016 Final Q11</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/fa15_Final.pdf#page=11" target="_blank">Fall 2016 Final Q10</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/fa15_Final.pdf#page=9" target="_blank">Fall 2016 Final Q8</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/fa15_Final.pdf#page=7" target="_blank">Fall 2016 Final Q6</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/fa15_Final.pdf#page=3" target="_blank">Fall 2016 Final Q2</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/fa16_Final.pdf#page=15" target="_blank">Fall 2016 Final Q14</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/fa16_Final.pdf#page=12" target="_blank">Fall 2016 Final Q11</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/fa16_Final.pdf#page=11" target="_blank">Fall 2016 Final Q10</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/fa16_Final.pdf#page=9" target="_blank">Fall 2016 Final Q8</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/fa16_Final.pdf#page=7" target="_blank">Fall 2016 Final Q6</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/fa16_Final.pdf#page=3" target="_blank">Fall 2016 Final Q2</a></li>
                 </ul>
             </div>
         </div>
@@ -349,9 +349,9 @@ function toggleVisibility(id) {
                   <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=14" target="_blank">Fall 2020 Final Q5h</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Fa18_Final.pdf#page=5" target="_blank">Fall 2018 Final Q5</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Fa18_Final.pdf#page=5" target="_blank">Fall 2018 Final Q3</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/fa15_Final.pdf#page=17" target="_blank">Fall 2016 Final Q16</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/fa15_Final.pdf#page=13" target="_blank">Fall 2016 Final Q12</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/fa15_Final.pdf#page=8" target="_blank">Fall 2016 Final Q7</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/fa16_Final.pdf#page=17" target="_blank">Fall 2016 Final Q16</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/fa16_Final.pdf#page=13" target="_blank">Fall 2016 Final Q12</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/fa16_Final.pdf#page=8" target="_blank">Fall 2016 Final Q7</a></li>
                 </ul>
             </div>
         </div>
@@ -501,7 +501,7 @@ function toggleVisibility(id) {
                   <li><a href="https://www.data8.org/su24/exams/Fa18_Final.pdf#page=12" target="_blank">Fall 2018 Final Q7</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=7" target="_blank">Spring 2018 Final Q7</a></li>
                   <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=4" target="_blank">Spring 2018 Final Q4</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/fa15_Final.pdf#page=4" target="_blank">Fall 2016 Final Q3</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/fa16_Final.pdf#page=4" target="_blank">Fall 2016 Final Q3</a></li>
                 </ul>
             </div>
         </div>
@@ -527,8 +527,8 @@ function toggleVisibility(id) {
                    <!--
                   <li>Spring 2017 Practice Final Q6</li>
                   -->
-                  <li><a href="https://www.data8.org/su24/exams/fa15_Final.pdf#page=6" target="_blank">Fall 2016 Final Q5</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/fa15_Final.pdf#page=2" target="_blank">Fall 2016 Final Q1</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/fa16_Final.pdf#page=6" target="_blank">Fall 2016 Final Q5</a></li>
+                  <li><a href="https://www.data8.org/su24/exams/fa16_Final.pdf#page=2" target="_blank">Fall 2016 Final Q1</a></li>
                 </ul>
             </div>
         </div>
