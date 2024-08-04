@@ -1,6 +1,7 @@
 ---
 name: Kevin Miao
 photo: acknowledgements/kevin.jpeg
-team: Instructor
+#team: Instructor
 role: instructor
+term: Summer 2023
 ---
