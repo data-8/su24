@@ -28,7 +28,7 @@ Created by Brandon Concepcion
 # Previous Course Directors
 
 {% assign director = site.acknowledgers | where: 'role', 'CD' %}
-{% assign sorted_director_by_name = director | sort: 'name' %}
+{% assign sorted_director_by_name = director | sort: 'name' | reverse %}
 {% assign sorted_director_by_year = sorted_director_by_name | sort: 'term' | reverse %}
 
 <div class="role flex">
