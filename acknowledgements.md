@@ -33,9 +33,6 @@ Created by Brandon Concepcion
 
 <div class="role flex">
 {% for acknowledger in sorted_director_by_year %}
-  <div>
-    <p>{{ acknowledger.name }}</p>
-    <p>{{ acknowledger.year }}</p>
-  </div>
+{{ acknowledger }}
 {% endfor %}
 </div>
