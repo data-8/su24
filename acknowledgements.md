@@ -17,7 +17,7 @@ Created by Brandon Concepcion
 {% endfor %}
 </div>
 
-# Previous Instructors
+## Previous Instructors
 {% assign lect = site.acknowledgers| where: 'role', 'instructor' %}
 
 <div class="role flex">
@@ -26,7 +26,7 @@ Created by Brandon Concepcion
 {% endfor %}
 </div>
 
-# Previous Course Directors
+## Previous Course Directors
 
 {% assign director = site.acknowledgers | where: 'role', 'CD' %}
 {% assign sorted_director_by_name = director | sort: 'name' | reverse %}

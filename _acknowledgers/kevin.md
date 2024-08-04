@@ -1,6 +1,6 @@
 ---
 name: Kevin Miao
 photo: acknowledgements/kevin.jpeg
-team: Instructor
+team: instructor
 role: instructor
 ---

@@ -1,6 +1,6 @@
 ---
 name: Kanu Grover
 photo: acknowledgements/kanu.jpg
-team: Instructor
+team: instructor
 role: instructor
 ---
