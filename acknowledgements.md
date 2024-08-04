@@ -32,7 +32,7 @@ Created by Brandon Concepcion
 {% assign sorted_director_by_year = sorted_director_by_name | sort: 'term' | reverse %}
 
 <div class="role flex">
-{% for acknowledger in sorted_director %}
+{% for acknowledger in sorted_director_by_year %}
   <div>
     <p>{{ acknowledger.name }}</p>
     <p>{{ acknowledger.year }}</p>
