@@ -17,7 +17,8 @@ Created by Brandon Concepcion
 {% endfor %}
 </div>
 
-{% assign lect = site.acknowledgers| where: 'role', 'lecturer' %}
+# Previous Instructors
+{% assign lect = site.acknowledgers| where: 'role', 'instructor' %}
 
 <div class="role flex">
 {% for acknowledger in lect %}
