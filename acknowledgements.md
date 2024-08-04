@@ -27,3 +27,10 @@ Created by Brandon Concepcion
 
 # Previous Course Directors
 
+{% assign director = site.acknowledgers| where: 'role', 'CD' %}
+
+<div class="role flex">
+{% for acknowledger in director %}
+{{ acknowledger }}
+{% endfor %}
+</div>
