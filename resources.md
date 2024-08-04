@@ -69,7 +69,6 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
 | Fall 2016 |  [Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-fa16-midterm.pdf) | [Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-fa16-final.pdf) [(Solutions)](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-fa16-final-sols.pdf) |
 
 ## Exam Problems by Topic
-* This section is still under construction 
 
 <script>
 function toggleVisibility(id) {
