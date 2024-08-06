@@ -82,6 +82,7 @@ function toggleVisibility(id) {
 }
 </script>
 
+<!-->
 <style>
     #dropdownContainer {
     display: flex;
@@ -126,448 +127,451 @@ function toggleVisibility(id) {
     z-index: 1; /* Ensures dropdown content lays on top of other content if expanded */
 }
 </style>
+-->
 
-<div id="dropdownContainer">
-    <div class="dropdownWrapper">
-        <div class="dropdown" id="Tablesdropdown">
-            <button onclick="toggleVisibility('tableContent')">Tables</button>
-            <div id="tableContent" class="dropdownContent">
-                <ul>
-                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=4" target="_blank">Spring 2022 Final Q2</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=2" target="_blank">Spring 2022 Midterm Q1</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=9" target="_blank">Spring 2022 Midterm Q2b</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=15" target="_blank">Fall 2021 Final Q12</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=2" target="_blank">Fall 2021 Final Q2</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=3" target="_blank">Fall 2021 Midterm Q1</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=5" target="_blank">Fall 2021 Midterm Q2</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=14" target="_blank">Spring 2021 Final Q3</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp21_Midterm.pdf#page=4" target="_blank">Spring 2021 Midterm Q1</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=3" target="_blank">Fall 2020 Final Q1</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=9" target="_blank">Fall 2020 Midterm Q5</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp20_Midterm.pdf#page=4" target="_blank"> Spring 2020 Midterm Q2 (e - f) </a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp20_Midterm.pdf#page=6" target="_blank">Spring 2020 Midterm Q3(e - f, i, j)</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa19_Midterm.pdf#page=3" target="_blank">Fall 2019 Midterm Q2</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa19_Midterm.pdf#page=7" target="_blank">Fall 2019 Midterm Q4</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=4" target="_blank">Spring 2019 Final Q3</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=6" target="_blank">Spring 2019 Final Q4a</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp19_Midterm.pdf#page=5" target="_blank">Spring 2019 Midterm Q3</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa18_Midterm.pdf#page=3" target="_blank">Fall 2018 Midterm Q2</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=5" target="_blank">Spring 2018 Final Q5</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp18_Midterm.pdf#page=2" target="_blank">Spring 2018 Midterm Q1</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa17_Final.pdf#page=2" target="_blank">Fall 2017 Final Q1</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp17_Final.pdf#page=2" target="_blank">Spring 2017 Final Q1</a></li>
-                  <!--
-                  <li>Spring 2017 Practice Final Q1</li>
-                  -->
-                  <li><a href="https://www.data8.org/su24/exams/Sp17_Midterm.pdf#page=2" target="_blank">Spring 2017 Midterm Q1</a></li>
-                  <!--
-                  <li>Summer 2017 Midterm Q1</li>
-                  -->
-                  <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=10" target="_blank">Fall 2016 Final Q9</a></li>
-              </ul>
-            </div>
-        </div>
-    </div>
-    <div class="dropdownWrapper" id="hypothesistestingdropdown">
-        <div class = "dropdown">
-            <button onclick="toggleVisibility('htestingContent')" style="background-color: #93b8b6;">Standard Hypothesis Testing</button>
-            <div id="htestingContent" class="dropdownContent">
-                <ul>
-                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=18" target="_blank">Spring 2022 Final Q6e</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=3" target="_blank">Spring 2022 Final Q1k</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=13" target="_blank">Spring 2022 Midterm Q4</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=7" target="_blank">Fall 2021 Final Q6</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=10" target="_blank">Fall 2021 Midterm Q6</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=7" target="_blank">Spring 2021 Final Q1b</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp21_Midterm.pdf#page=15" target="_blank">Spring 2021 Midterm Q5</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=18" target="_blank">Fall 2020 Final Q7</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=14" target="_blank">Fall 2020 Midterm Q7</a></li>
-                  <li><a href ="https://www.data8.org/su24/exams/Sp20_Midterm.pdf#page=8" target = "_blank"> Spring 2020 Midterm Q4 (a - c)</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp20_Midterm.pdf#page=7" target = "_blank">Spring 2020 Midterm Q3k</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa19_Midterm.pdf#page=11" target="_blank">Fall 2019 Midterm Q6</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa19_Midterm.pdf#page=5" target="_blank">Fall 2019 Midterm Q3 (e - g, h, i)</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=8" target="_blank">Spring 2019 Final Q5</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp19_Midterm.pdf#page=11" target="_blank">Spring 2019 Midterm Q6</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp19_Midterm.pdf#page=3" target="_blank">Spring 2019 Midterm Q2a</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa18_Final.pdf#page=7" target="_blank">Fall 2018 Final Q4 (f - h)</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa18_Midterm.pdf#page=4" target="_blank">Fall 2018 Midterm Q3</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=9" target="_blank">Spring 2018 Final Q8</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=13" target="_blank">Spring 2018 Final Q11</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp18_Midterm.pdf#page=5" target="_blank">Spring 2018 Midterm Q5 (b - d)</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp18_Midterm.pdf#page=4" target="_blank">Spring 2018 Midterm Q4</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa17_Final.pdf#page=5" target="_blank">Fall 2017 Final Q3</a></li>
-                   <!--
-                  <li>Spring 2017 Practice Final Q4</li>
-                  -->
-                  <li><a href="https://www.data8.org/su24/exams/Sp17_Final.pdf#page=3" target="_blank">Spring 2017 Final Q2</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp17_Midterm.pdf#page=5" target="_blank">Spring 2017 Midterm Q4</a></li>
-                  <!--
-                  <li>Summer 2017 Midterm Q4</li>
-                  -->
-                  <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=16" target="_blank">Fall 2016 Final Q15</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=14" target="_blank">Fall 2016 Final Q13</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=5" target="_blank">Fall 2016 Final Q4</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>  
-    <div class="dropdownWrapper" id="histdropdown">
-        <div class = "dropdown">
-            <button onclick="toggleVisibility('histContent')" style="background-color:#b9c8b5;">Histograms/ Visualizations</button>
-            <div id="histContent" class="dropdownContent">
-                <ul>
-                    <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=19" target="_blank">Spring 2022 Final Q7(a, b)</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=9" target="_blank">Spring 2022 Final Q3h</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=8" target="_blank">Spring 2022 Midterm Q2</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=6" target="_blank">Spring 2022 Midterm Q1e</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=4" target="_blank">Fall 2021 Final Q3</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=18" target="_blank">Fall 2021 Midterm Q9</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=11" target="_blank">Fall 2021 Midterm Q6b</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=8" target="_blank">Fall 2021 Midterm Q5</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=29" target="_blank">Spring 2021 Final Q7 (a - c)</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Sp21_Midterm.pdf#page=23" target="_blank">Spring 2021 Midterm Q7</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Sp21_Midterm.pdf#page=18" target="_blank">Spring 2021 Midterm Q6</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=11" target="_blank">Fall 2020 Final Q5b</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=9" target="_blank">Fall 2020 Final Q4g</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=6" target="_blank">Fall 2020 Midterm Q3</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=5" target="_blank">Fall 2020 Midterm Q2</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Sp20_Midterm.pdf#page=5" target="_blank">Spring 2020 Midterm Q3 (a - d)</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Sp20_Midterm.pdf#page=3" target="_blank">Spring 2020 Midterm Q2 (a - d)</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Fa19_Midterm.pdf#page=9" target="_blank">Fall 2019 Midterm Q5</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Fa19_Midterm.pdf#page=3" target="_blank">Fall 2019 Midterm Q2 (a - d)</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Sp19_Midterm.pdf#page=7" target="_blank">Spring 2019 Midterm Q4</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Sp19_Midterm.pdf#page=4" target="_blank">Spring 2019 Midterm Q2b</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Fa18_Final.pdf#page=3" target="_blank">Fall 2018 Final Q2a</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Fa18_Midterm.pdf#page=2" target="_blank">Fall 2018 Midterm Q1</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Sp18_Midterm.pdf#page=6" target="_blank">Spring 2018 Midterm Q6</a></li>
-                     <!--
-                    <li>Spring 2017 Practice Final Q2</li>
-                    -->
-                    <li><a href="https://www.data8.org/su24/exams/Sp17_Midterm.pdf#page=3" target="_blank">Spring 2017 Midterm Q2</a></li>
+<div class="custom-section">
+  <div id="dropdownContainer">
+      <div class="dropdownWrapper">
+          <div class="dropdown" id="Tablesdropdown">
+              <button onclick="toggleVisibility('tableContent')">Tables</button>
+              <div id="tableContent" class="dropdownContent">
+                  <ul>
+                    <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=4" target="_blank">Spring 2022 Final Q2</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=2" target="_blank">Spring 2022 Midterm Q1</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=9" target="_blank">Spring 2022 Midterm Q2b</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=15" target="_blank">Fall 2021 Final Q12</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=2" target="_blank">Fall 2021 Final Q2</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=3" target="_blank">Fall 2021 Midterm Q1</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=5" target="_blank">Fall 2021 Midterm Q2</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=14" target="_blank">Spring 2021 Final Q3</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp21_Midterm.pdf#page=4" target="_blank">Spring 2021 Midterm Q1</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=3" target="_blank">Fall 2020 Final Q1</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=9" target="_blank">Fall 2020 Midterm Q5</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp20_Midterm.pdf#page=4" target="_blank"> Spring 2020 Midterm Q2 (e - f) </a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp20_Midterm.pdf#page=6" target="_blank">Spring 2020 Midterm Q3(e - f, i, j)</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa19_Midterm.pdf#page=3" target="_blank">Fall 2019 Midterm Q2</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa19_Midterm.pdf#page=7" target="_blank">Fall 2019 Midterm Q4</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=4" target="_blank">Spring 2019 Final Q3</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=6" target="_blank">Spring 2019 Final Q4a</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp19_Midterm.pdf#page=5" target="_blank">Spring 2019 Midterm Q3</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa18_Midterm.pdf#page=3" target="_blank">Fall 2018 Midterm Q2</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=5" target="_blank">Spring 2018 Final Q5</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp18_Midterm.pdf#page=2" target="_blank">Spring 2018 Midterm Q1</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa17_Final.pdf#page=2" target="_blank">Fall 2017 Final Q1</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp17_Final.pdf#page=2" target="_blank">Spring 2017 Final Q1</a></li>
                     <!--
-                    <li>Summer 2017 Midterm Q3</li>
+                    <li>Spring 2017 Practice Final Q1</li>
                     -->
-                    <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=15" target="_blank">Fall 2016 Final Q14</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=12" target="_blank">Fall 2016 Final Q11</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=11" target="_blank">Fall 2016 Final Q10</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=9" target="_blank">Fall 2016 Final Q8</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=7" target="_blank">Fall 2016 Final Q6</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=3" target="_blank">Fall 2016 Final Q2</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp17_Midterm.pdf#page=2" target="_blank">Spring 2017 Midterm Q1</a></li>
+                    <!--
+                    <li>Summer 2017 Midterm Q1</li>
+                    -->
+                    <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=10" target="_blank">Fall 2016 Final Q9</a></li>
                 </ul>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="dropdownContainer">
-     <div class="dropdownWrapper">
-    <div class="dropdown" id="functionsdropdown">
-      <button onclick="toggleVisibility('functionsContent')">Functions</button>
-      <div id="functionsContent" class="dropdownContent">
-       <ul>
-              <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=22" target="_blank">Spring 2022 Final Q7h</a></li>
-              <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=17" target="_blank">Spring 2022 Final Q6d</a></li>
-              <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=8" target="_blank">Fall 2021 Final Q6f</a></li>
-              <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=7" target="_blank">Fall 2021 Final Q6a</a></li>
-              <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=3" target="_blank">Fall 2021 Final Q2d</a></li>
-              <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=2" target="_blank">Fall 2021 Final Q1</a></li>
-              <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=14" target="_blank">Fall 2021 Midterm Q8a</a></li>
-              <!--> This one don't match
-              <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=3" target="_blank">Fall 2021 Midterm Q4 (h, i)</c></li>
-              -->
-              <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=10" target="_blank">Fall 2020 Final Q5a</a></li>
-              <li><a href="https://www.data8.org/su24/exams/Sp20_Midterm.pdf#page=6" target="_blank">Spring 2020 Midterm Q3h</a></li>
-              <li><a href="https://www.data8.org/su24/exams/Sp19_Midterm.pdf#page=9" target="_blank">Spring 2019 Midterm Q4d</a></li>
-              <li><a href="https://www.data8.org/su24/exams/Fa18_Midterm.pdf#page=3" target="_blank">Fall 2018 Midterm Q2g</a></li>
-          </ul>
+              </div>
+          </div>
       </div>
-    </div>
+      <div class="dropdownWrapper" id="hypothesistestingdropdown">
+          <div class = "dropdown">
+              <button onclick="toggleVisibility('htestingContent')" style="background-color: #93b8b6;">Standard Hypothesis Testing</button>
+              <div id="htestingContent" class="dropdownContent">
+                  <ul>
+                    <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=18" target="_blank">Spring 2022 Final Q6e</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=3" target="_blank">Spring 2022 Final Q1k</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=13" target="_blank">Spring 2022 Midterm Q4</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=7" target="_blank">Fall 2021 Final Q6</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=10" target="_blank">Fall 2021 Midterm Q6</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=7" target="_blank">Spring 2021 Final Q1b</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp21_Midterm.pdf#page=15" target="_blank">Spring 2021 Midterm Q5</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=18" target="_blank">Fall 2020 Final Q7</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=14" target="_blank">Fall 2020 Midterm Q7</a></li>
+                    <li><a href ="https://www.data8.org/su24/exams/Sp20_Midterm.pdf#page=8" target = "_blank"> Spring 2020 Midterm Q4 (a - c)</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp20_Midterm.pdf#page=7" target = "_blank">Spring 2020 Midterm Q3k</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa19_Midterm.pdf#page=11" target="_blank">Fall 2019 Midterm Q6</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa19_Midterm.pdf#page=5" target="_blank">Fall 2019 Midterm Q3 (e - g, h, i)</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=8" target="_blank">Spring 2019 Final Q5</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp19_Midterm.pdf#page=11" target="_blank">Spring 2019 Midterm Q6</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp19_Midterm.pdf#page=3" target="_blank">Spring 2019 Midterm Q2a</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa18_Final.pdf#page=7" target="_blank">Fall 2018 Final Q4 (f - h)</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa18_Midterm.pdf#page=4" target="_blank">Fall 2018 Midterm Q3</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=9" target="_blank">Spring 2018 Final Q8</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=13" target="_blank">Spring 2018 Final Q11</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp18_Midterm.pdf#page=5" target="_blank">Spring 2018 Midterm Q5 (b - d)</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp18_Midterm.pdf#page=4" target="_blank">Spring 2018 Midterm Q4</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa17_Final.pdf#page=5" target="_blank">Fall 2017 Final Q3</a></li>
+                    <!--
+                    <li>Spring 2017 Practice Final Q4</li>
+                    -->
+                    <li><a href="https://www.data8.org/su24/exams/Sp17_Final.pdf#page=3" target="_blank">Spring 2017 Final Q2</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp17_Midterm.pdf#page=5" target="_blank">Spring 2017 Midterm Q4</a></li>
+                    <!--
+                    <li>Summer 2017 Midterm Q4</li>
+                    -->
+                    <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=16" target="_blank">Fall 2016 Final Q15</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=14" target="_blank">Fall 2016 Final Q13</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=5" target="_blank">Fall 2016 Final Q4</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>  
+      <div class="dropdownWrapper" id="histdropdown">
+          <div class = "dropdown">
+              <button onclick="toggleVisibility('histContent')" style="background-color:#b9c8b5;">Histograms/ Visualizations</button>
+              <div id="histContent" class="dropdownContent">
+                  <ul>
+                      <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=19" target="_blank">Spring 2022 Final Q7(a, b)</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=9" target="_blank">Spring 2022 Final Q3h</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=8" target="_blank">Spring 2022 Midterm Q2</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=6" target="_blank">Spring 2022 Midterm Q1e</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=4" target="_blank">Fall 2021 Final Q3</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=18" target="_blank">Fall 2021 Midterm Q9</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=11" target="_blank">Fall 2021 Midterm Q6b</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=8" target="_blank">Fall 2021 Midterm Q5</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=29" target="_blank">Spring 2021 Final Q7 (a - c)</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Sp21_Midterm.pdf#page=23" target="_blank">Spring 2021 Midterm Q7</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Sp21_Midterm.pdf#page=18" target="_blank">Spring 2021 Midterm Q6</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=11" target="_blank">Fall 2020 Final Q5b</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=9" target="_blank">Fall 2020 Final Q4g</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=6" target="_blank">Fall 2020 Midterm Q3</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=5" target="_blank">Fall 2020 Midterm Q2</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Sp20_Midterm.pdf#page=5" target="_blank">Spring 2020 Midterm Q3 (a - d)</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Sp20_Midterm.pdf#page=3" target="_blank">Spring 2020 Midterm Q2 (a - d)</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Fa19_Midterm.pdf#page=9" target="_blank">Fall 2019 Midterm Q5</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Fa19_Midterm.pdf#page=3" target="_blank">Fall 2019 Midterm Q2 (a - d)</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Sp19_Midterm.pdf#page=7" target="_blank">Spring 2019 Midterm Q4</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Sp19_Midterm.pdf#page=4" target="_blank">Spring 2019 Midterm Q2b</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Fa18_Final.pdf#page=3" target="_blank">Fall 2018 Final Q2a</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Fa18_Midterm.pdf#page=2" target="_blank">Fall 2018 Midterm Q1</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Sp18_Midterm.pdf#page=6" target="_blank">Spring 2018 Midterm Q6</a></li>
+                      <!--
+                      <li>Spring 2017 Practice Final Q2</li>
+                      -->
+                      <li><a href="https://www.data8.org/su24/exams/Sp17_Midterm.pdf#page=3" target="_blank">Spring 2017 Midterm Q2</a></li>
+                      <!--
+                      <li>Summer 2017 Midterm Q3</li>
+                      -->
+                      <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=15" target="_blank">Fall 2016 Final Q14</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=12" target="_blank">Fall 2016 Final Q11</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=11" target="_blank">Fall 2016 Final Q10</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=9" target="_blank">Fall 2016 Final Q8</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=7" target="_blank">Fall 2016 Final Q6</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=3" target="_blank">Fall 2016 Final Q2</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
   </div>
-    <div class="dropdownWrapper" id="iterationdropdown">
-        <div class = "dropdown">
-            <button onclick="toggleVisibility('iterationContent')" style="background-color: #93b8b6;">Iteration</button>
-            <div id="iterationContent" class="dropdownContent">
-                <ul>
-                    <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=15" target="_blank">Fall 2021 Midterm Q8b</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=7" target="_blank">Fall 2020 Midterm Q4 (f, g)</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Fa19_Midterm.pdf#page=5" target="_blank">Fall 2019 Midterm Q3g</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Sp19_Midterm.pdf#page=12" target="_blank">Spring 2019 Midterm Q6d</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Sp19_Midterm.pdf#page=4" target="_blank">Spring 2019 Midterm Q2c</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Fa18_Midterm.pdf#page=5" target="_blank">Fall 2018 Midterm Q3d</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Sp18_Midterm.pdf#page=3" target="_blank">Spring 2018 Midterm Q2</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Sp17_Midterm.pdf#page=4" target="_blank">Spring 2017 Midterm Q3b</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="dropdownWrapper" id="confidencedropdown">
-        <div class = "dropdown">
-            <button onclick="toggleVisibility('confidenceContent')" style="background-color: #b9c8b5;">Confidence Intervals</button>
-            <div id="confidenceContent" class="dropdownContent">
-                <ul>
-                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=7" target="_blank">Spring 2022 Final Q3 (a - g)</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=2" target="_blank">Spring 2022 Final Q1f</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=13" target="_blank">Fall 2021 Final Q10</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=12" target="_blank">Fall 2021 Final Q9</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=6" target="_blank">Fall 2021 Final Q5b</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=22" target="_blank">Spring 2021 Final Q4 (d - h)</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=10" target="_blank">Spring 2021 Final Q2 (d, e)</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=15" target="_blank">Fall 2020 Final Q6</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=15" target="_blank">Spring 2019 Final Q10f</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=6" target="_blank">Spring 2018 Final Q6</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=2" target="_blank">Spring 2018 Final Q1</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div id="dropdownContainer">
-   <div class="dropdownWrapper">
-    <div class="dropdown" id="pythonpracticedropdown">
-      <button onclick="toggleVisibility('pythonPracticeContent')">Python Practice</button>
-      <div id="pythonPracticeContent" class="dropdownContent">
+  <div id="dropdownContainer">
+      <div class="dropdownWrapper">
+      <div class="dropdown" id="functionsdropdown">
+        <button onclick="toggleVisibility('functionsContent')">Functions</button>
+        <div id="functionsContent" class="dropdownContent">
         <ul>
-            <li><a href="https://www.data8.org/su24/exams/Sp21_Midterm.pdf#page=9" target="_blank">Spring 2021 Midterm Q2</a></li>
-            <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=7" target="_blank">Fall 2020 Midterm Q4 (a - e)</a></li>
-            <li><a href="https://www.data8.org/su24/exams/Fa19_Midterm.pdf#page=2" target="_blank">Fall 2019 Midterm Q1</a></li>
-            <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=3" target="_blank">Spring 2019 Final Q1</a></li>
-            <li><a href="https://www.data8.org/su24/exams/Sp19_Midterm.pdf#page=3" target="_blank">Spring 2019 Midterm Q1</a></li>
-         </ul>
+                <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=22" target="_blank">Spring 2022 Final Q7h</a></li>
+                <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=17" target="_blank">Spring 2022 Final Q6d</a></li>
+                <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=8" target="_blank">Fall 2021 Final Q6f</a></li>
+                <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=7" target="_blank">Fall 2021 Final Q6a</a></li>
+                <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=3" target="_blank">Fall 2021 Final Q2d</a></li>
+                <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=2" target="_blank">Fall 2021 Final Q1</a></li>
+                <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=14" target="_blank">Fall 2021 Midterm Q8a</a></li>
+                <!--> This one don't match
+                <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=3" target="_blank">Fall 2021 Midterm Q4 (h, i)</c></li>
+                -->
+                <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=10" target="_blank">Fall 2020 Final Q5a</a></li>
+                <li><a href="https://www.data8.org/su24/exams/Sp20_Midterm.pdf#page=6" target="_blank">Spring 2020 Midterm Q3h</a></li>
+                <li><a href="https://www.data8.org/su24/exams/Sp19_Midterm.pdf#page=9" target="_blank">Spring 2019 Midterm Q4d</a></li>
+                <li><a href="https://www.data8.org/su24/exams/Fa18_Midterm.pdf#page=3" target="_blank">Fall 2018 Midterm Q2g</a></li>
+            </ul>
+        </div>
       </div>
     </div>
+      <div class="dropdownWrapper" id="iterationdropdown">
+          <div class = "dropdown">
+              <button onclick="toggleVisibility('iterationContent')" style="background-color: #93b8b6;">Iteration</button>
+              <div id="iterationContent" class="dropdownContent">
+                  <ul>
+                      <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=15" target="_blank">Fall 2021 Midterm Q8b</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=7" target="_blank">Fall 2020 Midterm Q4 (f, g)</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Fa19_Midterm.pdf#page=5" target="_blank">Fall 2019 Midterm Q3g</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Sp19_Midterm.pdf#page=12" target="_blank">Spring 2019 Midterm Q6d</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Sp19_Midterm.pdf#page=4" target="_blank">Spring 2019 Midterm Q2c</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Fa18_Midterm.pdf#page=5" target="_blank">Fall 2018 Midterm Q3d</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Sp18_Midterm.pdf#page=3" target="_blank">Spring 2018 Midterm Q2</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Sp17_Midterm.pdf#page=4" target="_blank">Spring 2017 Midterm Q3b</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <div class="dropdownWrapper" id="confidencedropdown">
+          <div class = "dropdown">
+              <button onclick="toggleVisibility('confidenceContent')" style="background-color: #b9c8b5;">Confidence Intervals</button>
+              <div id="confidenceContent" class="dropdownContent">
+                  <ul>
+                    <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=7" target="_blank">Spring 2022 Final Q3 (a - g)</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=2" target="_blank">Spring 2022 Final Q1f</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=13" target="_blank">Fall 2021 Final Q10</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=12" target="_blank">Fall 2021 Final Q9</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=6" target="_blank">Fall 2021 Final Q5b</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=22" target="_blank">Spring 2021 Final Q4 (d - h)</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=10" target="_blank">Spring 2021 Final Q2 (d, e)</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=15" target="_blank">Fall 2020 Final Q6</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=15" target="_blank">Spring 2019 Final Q10f</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=6" target="_blank">Spring 2018 Final Q6</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=2" target="_blank">Spring 2018 Final Q1</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
   </div>
-    <div class="dropdownWrapper" id="bootstrapdropdown">
-        <div class = "dropdown">
-            <button onclick="toggleVisibility('bootstrapContent')" style="background-color: #93b8b6;">Bootstrap</button>
-            <div id="bootstrapContent" class="dropdownContent">
-                <ul>
-                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=16" target="_blank">Spring 2022 Final Q6c</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=13" target="_blank">Fall 2021 Final Q10</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=5" target="_blank">Fall 2021 Final Q5a</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=20" target="_blank">Fall 2020 Final Q7 (c - f)</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=14" target="_blank">Fall 2020 Final Q5h</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa18_Final.pdf#page=5" target="_blank">Fall 2018 Final Q5</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa18_Final.pdf#page=5" target="_blank">Fall 2018 Final Q3</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=17" target="_blank">Fall 2016 Final Q16</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=13" target="_blank">Fall 2016 Final Q12</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=8" target="_blank">Fall 2016 Final Q7</a></li>
-                </ul>
-            </div>
+
+  <div id="dropdownContainer">
+    <div class="dropdownWrapper">
+      <div class="dropdown" id="pythonpracticedropdown">
+        <button onclick="toggleVisibility('pythonPracticeContent')">Python Practice</button>
+        <div id="pythonPracticeContent" class="dropdownContent">
+          <ul>
+              <li><a href="https://www.data8.org/su24/exams/Sp21_Midterm.pdf#page=9" target="_blank">Spring 2021 Midterm Q2</a></li>
+              <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=7" target="_blank">Fall 2020 Midterm Q4 (a - e)</a></li>
+              <li><a href="https://www.data8.org/su24/exams/Fa19_Midterm.pdf#page=2" target="_blank">Fall 2019 Midterm Q1</a></li>
+              <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=3" target="_blank">Spring 2019 Final Q1</a></li>
+              <li><a href="https://www.data8.org/su24/exams/Sp19_Midterm.pdf#page=3" target="_blank">Spring 2019 Midterm Q1</a></li>
+          </ul>
         </div>
+      </div>
     </div>
-    <div class="dropdownWrapper" id="ABtestingdropdown">
-        <div class = "dropdown">
-            <button onclick="toggleVisibility('ABContent')" style="background-color: #b9c8b5;">A/B Testing</button>
-            <div id="ABContent" class="dropdownContent">
-                <ul>
-                  <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=13" target="_blank">Fall 2021 Midterm Q7</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=8" target="_blank">Fall 2021 Midterm Q5</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=3" target="_blank">Spring 2021 Final Q1a</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=6" target="_blank">Spring 2021 Midterm Q3</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=18" target="_blank">Fall 2020 Midterm Q8</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp20_Midterm.pdf#page=9" target="_blank">Spring 2020 Midterm Q4 (d, e)</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp19_Midterm.pdf#page=14" target="_blank">Spring 2019 Midterm Q7</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp19_Midterm.pdf#page=10" target="_blank">Fall 2018 Final Q6</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
+      <div class="dropdownWrapper" id="bootstrapdropdown">
+          <div class = "dropdown">
+              <button onclick="toggleVisibility('bootstrapContent')" style="background-color: #93b8b6;">Bootstrap</button>
+              <div id="bootstrapContent" class="dropdownContent">
+                  <ul>
+                    <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=16" target="_blank">Spring 2022 Final Q6c</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=13" target="_blank">Fall 2021 Final Q10</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=5" target="_blank">Fall 2021 Final Q5a</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=20" target="_blank">Fall 2020 Final Q7 (c - f)</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=14" target="_blank">Fall 2020 Final Q5h</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa18_Final.pdf#page=5" target="_blank">Fall 2018 Final Q5</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa18_Final.pdf#page=5" target="_blank">Fall 2018 Final Q3</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=17" target="_blank">Fall 2016 Final Q16</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=13" target="_blank">Fall 2016 Final Q12</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=8" target="_blank">Fall 2016 Final Q7</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <div class="dropdownWrapper" id="ABtestingdropdown">
+          <div class = "dropdown">
+              <button onclick="toggleVisibility('ABContent')" style="background-color: #b9c8b5;">A/B Testing</button>
+              <div id="ABContent" class="dropdownContent">
+                  <ul>
+                    <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=13" target="_blank">Fall 2021 Midterm Q7</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=8" target="_blank">Fall 2021 Midterm Q5</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=3" target="_blank">Spring 2021 Final Q1a</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=6" target="_blank">Spring 2021 Midterm Q3</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=18" target="_blank">Fall 2020 Midterm Q8</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp20_Midterm.pdf#page=9" target="_blank">Spring 2020 Midterm Q4 (d, e)</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp19_Midterm.pdf#page=14" target="_blank">Spring 2019 Midterm Q7</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp19_Midterm.pdf#page=10" target="_blank">Fall 2018 Final Q6</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
 
 
-<div id="dropdownContainer">
-    <div class="dropdownWrapper" id="samplingdropdown">
-        <div class = "dropdown">
-            <button onclick="toggleVisibility('samplingContent')">Sampling</button>
-            <div id="samplingContent" class="dropdownContent">
+  <div id="dropdownContainer">
+      <div class="dropdownWrapper" id="samplingdropdown">
+          <div class = "dropdown">
+              <button onclick="toggleVisibility('samplingContent')">Sampling</button>
+              <div id="samplingContent" class="dropdownContent">
+                  <ul>
+                      <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=16" target="_blank">Fall 2021 Midterm Q8 (c, d)</a></li>
+                      <!--
+                      <li>Spring 2017 Practice Final Q5</li>
+                      -->
+                      <li><a href="https://www.data8.org/su24/exams/Fa17_Final.pdf#page=3" target="_blank">Fall 2017 Final Q2 (e - h)</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Fa17_Final.pdf#page=9" target="_blank">Fall 2017 Final Q6</a></li>
+                      <li><a href="https://www.data8.org/su24/exams/Sp17_Final.pdf#page=4" target="_blank">Spring 2017 Final Q3</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <div class="dropdownWrapper" id="centerspread">
+          <div class = "dropdown">
+              <button onclick="toggleVisibility('centerContent')" style="background-color: #93b8b6;">Center and Spread</button>
+              <div id="centerContent" class="dropdownContent">
+                  <ul>
+                    <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=3" target="_blank">Spring 2022 Final Q1 (i, j)</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=12" target="_blank">Spring 2021 Final Q2f</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=15" target="_blank">Fall 2020 Final Q6f</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=2" target="_blank">Spring 2018 Final Q2</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <div class="dropdownWrapper" id="averagesdropdown">
+          <div class = "dropdown">
+              <button onclick="toggleVisibility('averagesContent')" style="background-color: #b9c8b5;">Law of Averages</button>
+              <div id="averagesContent" class="dropdownContent">
+                  <ul>
+                    <li><a href="https://www.data8.org/su24/exams/Fa18_Midterm.pdf#page=5" target="_blank">Fall 2018 Midterm Q3f</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp18_Midterm.pdf#page=5" target="_blank">Spring 2018 Midterm Q5a</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp17_Midterm.pdf#page=4" target="_blank">Spring 2017 Midterm Q3c</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div id="dropdownContainer">
+      <div class="dropdownWrapper" id="samplemeansdropdown">
+          <div class = "dropdown">
+              <button onclick="toggleVisibility('samplemeansContent')">Sample Means</button>
+              <div id="samplemeansContent" class="dropdownContent">
                 <ul>
-                    <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=16" target="_blank">Fall 2021 Midterm Q8 (c, d)</a></li>
-                     <!--
-                    <li>Spring 2017 Practice Final Q5</li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=7" target="_blank">Spring 2022 Final Q3 (b - c, f)</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=6" target="_blank">Fall 2021 Final Q5b</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=9" target="_blank">Spring 2021 Final Q2 (a - d)</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <div class="dropdownWrapper" id="cltdropdown">
+          <div class = "dropdown">
+              <button onclick="toggleVisibility('cltContent')" style="background-color: #93b8b6;">Central Limit Theorem</button>
+              <div id="cltContent" class="dropdownContent">
+                  <ul>
+                    <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=3" target="_blank">Spring 2022 Final Q1(i, j)</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=3" target="_blank">Spring 2022 Final Q3d</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=12" target="_blank">Spring 2021 Final Q2f</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=2" target="_blank">Spring 2018 Final Q2</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <div class="dropdownWrapper" id="experimentsdropdown">
+          <div class = "dropdown">
+              <button onclick="toggleVisibility('experimentsContent')" style="background-color: #b9c8b5;">Experiments</button>
+              <div id="experimentsContent" class="dropdownContent">
+                  <ul>
+                    <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=3" target="_blank">Fall 2020 Midterm Q1</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=3" target="_blank">Spring 2018 Final Q3</a></li>
+                    <!--
+                    <li>Summer 2017 Midterm Q2</li>
                     -->
-                    <li><a href="https://www.data8.org/su24/exams/Fa17_Final.pdf#page=3" target="_blank">Fall 2017 Final Q2 (e - h)</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Fa17_Final.pdf#page=9" target="_blank">Fall 2017 Final Q6</a></li>
-                    <li><a href="https://www.data8.org/su24/exams/Sp17_Final.pdf#page=4" target="_blank">Spring 2017 Final Q3</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="dropdownWrapper" id="centerspread">
-        <div class = "dropdown">
-            <button onclick="toggleVisibility('centerContent')" style="background-color: #93b8b6;">Center and Spread</button>
-            <div id="centerContent" class="dropdownContent">
-                <ul>
-                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=3" target="_blank">Spring 2022 Final Q1 (i, j)</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=12" target="_blank">Spring 2021 Final Q2f</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=15" target="_blank">Fall 2020 Final Q6f</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=2" target="_blank">Spring 2018 Final Q2</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="dropdownWrapper" id="averagesdropdown">
-        <div class = "dropdown">
-            <button onclick="toggleVisibility('averagesContent')" style="background-color: #b9c8b5;">Law of Averages</button>
-            <div id="averagesContent" class="dropdownContent">
-                <ul>
-                  <li><a href="https://www.data8.org/su24/exams/Fa18_Midterm.pdf#page=5" target="_blank">Fall 2018 Midterm Q3f</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp18_Midterm.pdf#page=5" target="_blank">Spring 2018 Midterm Q5a</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp17_Midterm.pdf#page=4" target="_blank">Spring 2017 Midterm Q3c</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
 
-<div id="dropdownContainer">
-    <div class="dropdownWrapper" id="samplemeansdropdown">
-        <div class = "dropdown">
-            <button onclick="toggleVisibility('samplemeansContent')">Sample Means</button>
-            <div id="samplemeansContent" class="dropdownContent">
-               <ul>
-                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=7" target="_blank">Spring 2022 Final Q3 (b - c, f)</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=6" target="_blank">Fall 2021 Final Q5b</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=9" target="_blank">Spring 2021 Final Q2 (a - d)</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="dropdownWrapper" id="cltdropdown">
-        <div class = "dropdown">
-            <button onclick="toggleVisibility('cltContent')" style="background-color: #93b8b6;">Central Limit Theorem</button>
-            <div id="cltContent" class="dropdownContent">
+  <div id="dropdownContainer">
+      <div class="dropdownWrapper" id="correlationdropdown">
+          <div class = "dropdown">
+              <button onclick="toggleVisibility('corrContent')">Correlation/Regression/Least Squares</button>
+              <div id="corrContent" class="dropdownContent">
                 <ul>
-                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=3" target="_blank">Spring 2022 Final Q1(i, j)</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=3" target="_blank">Spring 2022 Final Q3d</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=12" target="_blank">Spring 2021 Final Q2f</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=2" target="_blank">Spring 2018 Final Q2</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=2" target="_blank">Spring 2022 Final Q1 (a, f, g, n)</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=14" target="_blank">Spring 2022 Final Q6 (a - d)</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=8" target="_blank">Fall 2021 Final Q7</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=18" target="_blank">Spring 2021 Final Q4 (a - c)</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=11" target="_blank">Fall 2020 Final Q5 (c, d)</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=12" target="_blank">Spring 2019 Final Q10 (a - e)</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa18_Final.pdf#page=3" target="_blank">Fall 2018 Final Q2</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa17_Final.pdf#page=12" target="_blank">Fall 2017 Final Q10</a></li>
+                    <!--
+                    <li>Spring 2017 Practice Final Q3 (a - c)</li>
+                    -->
+                    <li><a href="https://www.data8.org/su24/exams/Sp17_Final.pdf#page=5" target="_blank">Spring 2017 Final Q4</a></li>
                 </ul>
-            </div>
-        </div>
-    </div>
-    <div class="dropdownWrapper" id="experimentsdropdown">
-        <div class = "dropdown">
-            <button onclick="toggleVisibility('experimentsContent')" style="background-color: #b9c8b5;">Experiments</button>
-            <div id="experimentsContent" class="dropdownContent">
+              </div>
+          </div>
+      </div>
+      <div class="dropdownWrapper" id="resdropdown">
+          <div class = "dropdown">
+              <button onclick="toggleVisibility('resContent')" style="background-color:#93b8b6;">Residuals/Regression Inference</button>
+              <div id="resContent" class="dropdownContent">
+                  <ul>
+                    <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=2" target="_blank">Spring 2022 Final Q1f</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=19" target="_blank">Spring 2022 Final Q1m</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=9" target="_blank">Spring 2022 Final Q3h</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=22" target="_blank">Spring 2021 Final Q4(d - g)</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=12" target="_blank">Spring 2021 Final Q2g</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=10" target="_blank">Fall 2021 Final Q8</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=13" target="_blank">Fall 2020 Final Q5 (e - i)</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=9" target="_blank">Spring 2019 Final Q7</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=11" target="_blank">Spring 2019 Final Q9</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa18_Final.pdf#page=12" target="_blank">Fall 2018 Final Q7</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=7" target="_blank">Spring 2018 Final Q7</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=4" target="_blank">Spring 2018 Final Q4</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=4" target="_blank">Fall 2016 Final Q3</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <div class="dropdownWrapper" id="classifierdropdown">
+          <div class = "dropdown">
+              <button onclick="toggleVisibility('classContent')" style="background-color:#b9c8b5;">Classification/Classifiers/Decisions</button>
+              <div id="classContent" class="dropdownContent">
+                  <ul>
+                    <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=7" target="_blank">Spring 2022 Final Q1 (b - d)</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=20" target="_blank">Spring 2022 Final Q7 (c - h)</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=17" target="_blank">Fall 2021 Final Q13</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=30" target="_blank">Spring 2021 Final Q7 (d - f)</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=7" target="_blank">Fall 2020 Final Q4 (a - f)</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=24" target="_blank">Fall 2020 Final Q8</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=6" target="_blank">Spring 2019 Final Q4</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa18_Final.pdf#page=2" target="_blank">Fall 2018 Final Q1</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=10" target="_blank">Spring 2018 Final Q9</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=12" target="_blank">Spring 2018 Final Q10</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa17_Final.pdf#page=11" target="_blank">Fall 2017 Final Q9</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa17_Final.pdf#page=9" target="_blank">Fall 2017 Final Q5</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp17_Final.pdf#page=6" target="_blank">Spring 2017 Final Q5</a></li>
+                    <!--
+                    <li>Spring 2017 Practice Final Q6</li>
+                    -->
+                    <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=6" target="_blank">Fall 2016 Final Q5</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=2" target="_blank">Fall 2016 Final Q1</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div id="dropdownContainer">
+      <div class="dropdownWrapper" id="probdropdown">
+          <div class = "dropdown">
+              <button onclick="toggleVisibility('probContent')" style="background-color:#b99eb4;">Probability</button>
+              <div id="probContent" class="dropdownContent">
                 <ul>
-                  <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=3" target="_blank">Fall 2020 Midterm Q1</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=3" target="_blank">Spring 2018 Final Q3</a></li>
-                  <!--
-                  <li>Summer 2017 Midterm Q2</li>
-                  -->
+                    <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=13" target="_blank">Spring 2022 Final Q5</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=11" target="_blank">Spring 2022 Final Q4</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=3" target="_blank">Spring 2022 Final Q1L</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=10" target="_blank">Spring 2022 Midterm Q3</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=15" target="_blank">Fall 2021 Final Q11</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=6" target="_blank">Fall 2021 Midterm Q3</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=27" target="_blank">Spring 2021 Final Q6</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=25" target="_blank">Spring 2021 Final Q5</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp21_Midterm.pdf#page=14" target="_blank">Spring 2021 Midterm Q4</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=6" target="_blank">Fall 2020 Final Q3</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=5" target="_blank">Fall 2020 Final Q2</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=12" target="_blank">Fall 2020 Midterm Q6</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp20_Midterm.pdf#page=2" target="_blank">Spring 2020 Midterm Q1</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa19_Midterm.pdf#page=4" target="_blank">Fall 2019 Midterm Q3 (a - d)</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=3" target="_blank">Spring 2019 Final Q2</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=9" target="_blank">Spring 2019 Final Q6</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp19_Midterm.pdf#page=10" target="_blank">Spring 2019 Midterm Q5</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa18_Final.pdf#page=6" target="_blank">Fall 2018 Final Q4</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa18_Midterm.pdf#page=6" target="_blank">Fall 2018 Midterm Q4</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp18_Midterm.pdf#page=4" target="_blank">Spring 2018 Midterm Q3</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Fa17_Final.pdf#page=10" target="_blank">Fall 2017 Final Q8</a></li>
+                    <li><a href="https://www.data8.org/su24/exams/Sp17_Midterm.pdf#page=4" target="_blank">Spring 2017 Midterm Q3a</a></li>
+                    <!--
+                    <li>Summer 2017 Midterm Q2</li>
+                    -->
                 </ul>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div id="dropdownContainer">
-    <div class="dropdownWrapper" id="correlationdropdown">
-        <div class = "dropdown">
-            <button onclick="toggleVisibility('corrContent')">Correlation/Regression/Least Squares</button>
-            <div id="corrContent" class="dropdownContent">
-               <ul>
-                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=2" target="_blank">Spring 2022 Final Q1 (a, f, g, n)</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=14" target="_blank">Spring 2022 Final Q6 (a - d)</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=8" target="_blank">Fall 2021 Final Q7</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=18" target="_blank">Spring 2021 Final Q4 (a - c)</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=11" target="_blank">Fall 2020 Final Q5 (c, d)</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=12" target="_blank">Spring 2019 Final Q10 (a - e)</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa18_Final.pdf#page=3" target="_blank">Fall 2018 Final Q2</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa17_Final.pdf#page=12" target="_blank">Fall 2017 Final Q10</a></li>
-                   <!--
-                  <li>Spring 2017 Practice Final Q3 (a - c)</li>
-                  -->
-                  <li><a href="https://www.data8.org/su24/exams/Sp17_Final.pdf#page=5" target="_blank">Spring 2017 Final Q4</a></li>
-               </ul>
-            </div>
-        </div>
-    </div>
-    <div class="dropdownWrapper" id="resdropdown">
-        <div class = "dropdown">
-            <button onclick="toggleVisibility('resContent')" style="background-color:#93b8b6;">Residuals/Regression Inference</button>
-            <div id="resContent" class="dropdownContent">
-                <ul>
-                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=2" target="_blank">Spring 2022 Final Q1f</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=19" target="_blank">Spring 2022 Final Q1m</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=9" target="_blank">Spring 2022 Final Q3h</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=22" target="_blank">Spring 2021 Final Q4(d - g)</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=12" target="_blank">Spring 2021 Final Q2g</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=10" target="_blank">Fall 2021 Final Q8</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=13" target="_blank">Fall 2020 Final Q5 (e - i)</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=9" target="_blank">Spring 2019 Final Q7</a></li>
-                   <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=11" target="_blank">Spring 2019 Final Q9</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa18_Final.pdf#page=12" target="_blank">Fall 2018 Final Q7</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=7" target="_blank">Spring 2018 Final Q7</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=4" target="_blank">Spring 2018 Final Q4</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=4" target="_blank">Fall 2016 Final Q3</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="dropdownWrapper" id="classifierdropdown">
-        <div class = "dropdown">
-            <button onclick="toggleVisibility('classContent')" style="background-color:#b9c8b5;">Classification/Classifiers/Decisions</button>
-            <div id="classContent" class="dropdownContent">
-                <ul>
-                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=7" target="_blank">Spring 2022 Final Q1 (b - d)</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=20" target="_blank">Spring 2022 Final Q7 (c - h)</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=17" target="_blank">Fall 2021 Final Q13</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=30" target="_blank">Spring 2021 Final Q7 (d - f)</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=7" target="_blank">Fall 2020 Final Q4 (a - f)</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=24" target="_blank">Fall 2020 Final Q8</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=6" target="_blank">Spring 2019 Final Q4</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa18_Final.pdf#page=2" target="_blank">Fall 2018 Final Q1</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=10" target="_blank">Spring 2018 Final Q9</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp18_Final.pdf#page=12" target="_blank">Spring 2018 Final Q10</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa17_Final.pdf#page=11" target="_blank">Fall 2017 Final Q9</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa17_Final.pdf#page=9" target="_blank">Fall 2017 Final Q5</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp17_Final.pdf#page=6" target="_blank">Spring 2017 Final Q5</a></li>
-                   <!--
-                  <li>Spring 2017 Practice Final Q6</li>
-                  -->
-                  <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=6" target="_blank">Fall 2016 Final Q5</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa16_Final.pdf#page=2" target="_blank">Fall 2016 Final Q1</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="dropdownContainer">
-    <div class="dropdownWrapper" id="probdropdown">
-        <div class = "dropdown">
-            <button onclick="toggleVisibility('probContent')" style="background-color:#b99eb4;">Probability</button>
-            <div id="probContent" class="dropdownContent">
-               <ul>
-                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=13" target="_blank">Spring 2022 Final Q5</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=11" target="_blank">Spring 2022 Final Q4</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp22_Final.pdf#page=3" target="_blank">Spring 2022 Final Q1L</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp22_Midterm.pdf#page=10" target="_blank">Spring 2022 Midterm Q3</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa21_Final.pdf#page=15" target="_blank">Fall 2021 Final Q11</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa21_Midterm.pdf#page=6" target="_blank">Fall 2021 Midterm Q3</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=27" target="_blank">Spring 2021 Final Q6</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp21_Final.pdf#page=25" target="_blank">Spring 2021 Final Q5</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp21_Midterm.pdf#page=14" target="_blank">Spring 2021 Midterm Q4</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=6" target="_blank">Fall 2020 Final Q3</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa20_Final.pdf#page=5" target="_blank">Fall 2020 Final Q2</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa20_Midterm.pdf#page=12" target="_blank">Fall 2020 Midterm Q6</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp20_Midterm.pdf#page=2" target="_blank">Spring 2020 Midterm Q1</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa19_Midterm.pdf#page=4" target="_blank">Fall 2019 Midterm Q3 (a - d)</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=3" target="_blank">Spring 2019 Final Q2</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp19_Final.pdf#page=9" target="_blank">Spring 2019 Final Q6</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp19_Midterm.pdf#page=10" target="_blank">Spring 2019 Midterm Q5</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa18_Final.pdf#page=6" target="_blank">Fall 2018 Final Q4</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa18_Midterm.pdf#page=6" target="_blank">Fall 2018 Midterm Q4</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp18_Midterm.pdf#page=4" target="_blank">Spring 2018 Midterm Q3</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Fa17_Final.pdf#page=10" target="_blank">Fall 2017 Final Q8</a></li>
-                  <li><a href="https://www.data8.org/su24/exams/Sp17_Midterm.pdf#page=4" target="_blank">Spring 2017 Midterm Q3a</a></li>
-                  <!--
-                  <li>Summer 2017 Midterm Q2</li>
-                  -->
-               </ul>
-            </div>
-        </div>
-    </div>
+              </div>
+          </div>
+      </div>
+  </div>
 </div>
 
 ## Wellness Resources
