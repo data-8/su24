@@ -5,6 +5,7 @@ description: Contributors to Data c8 over the years!
 ---
 
 # Acknowledgements 
+* We apologize this section does not yet curretly work for dark mode, we're looking to fix this issue soon!
 
 This page is under construction, stay tuned!
 Created by Brandon Concepcion
