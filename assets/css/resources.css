@@ -27,7 +27,7 @@
     transition: box-shadow 0.25s;
 }
 
-.dropdown button:hover{
+.dropdown button:hover {
     box-shadow: 
         0 2px 4px rgba(0, 0, 0, 0.07),  /* Side shadow */
         0 4px 8px rgba(0, 0, 0, 0.13); /* Bottom shadow more pronounced */
@@ -39,4 +39,24 @@
     padding: 5px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds shadow for better visibility */
     z-index: 1; /* Ensures dropdown content lays on top of other content if expanded */
+    max-height: 200px; /* Set maximum height for the dropdown content */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Custom scrollbar styles */
+.dropdownContent::-webkit-scrollbar {
+    width: 8px;
+}
+
+.dropdownContent::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+.dropdownContent::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+}
+
+.dropdownContent::-webkit-scrollbar-thumb:hover {
+    background: #555; 
 }
