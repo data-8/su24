@@ -8,4 +8,5 @@ bio: Hello! I am a rising senior from SoCal double majoring in data science and 
 role: Tutor (UCS1)
 office-hours: Thu 2-5PM, Fri 1-2PM
 tutoring-section: 7-8PM
+hover-photo: hovers/noahs-hover.png
 ---
