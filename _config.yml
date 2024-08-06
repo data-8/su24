@@ -228,6 +228,4 @@ kramdown:
   hard_wrap: false
   enable_coderay: false
 safe: false
-sass:
-  sass_dir: _sass
 
