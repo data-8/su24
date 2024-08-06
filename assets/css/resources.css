@@ -51,14 +51,16 @@
 }
 
 .dropdownContent li {
-    padding: 2px 0; /* Reduce padding to make items closer together */
+    padding: 5px 10px; /* Add padding to list items */
+    position: relative; /* Ensure the pseudo-element is positioned relative to the li */
 }
 
-.dropdownContent li a {
-    text-decoration: none; /* Remove underline from links */
-    color: #007BFF; /* Set link color */
-    display: inline-block; /* Make it an inline-block element to respect padding */
-    width: 100%; /* Make the link take up the full width */
+.dropdownContent li:before {
+    content: '•'; /* Add a bullet point */
+    position: absolute; /* Position it absolutely within the li */
+    left: 0; /* Align it to the left */
+    opacity: 0; /* Make it invisible */
+    padding: 2px 0; /* Reduce padding to make items closer together */
 }
 
 .dropdownContent li a:hover {
