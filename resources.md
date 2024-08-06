@@ -70,6 +70,7 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
 
 ## Exam Problems by Topic
 
+<script>
 function toggleVisibility(id) {
   var element = document.getElementById(id);
   var currentDisplay = window.getComputedStyle(element).display;
@@ -79,6 +80,7 @@ function toggleVisibility(id) {
     element.style.display = 'block';
   }
 }
+</script>
 
 <style>
     #dropdownContainer {
