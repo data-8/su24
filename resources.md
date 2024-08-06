@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: resources
 nav_order: 3
 title: Resources
 description: >-
