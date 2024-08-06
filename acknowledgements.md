@@ -37,3 +37,10 @@ Created by Brandon Concepcion
 {{ acknowledger }}
 {% endfor %}
 </div>
+
+<script src="../assets/darkmode.js"></script>
+<script>
+  window.addEventListener("DOMContentLoaded", (event) => {
+    onLoad();
+});
+</script>

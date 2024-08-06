@@ -39,8 +39,28 @@
     padding: 5px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds shadow for better visibility */
     z-index: 1; /* Ensures dropdown content lays on top of other content if expanded */
-    max-height: 100px; /* Set maximum height for the dropdown content */
+    max-height: 150px; /* Set maximum height for the dropdown content */
     overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.dropdownContent ul {
+    padding: 0; /* Remove default padding from the ul element */
+    margin: 0; /* Remove default margin from the ul element */
+    list-style: none; /* Remove default list style */
+}
+
+.dropdownContent li {
+    padding: 5px 10px; /* Add padding to list items */
+    list-style: none; /* Ensure list items have no bullets */
+}
+
+.dropdownContent li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007BFF; /* Set link color */
+}
+
+.dropdownContent li a:hover {
+    text-decoration: underline; /* Add underline on hover */
 }
 
 /* Custom scrollbar styles */
