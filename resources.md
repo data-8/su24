@@ -52,7 +52,7 @@ We will post student materials in [this folder](https://drive.google.com/drive/f
 
 ## Past Exams
 Exams, practice exams, and walkthrough videos from previous semesters can be found below. These exams may differ slightly in terms of material covered and syntax used, as the `datascience` module has changed over time.
-* A review document identifying past exam problems by topic can be found [here!](https://docs.google.com/document/d/1zed6Q9LAgUvCoazdGMOd5K0FpLcfZF-IMZMyGzTOFfk/edit?usp=sharing) 
+* A review document identifying past exam problems by topic can be found [here!](https://docs.google.com/document/d/1ZjEpBprnr_AL0z4axkTuhZ61Sm6OEVSwfWS7Z6k2D-4/edit?usp=sharing) 
 
 | Semester | Midterm | Final |
 | -- | -- | -- |
@@ -74,66 +74,6 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
 | Fall 2016 |  [Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-fa16-midterm.pdf) | [Exam](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-fa16-final.pdf) [(Solutions)](https://docs.google.com/viewer?url=https://github.com/data-8/archived-exams/raw/master/data8-fa16-final-sols.pdf) |
 
 ## Exam Problems by Topic
-<!-->
-<script>
-function toggleVisibility(id) {
-  var element = document.getElementById(id);
-  var currentDisplay = window.getComputedStyle(element).display;
-  if (currentDisplay === 'block') {
-    element.style.display = 'none';
-  } else {
-    element.style.display = 'block';
-  }
-}
-</script>
--->
-
-<!-->
-<style>
-    #dropdownContainer {
-    display: flex;
-    flex-direction: row; /* Ensure items are laid out in a row */
-    flex-wrap: wrap; /* Allow items to wrap onto the next line if space runs out */
-    justify-content: space-between; /* Distribute space between items evenly */
-    align-items: stretch; /* Stretch items to fill the container vertically */
-    width: 100%; /* Ensure the container takes full width */
-    padding: 10px; /* Optional: Adds some space inside the container */
-}
-
-.dropdownWrapper {
-    flex: 1 1 20%; /* Flex grow, shrink, and basis set for responsive sizing */
-    min-width: 180px; /* Minimum width to maintain readability and appearance */
-    margin: 5px; /* Spacing between buttons */
-}
-
-.dropdown button {
-    width: 100%; /* Ensure the button stretches to the full width of its container */
-    padding: 10px; /* Adjust padding to control the button's inner spacing */
-    font-size: 16px;
-    color: white;
-    background-color: #8db8cc;
-    border: none;
-    cursor: pointer;
-    height: 100%; /* Make the button fill its container vertically */
-    border-radius: 10px; /* Adds slightly rounded corners */
-    transition: box-shadow 0.25s;
-}
-
-.dropdown button:hover{
-    box-shadow: 
-        0 2px 4px rgba(0, 0, 0, 0.07),  /* Side shadow */
-        0 4px 8px rgba(0, 0, 0, 0.13); /* Bottom shadow more pronounced */
-}
-
-.dropdownContent {
-    display: none; /* Keep content hidden by default */
-    background-color: #f4f4f4;
-    padding: 5px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds shadow for better visibility */
-    z-index: 1; /* Ensures dropdown content lays on top of other content if expanded */
-}
-</style>
--->
 
 {% include resources-content.html %}
 
