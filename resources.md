@@ -5,6 +5,11 @@ title: Resources
 description: >-
     Resources
 ---
+
+<head>
+    <link rel="stylesheet" href="{{ '/assets/css/resources.css' | relative_url }}">
+</head>
+
 # Resources
 Contributions made by Aileen Wu, Brandon Concepcion, Edwin Vargas Navarro, and Jonathan Ferrari
 
