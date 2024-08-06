@@ -39,7 +39,7 @@
     padding: 5px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds shadow for better visibility */
     z-index: 1; /* Ensures dropdown content lays on top of other content if expanded */
-    max-height: 200px; /* Set maximum height for the dropdown content */
+    max-height: 100px; /* Set maximum height for the dropdown content */
     overflow-y: auto; /* Enable vertical scrolling */
 }
 
