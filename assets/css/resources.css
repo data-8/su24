@@ -51,16 +51,20 @@
 
 .dropdownContent li {
     padding: 5px 10px; /* Add padding to list items */
-    border-bottom: 1px solid #ddd; /* Add a bottom border for separation */
+    position: relative; /* Ensure the pseudo-element is positioned relative to the li */
 }
 
-.dropdownContent li:last-child {
-    border-bottom: none; /* Remove border from the last item */
+.dropdownContent li:before {
+    content: '•'; /* Add a bullet point */
+    position: absolute; /* Position it absolutely within the li */
+    left: 0; /* Align it to the left */
+    opacity: 0; /* Make it invisible */
 }
 
 .dropdownContent li a {
     text-decoration: none; /* Remove underline from links */
     color: #007BFF; /* Set link color */
+    padding-left: 0px; /* Remove padding to align text */
     display: block; /* Make it a block element */
 }
 
