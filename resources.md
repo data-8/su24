@@ -550,7 +550,6 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
 </div>
 -->
 {% include resources-content.html %}
-{% include dropdown.js%}
 
 ## Wellness Resources
 
