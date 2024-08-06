@@ -65,7 +65,6 @@
     text-decoration: none; /* Remove underline from links */
     color: #007BFF; /* Set link color */
     padding-left: 0px; /* Remove padding to align text */
-    display: block; /* Make it a block element */
 }
 
 .dropdownContent li a:hover {
