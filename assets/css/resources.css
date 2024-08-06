@@ -56,11 +56,7 @@
 }
 
 .dropdownContent li:before {
-    content: '•'; /* Add a bullet point */
     position: absolute; /* Position it absolutely within the li */
-    left: 0; /* Align it to the left */
-    opacity: 0; /* Make it invisible */
-    padding: 2px 0; /* Reduce padding to make items closer together */
 }
 
 .dropdownContent li a:hover {
