@@ -70,9 +70,16 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
 
 ## Exam Problems by Topic
 
+function toggleVisibility(id) {
+  var element = document.getElementById(id);
+  var currentDisplay = window.getComputedStyle(element).display;
+  if (currentDisplay === 'block') {
+    element.style.display = 'none';
+  } else {
+    element.style.display = 'block';
+  }
+}
 
-
-<!-->
 <style>
     #dropdownContainer {
     display: flex;
@@ -117,7 +124,6 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
     z-index: 1; /* Ensures dropdown content lays on top of other content if expanded */
 }
 </style>
--->
 
 {% include resources-content.html %}
 
