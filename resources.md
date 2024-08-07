@@ -26,23 +26,23 @@ Contributions made by Aileen Wu, Brandon Concepcion, Edwin Vargas Navarro, and J
 ## Materials
 
 ### Student Materials Folder
-We will post student materials in [this folder](https://drive.google.com/drive/folders/16o8duRO-J-EnnWiue1QJjyHW9BQFetDJ?usp=drive_link) throughout the semester.
+We will post student materials in [this folder](https://drive.google.com/drive/folders/16o8duRO-J-EnnWiue1QJjyHW9BQFetDJ?usp=drive_link){:target="_blank"} throughout the semester.
 
 ### Guides
-* [Arrays Primer](https://drive.google.com/file/d/1SzpKe_SnFf9_mkLyhETz5-AiaBJBYJDv/view?usp=sharing)
-* [Tabular Thinking](https://drive.google.com/file/d/1D9PXUgDLXjFBXZoyGVSKpzk0nKQziDTP/view?usp=sharing)
-* [Confidence Intervals](https://drive.google.com/file/d/1MTHu81FjF2SKps4a6x_N_sMWcFs2APx4/view?usp=sharing)
-* [JupyterHub Tips](https://drive.google.com/file/d/1vA4x3RIwCq8jY4KvTRpqrnmASS7Se1Bn/view?usp=sharing)
-* [Sampling Methods](https://drive.google.com/file/d/1k8uNN0Bg7J0BTgK-0Z5glDNtd_5FTJQl/view?usp=sharing)
-* [Table Functions](https://drive.google.com/file/d/1j2hjhweJdGWW0EdvmjGHsXFUatXIZax4/view?usp=sharing)
-* [Hypothesis Testing](https://drive.google.com/file/d/1s9e252XRIUYxNeI8dNG4D0f8B9iwEv6x/view?usp=sharing)
+* [Arrays Primer](https://drive.google.com/file/d/1SzpKe_SnFf9_mkLyhETz5-AiaBJBYJDv/view?usp=sharing){:target="_blank"}
+* [Tabular Thinking](https://drive.google.com/file/d/1D9PXUgDLXjFBXZoyGVSKpzk0nKQziDTP/view?usp=sharing){:target="_blank"}
+* [Confidence Intervals](https://drive.google.com/file/d/1MTHu81FjF2SKps4a6x_N_sMWcFs2APx4/view?usp=sharing){:target="_blank"}
+* [JupyterHub Tips](https://drive.google.com/file/d/1vA4x3RIwCq8jY4KvTRpqrnmASS7Se1Bn/view?usp=sharing){:target="_blank"}
+* [Sampling Methods](https://drive.google.com/file/d/1k8uNN0Bg7J0BTgK-0Z5glDNtd_5FTJQl/view?usp=sharing){:target="_blank"}
+* [Table Functions](https://drive.google.com/file/d/1j2hjhweJdGWW0EdvmjGHsXFUatXIZax4/view?usp=sharing){:target="_blank"}
+* [Hypothesis Testing](https://drive.google.com/file/d/1s9e252XRIUYxNeI8dNG4D0f8B9iwEv6x/view?usp=sharing){:target="_blank"}
 
 ### Table Resources
-* [Table Function Visualizer](https://www.data8.org/interactive_table_functions/)
+* [Table Function Visualizer](https://www.data8.org/interactive_table_functions/){:target="_blank"}
 
 ### Supplemental Videos
-* [Group Animation](https://youtu.be/HLoYTCUP0fc?si=J160YHimo01SVKl0)
-* [Pivot Animation](https://youtu.be/4WzXo8eKLAg?si=dWrB6Vedh041wV-N)
+* [Group Animation](https://youtu.be/HLoYTCUP0fc?si=J160YHimo01SVKl0){:target="_blank"}
+* [Pivot Animation](https://youtu.be/4WzXo8eKLAg?si=dWrB6Vedh041wV-N){:target="_blank"}
 
 ## Exam Resources
 
@@ -65,12 +65,12 @@ Exams, practice exams, and walkthrough videos from previous semesters can be fou
 
 Your well-being matters, and we hope that Data 8 is _never_ a barrier to taking care of your mental and physical health. Below are some campus resources that may be helpful:
 
-* [University Health Services](https://uhs.berkeley.edu/)
-* [UHS Counseling and Psychological Services (CAPS)](https://uhs.berkeley.edu/caps)
-* [Campus Academic Accommodations Hub](https://evcp.berkeley.edu/programs-resources/academic-accommodations-hub)
-* [ASUC Student Advocate's Office](https://advocate.berkeley.edu/)
-* [Basic Needs Center](https://basicneeds.berkeley.edu/)
-* [ASUC Mental Health Resources Guide](https://asuc.org/wp-content/uploads/2018/02/Mental-Health-Resources.pdf)
+* [University Health Services](https://uhs.berkeley.edu/){:target="_blank"}
+* [UHS Counseling and Psychological Services (CAPS)](https://uhs.berkeley.edu/caps){:target="_blank"}
+* [Campus Academic Accommodations Hub](https://evcp.berkeley.edu/programs-resources/academic-accommodations-hub){:target="_blank"}
+* [ASUC Student Advocate's Office](https://advocate.berkeley.edu/){:target="_blank"}
+* [Basic Needs Center](https://basicneeds.berkeley.edu/){:target="_blank"}
+* [ASUC Mental Health Resources Guide](https://asuc.org/wp-content/uploads/2018/02/Mental-Health-Resources.pdf){:target="_blank"}
 
 <script src="../assets/darkmode.js"></script>
 <script>
