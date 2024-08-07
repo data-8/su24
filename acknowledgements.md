@@ -22,9 +22,10 @@ Created by Brandon Concepcion
 
 ## Website Contributors
 {% assign web = site.acknowledgers| where: 'role', 'website' %}
+{% assign sorted_website = web | sort: 'rank' %}
 
 <div class="role flex">
-{% for acknowledger in web %}
+{% for acknowledger in sorted_website %}
 {{ acknowledger }}
 {% endfor %}
 </div>
