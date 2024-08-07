@@ -20,6 +20,15 @@ Created by Brandon Concepcion
 {% endfor %}
 </div>
 
+## Website Contributors
+{% assign web = site.acknowledgers| where: 'role', 'website' %}
+
+<div class="role flex">
+{% for acknowledger in web %}
+{{ acknowledger }}
+{% endfor %}
+</div>
+
 ## Instructional Contributors
 {% assign lect = site.acknowledgers| where: 'role', 'instructor' %}
 
@@ -37,15 +46,6 @@ Created by Brandon Concepcion
 
 <div class="role flex">
 {% for acknowledger in sorted_director_by_year %}
-{{ acknowledger }}
-{% endfor %}
-</div>
-
-## Website Contributors
-{% assign web = site.acknowledgers| where: 'role', 'website' %}
-
-<div class="role flex">
-{% for acknowledger in web %}
 {{ acknowledger }}
 {% endfor %}
 </div>
