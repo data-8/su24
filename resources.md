@@ -11,7 +11,6 @@ description: >-
 </head>
 
 # Resources
-{: .no_toc .text-delta }
 
 {:.no_toc}
 
