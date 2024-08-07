@@ -50,7 +50,7 @@ Created by Brandon Concepcion
 {% endfor %}
 </div>
 
-## Resource Contributors
+## Resources Contributors
 
 {% assign res = site.acknowledgers| where: 'role', 'resources' %}
 

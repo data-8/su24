@@ -3,6 +3,6 @@ name: John DeNero
 role: professor
 photo: acknowledgements/john.jpeg
 email: denero@berkeley.edu
-website: 
+website: http://denero.org/
 team: Professor
 ---
