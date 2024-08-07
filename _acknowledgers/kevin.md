@@ -4,4 +4,5 @@ photo: acknowledgements/kevin.jpeg
 #team: Instructor
 role: instructor
 term: Summer 2023
+pronouns: He/Him
 ---

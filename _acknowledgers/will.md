@@ -5,4 +5,5 @@ photo: acknowledgements/will.jpeg
 role: CD
 link: https://williamfurtado.com/
 term: Fall 2022 - Spring 2023
+pronouns: He/Him
 ---

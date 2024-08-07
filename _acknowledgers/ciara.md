@@ -4,4 +4,4 @@ photo: acknowledgements/ciara.jpg
 #team: Instructor
 role: instructor
 term: Summer 2023
----
+pronouns: She/Her
