@@ -10,6 +10,7 @@ description: >-
 {:.no_toc}
 Created by Nishant Kheterpal and Jessica Hu
 Updated and Maintained by Jonathan Ferrari
+{: .no_toc .text-delta }
 
 ## Table of Contents
 {: .no_toc .text-delta }
