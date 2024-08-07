@@ -5,14 +5,12 @@ description: Contributors to Data c8 over the years!
 ---
 
 # Acknowledgements 
-* We apologize this section does not yet curretly work for dark mode, we're looking to fix this issue soon!
+Created by Brandon Concepcion
 {: .no_toc .text-delta }
 
 1. TOC
 {:toc}
-
-This page is under construction, stay tuned!
-Created by Brandon Concepcion
+* This page is under construction, so we apologize that this section does not yet curretly work for dark mode. We're looking to fix this issue soon!
 
 {% assign pros = site.acknowledgers| where: 'role', 'professor' %}
 
