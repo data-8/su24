@@ -52,7 +52,7 @@ We will post student materials in [this folder](https://drive.google.com/drive/f
 
 ## Past Exams
 Exams, practice exams, and walkthrough videos from previous semesters can be found below. These exams may differ slightly in terms of material covered and syntax used, as the `datascience` module has changed over time.
-* A review document identifying past exam problems by topic can be found [here!](https://docs.google.com/document/d/1ZjEpBprnr_AL0z4axkTuhZ61Sm6OEVSwfWS7Z6k2D-4/edit?usp=sharing) 
+* A review document identifying past exam problems by topic can be found [here!](https://docs.google.com/document/d/1ZjEpBprnr_AL0z4axkTuhZ61Sm6OEVSwfWS7Z6k2D-4/edit?usp=sharing){:target="_blank"}
 
 {% include past-exams.md %}
 
