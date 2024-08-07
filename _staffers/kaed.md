@@ -7,4 +7,5 @@ bio: Hi! I'm a senior from Hawaii majoring in political science and data science
 role: 20-hour Lead uGSI (UCS2)
 office-hours: Fri 1-3PM
 team: Grading
+hover-photo: hovers/kaed-hover.png
 ---
