@@ -52,7 +52,13 @@ Created by Brandon Concepcion
 
 ## Resource Contributors
 
+{% assign res = site.acknowledgers| where: 'role', 'resources' %}
 
+<div class="role flex">
+{% for acknowledger in res %}
+{{ acknowledger }}
+{% endfor %}
+</div>
 
 <script src="../assets/darkmode.js"></script>
 <script>
