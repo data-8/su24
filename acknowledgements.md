@@ -10,6 +10,8 @@ Created by Brandon Concepcion
 
 * This page is still in beta, so we apologize that this section does not yet curretly work for dark mode. We're looking to fix this issue soon!
 
+## Curriculum Contributors
+
 {% assign pros = site.acknowledgers| where: 'role', 'professor' %}
 
 <div class="role flex">
@@ -18,7 +20,7 @@ Created by Brandon Concepcion
 {% endfor %}
 </div>
 
-## Instructors
+## Instructional Contributors
 {% assign lect = site.acknowledgers| where: 'role', 'instructor' %}
 
 <div class="role flex">
