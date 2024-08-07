@@ -41,9 +41,18 @@ Created by Brandon Concepcion
 {% endfor %}
 </div>
 
+## Website Contributors
+{% assign web = site.acknowledgers| where: 'role', 'website' %}
+
+<div class="role flex">
+{% for acknowledger in web %}
+{{ acknowledger }}
+{% endfor %}
+</div>
+
 ## Resource Contributors
 
-## Website Contributors
+
 
 <script src="../assets/darkmode.js"></script>
 <script>
