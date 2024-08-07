@@ -1,5 +1,5 @@
 ---
-name: Brandon Concepcion
+name: Brandon Lee Concepcion
 role: resources
 photo: acknowledgements/brandon_c.png
 #team: Content
