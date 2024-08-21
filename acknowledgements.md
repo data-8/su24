@@ -3,7 +3,7 @@ layout: page
 title: Acknowledgements
 description: Contributors to Data c8 over the years!
 ---
-
+<!--
 # Acknowledgements 
 Created by Brandon Lee Concepcion
 {: .no_toc .text-delta }
@@ -67,3 +67,5 @@ Created by Brandon Lee Concepcion
     onLoad();
 });
 </script>
+
+-->
