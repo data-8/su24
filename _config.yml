@@ -204,12 +204,6 @@ defaults:
       type: announcements
     values:
       layout: announcement
-  - scope:
-      path: ""
-      type: acknowledgers
-    values:
-      layout: acknowledger
-      subpath: "/assets/images/"
 
 compress_html:
   clippings: all
