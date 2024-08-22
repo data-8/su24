@@ -9,7 +9,7 @@ nav_exclude: true
 Created by Brandon Lee Concepcion
 {: .no_toc .text-delta }
 
-* This page is still in beta, so we apologize that this section does not yet curretly work for dark mode. We're looking to fix this issue soon!
+* This page is still in beta, so we apologize that this section does not yet currently work for dark mode. We're looking to fix this issue soon!
 
 ## Curriculum Contributors
 
