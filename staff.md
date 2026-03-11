@@ -4,6 +4,9 @@ title: Staff
 description: Data 8 Spring 2024 Staff
 ---
 
+{: .warning }
+⚠️ This content is archived as of March 2026 and is retained exclusively for reference. [Find current offerings.](https://data8.org/)
+
 # Staff
 Say hello to your amazing and talented Summer Data 8️ staff! 
 {: .no_toc .text-delta }

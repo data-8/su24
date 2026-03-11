@@ -6,6 +6,9 @@ description: >-
     Summer 2024 Office Hours Schedule
 ---
 
+{: .warning }
+⚠️ This content is archived as of March 2026 and is retained exclusively for reference. [Find current offerings.](https://data8.org/)
+
 # Office Hours
 
 You are welcome to show up to any office hours. Please see the calendar for OH times and locations.

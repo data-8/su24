@@ -229,3 +229,8 @@ kramdown:
   enable_coderay: false
 safe: false
 
+callouts_level: quiet # or loud
+callouts:
+  warning:
+    title: Warning
+    color: red

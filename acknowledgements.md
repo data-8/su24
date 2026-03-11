@@ -5,6 +5,9 @@ description: Contributors to Data c8 over the years!
 nav_exclude: true
 ---
 
+{: .warning }
+⚠️ This content is archived as of March 2026 and is retained exclusively for reference. [Find current offerings.](https://data8.org/)
+
 # Acknowledgements 
 Created by Brandon Lee Concepcion
 {: .no_toc .text-delta }
